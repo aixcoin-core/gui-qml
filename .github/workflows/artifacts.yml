@@ -52,10 +52,6 @@ jobs:
       - name: Build
         run: |
           git submodule update --init
-          if [[ "${{ matrix.os }}" == macos* ]]; then
-            export CPLUS_INCLUDE_PATH="$(brew --prefix boost)/include"
-            export LIBRARY_PATH="$(brew --prefix boost)/lib"
-          fi
           cmake -B build
           cmake --build build -j$(nproc)
 
