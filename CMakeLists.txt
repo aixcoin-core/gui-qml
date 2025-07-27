@@ -99,6 +99,7 @@ target_link_libraries(bitcoinqml
     core_interface
     bitcoin_node
     univalue
+    Boost::headers
     Qt6::Qml
     Qt6::Quick
     Qt6::QuickControls2
