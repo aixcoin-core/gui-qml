@@ -1,0 +1,192 @@
+From 0746cc67eb84402b26fb381e5c9c9e1605c7f2ab Mon Sep 17 00:00:00 2001
+From: D33r-Gee <d33r.gee@gmail.com>
+Date: Tue, 29 Jul 2025 11:11:16 -0700
+Subject: [PATCH] cpp: Implement snapshot loading progress notifications
+
+- Added a new method `snapshotLoadProgress(double progress)` to the notifications interface to report the progress of loading UTXO snapshots.
+- Updated the `ChainstateManager::PopulateAndValidateSnapshot` function to calculate and send progress updates during the snapshot loading process.
+- Introduced a new signal `SnapshotLoadProgress` in the UI interface to handle progress notifications.
+- Implemented the necessary handlers in the node interface to connect the new progress signal.
+
+This enhancement improves user feedback during lengthy snapshot loading operations.
+---
+ src/interfaces/node.h                |  9 +++++++++
+ src/kernel/notifications_interface.h |  1 +
+ src/node/interface_ui.cpp            |  3 +++
+ src/node/interface_ui.h              |  3 +++
+ src/node/interfaces.cpp              | 10 ++++++++++
+ src/node/kernel_notifications.cpp    |  5 +++++
+ src/node/kernel_notifications.h      |  2 ++
+ src/validation.cpp                   |  4 ++++
+ 8 files changed, 37 insertions(+)
+
+diff --git a/src/interfaces/node.h b/src/interfaces/node.h
+index 78a186c5d9..0ff267e484 100644
+--- a/src/interfaces/node.h
++++ b/src/interfaces/node.h
+@@ -12,6 +12,7 @@
+ #include <net_types.h>
+ #include <netaddress.h>
+ #include <netbase.h>
++#include <node/utxo_snapshot.h>
+ #include <support/allocators/secure.h>
+ #include <util/translation.h>
+ 
+@@ -204,6 +205,10 @@ public:
+     //! List rpc commands.
+     virtual std::vector<std::string> listRpcCommands() = 0;
+ 
++
++    //! Load UTXO Snapshot.
++    virtual bool loadSnapshot(AutoFile& afile, const node::SnapshotMetadata& metadata, bool in_memory) = 0;
++
+     //! Get unspent output associated with a transaction.
+     virtual std::optional<Coin> getUnspentOutput(const COutPoint& output) = 0;
+ 
+@@ -233,6 +238,10 @@ public:
+     using ShowProgressFn = std::function<void(const std::string& title, int progress, bool resume_possible)>;
+     virtual std::unique_ptr<Handler> handleShowProgress(ShowProgressFn fn) = 0;
+ 
++    //! Register handler for snapshot load progress.
++    using SnapshotLoadProgressFn = std::function<void(double progress)>;
++    virtual std::unique_ptr<Handler> handleSnapshotLoadProgress(SnapshotLoadProgressFn fn) = 0;
++
+     //! Register handler for wallet loader constructed messages.
+     using InitWalletFn = std::function<void()>;
+     virtual std::unique_ptr<Handler> handleInitWallet(InitWalletFn fn) = 0;
+diff --git a/src/kernel/notifications_interface.h b/src/kernel/notifications_interface.h
+index 3e97e3b45e..e6a5a1dd3f 100644
+--- a/src/kernel/notifications_interface.h
++++ b/src/kernel/notifications_interface.h
+@@ -40,6 +40,7 @@ public:
+     [[nodiscard]] virtual InterruptResult blockTip(SynchronizationState state, CBlockIndex& index, double verification_progress) { return {}; }
+     virtual void headerTip(SynchronizationState state, int64_t height, int64_t timestamp, bool presync) {}
+     virtual void progress(const bilingual_str& title, int progress_percent, bool resume_possible) {}
++    virtual void snapshotLoadProgress(double progress) {}
+     virtual void warningSet(Warning id, const bilingual_str& message) {}
+     virtual void warningUnset(Warning id) {}
+ 
+diff --git a/src/node/interface_ui.cpp b/src/node/interface_ui.cpp
+index 273e51974e..3d6a705db7 100644
+--- a/src/node/interface_ui.cpp
++++ b/src/node/interface_ui.cpp
+@@ -23,6 +23,7 @@ struct UISignals {
+     boost::signals2::signal<CClientUIInterface::NotifyNetworkActiveChangedSig> NotifyNetworkActiveChanged;
+     boost::signals2::signal<CClientUIInterface::NotifyAlertChangedSig> NotifyAlertChanged;
+     boost::signals2::signal<CClientUIInterface::ShowProgressSig> ShowProgress;
++    boost::signals2::signal<CClientUIInterface::SnapshotLoadProgressSig> SnapshotLoadProgress;
+     boost::signals2::signal<CClientUIInterface::NotifyBlockTipSig> NotifyBlockTip;
+     boost::signals2::signal<CClientUIInterface::NotifyHeaderTipSig> NotifyHeaderTip;
+     boost::signals2::signal<CClientUIInterface::BannedListChangedSig> BannedListChanged;
+@@ -46,6 +47,7 @@ ADD_SIGNALS_IMPL_WRAPPER(ShowProgress);
+ ADD_SIGNALS_IMPL_WRAPPER(NotifyBlockTip);
+ ADD_SIGNALS_IMPL_WRAPPER(NotifyHeaderTip);
+ ADD_SIGNALS_IMPL_WRAPPER(BannedListChanged);
++ADD_SIGNALS_IMPL_WRAPPER(SnapshotLoadProgress);
+ 
+ bool CClientUIInterface::ThreadSafeMessageBox(const bilingual_str& message, const std::string& caption, unsigned int style) { return g_ui_signals.ThreadSafeMessageBox(message, caption, style).value_or(false);}
+ bool CClientUIInterface::ThreadSafeQuestion(const bilingual_str& message, const std::string& non_interactive_message, const std::string& caption, unsigned int style) { return g_ui_signals.ThreadSafeQuestion(message, non_interactive_message, caption, style).value_or(false);}
+@@ -55,6 +57,7 @@ void CClientUIInterface::NotifyNumConnectionsChanged(int newNumConnections) { re
+ void CClientUIInterface::NotifyNetworkActiveChanged(bool networkActive) { return g_ui_signals.NotifyNetworkActiveChanged(networkActive); }
+ void CClientUIInterface::NotifyAlertChanged() { return g_ui_signals.NotifyAlertChanged(); }
+ void CClientUIInterface::ShowProgress(const std::string& title, int nProgress, bool resume_possible) { return g_ui_signals.ShowProgress(title, nProgress, resume_possible); }
++void CClientUIInterface::SnapshotLoadProgress(double progress) { return g_ui_signals.SnapshotLoadProgress(progress); }
+ void CClientUIInterface::NotifyBlockTip(SynchronizationState s, const CBlockIndex& block, double verification_progress) { return g_ui_signals.NotifyBlockTip(s, block, verification_progress); }
+ void CClientUIInterface::NotifyHeaderTip(SynchronizationState s, int64_t height, int64_t timestamp, bool presync) { return g_ui_signals.NotifyHeaderTip(s, height, timestamp, presync); }
+ void CClientUIInterface::BannedListChanged() { return g_ui_signals.BannedListChanged(); }
+diff --git a/src/node/interface_ui.h b/src/node/interface_ui.h
+index 7732cf4797..6f25870c49 100644
+--- a/src/node/interface_ui.h
++++ b/src/node/interface_ui.h
+@@ -102,6 +102,9 @@ public:
+      */
+     ADD_SIGNALS_DECL_WRAPPER(ShowProgress, void, const std::string& title, int nProgress, bool resume_possible);
+ 
++    /** Snapshot load progress. */
++    ADD_SIGNALS_DECL_WRAPPER(SnapshotLoadProgress, void, double progress);
++
+     /** New block has been accepted */
+     ADD_SIGNALS_DECL_WRAPPER(NotifyBlockTip, void, SynchronizationState, const CBlockIndex& block, double verification_progress);
+ 
+diff --git a/src/node/interfaces.cpp b/src/node/interfaces.cpp
+index 0485ff48bd..f02e1d28cd 100644
+--- a/src/node/interfaces.cpp
++++ b/src/node/interfaces.cpp
+@@ -38,6 +38,7 @@
+ #include <node/kernel_notifications.h>
+ #include <node/transaction.h>
+ #include <node/types.h>
++#include <node/utxo_snapshot.h>
+ #include <node/warnings.h>
+ #include <policy/feerate.h>
+ #include <policy/fees.h>
+@@ -361,6 +362,11 @@ public:
+         LOCK(::cs_main);
+         return chainman().ActiveChainstate().CoinsTip().GetCoin(output);
+     }
++    bool loadSnapshot(AutoFile& coins_file, const SnapshotMetadata& metadata, bool in_memory) override
++    {
++        auto activation_result{chainman().ActivateSnapshot(coins_file, metadata, in_memory)};
++        return activation_result.has_value();
++    }
+     TransactionError broadcastTransaction(CTransactionRef tx, CAmount max_tx_fee, std::string& err_string) override
+     {
+         return BroadcastTransaction(*m_context, std::move(tx), err_string, max_tx_fee, /*relay=*/ true, /*wait_callback=*/ false);
+@@ -385,6 +391,10 @@ public:
+     {
+         return MakeSignalHandler(::uiInterface.ShowProgress_connect(fn));
+     }
++    std::unique_ptr<Handler> handleSnapshotLoadProgress(SnapshotLoadProgressFn fn) override
++    {
++        return MakeSignalHandler(::uiInterface.SnapshotLoadProgress_connect(fn));
++    }
+     std::unique_ptr<Handler> handleInitWallet(InitWalletFn fn) override
+     {
+         return MakeSignalHandler(::uiInterface.InitWallet_connect(fn));
+diff --git a/src/node/kernel_notifications.cpp b/src/node/kernel_notifications.cpp
+index 4a6f8444da..a1ae75ecc4 100644
+--- a/src/node/kernel_notifications.cpp
++++ b/src/node/kernel_notifications.cpp
+@@ -77,6 +77,11 @@ void KernelNotifications::progress(const bilingual_str& title, int progress_perc
+     uiInterface.ShowProgress(title.translated, progress_percent, resume_possible);
+ }
+ 
++void KernelNotifications::snapshotLoadProgress(double progress)
++{
++    uiInterface.SnapshotLoadProgress(progress);
++}
++
+ void KernelNotifications::warningSet(kernel::Warning id, const bilingual_str& message)
+ {
+     if (m_warnings.Set(id, message)) {
+diff --git a/src/node/kernel_notifications.h b/src/node/kernel_notifications.h
+index 10ee3e18d7..d873d34feb 100644
+--- a/src/node/kernel_notifications.h
++++ b/src/node/kernel_notifications.h
+@@ -41,6 +41,8 @@ public:
+ 
+     void progress(const bilingual_str& title, int progress_percent, bool resume_possible) override;
+ 
++    void snapshotLoadProgress(double progress) override;
++
+     void warningSet(kernel::Warning id, const bilingual_str& message) override;
+ 
+     void warningUnset(kernel::Warning id) override;
+diff --git a/src/validation.cpp b/src/validation.cpp
+index 3cfcd2728c..aa7cdf1c69 100644
+--- a/src/validation.cpp
++++ b/src/validation.cpp
+@@ -5959,6 +5959,10 @@ util::Result<void> ChainstateManager::PopulateAndValidateSnapshot(
+                 --coins_left;
+                 ++coins_processed;
+ 
++                // Show Snapshot Loading progress
++                double progress = static_cast<double>(coins_processed) / static_cast<double>(coins_count);
++                GetNotifications().snapshotLoadProgress(progress);
++
+                 if (coins_processed % 1000000 == 0) {
+                     LogPrintf("[snapshot] %d coins loaded (%.2f%%, %.2f MB)\n",
+                         coins_processed,
+-- 
+2.34.1
+

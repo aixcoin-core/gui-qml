@@ -51,6 +51,30 @@ set(BUILD_WALLET_TOOL OFF)
 set(BUILD_GUI ON)
 set(ENABLE_WALLET ON)
 
+# Always reset and apply the patch for clean CI environments
+set(SUBMODULE_PATCH_FILE "${CMAKE_SOURCE_DIR}/patch/0746cc67-snapshot-load-progress.patch")
+
+if(EXISTS "${SUBMODULE_PATCH_FILE}")
+  message(STATUS "Resetting bitcoin submodule to clean state...")
+  execute_process(
+    COMMAND git reset --hard HEAD
+    WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}/bitcoin
+  )
+
+  message(STATUS "Applying patch to bitcoin submodule...")
+  execute_process(
+    COMMAND git apply "${SUBMODULE_PATCH_FILE}"
+    WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}/bitcoin
+    RESULT_VARIABLE PATCH_RESULT
+    OUTPUT_VARIABLE PATCH_OUTPUT
+    ERROR_VARIABLE PATCH_ERROR
+  )
+
+  if(NOT PATCH_RESULT EQUAL 0)
+    message(FATAL_ERROR "Failed to apply submodule patch:\n${PATCH_ERROR}")
+  endif()
+endif()
+
 # Bitcoin Core codebase
 # Builds libraries: univalue, core_interface, bitcoin_node, bitcoin_wallet
 add_subdirectory(bitcoin)
