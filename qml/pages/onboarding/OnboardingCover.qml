@@ -42,7 +42,7 @@ Page {
                 }
                 bannerMargin: 0
                 bold: true
-                headerText: qsTr("Bitcoin Core App")
+                headerText: qsTr("Bitcoin Knobs")
                 headerSize: 36
                 description: qsTr("Be part of the Bitcoin network.")
                 descriptionMargin: 10

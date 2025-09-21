@@ -15,7 +15,7 @@ import "./wallet"
 
 ApplicationWindow {
     id: appWindow
-    title: "Bitcoin Core App"
+    title: "Bitcoin Knobs"
     minimumWidth: 640
     minimumHeight: 665
     color: Theme.color.background

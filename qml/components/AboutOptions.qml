@@ -17,8 +17,8 @@ ColumnLayout {
         header: qsTr("Website")
         actionItem: ExternalLink {
             parentState: websiteLink.state
-            description: "bitcoincore.org"
-            link: "https://bitcoincore.org"
+            description: "tabconf.com/knobs"
+            link: "https://tabconf.com/knobs"
         }
         onClicked: openPopup(loadedItem.link)
     }
@@ -29,8 +29,8 @@ ColumnLayout {
         header: qsTr("Source code")
         actionItem: ExternalLink {
             parentState: sourceLink.state
-            description: "github.com/bitcoin/bitcoin"
-            link: "https://github.com/bitcoin/bitcoin"
+            description: "github.com/TABConf/bitcoinknobs"
+            link: "https://github.com/TABConf/bitcoinknobs"
         }
         onClicked: openPopup(loadedItem.link)
     }

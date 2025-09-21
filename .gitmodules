@@ -1,3 +1,4 @@
 [submodule "bitcoin"]
 	path = bitcoin
-	url = https://github.com/bitcoin/bitcoin
+	url = https://github.com/TABConf/bitcoinknobs.git
+	branch = master

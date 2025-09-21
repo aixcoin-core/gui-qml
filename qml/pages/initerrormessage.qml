@@ -10,7 +10,7 @@ import "../controls"
 ApplicationWindow {
     id: root
     visible: true
-    title: "Bitcoin Core App"
+    title: "Bitcoin Knobs"
     minimumWidth: 500
     minimumHeight: 250
     color: Theme.color.background

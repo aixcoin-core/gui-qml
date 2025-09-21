@@ -21,7 +21,7 @@ InformationPage {
     }
     bold: true
     headerText: qsTr("Strengthen bitcoin")
-    description: qsTr("Bitcoin Core runs a full Bitcoin node which verifies " +
+    description: qsTr("Bitcoin Knobs runs a full Bitcoin node which verifies " +
         "the rules of the network are being followed.\n\nUsers running nodes " +
         "is what makes bitcoin so resilient and trustworthy.")
     buttonText: qsTr("Next")

@@ -5,11 +5,11 @@
 #ifndef BITCOIN_QML_GUICONSTANTS_H
 #define BITCOIN_QML_GUICONSTANTS_H
 
-#define QAPP_ORG_NAME "BitcoinCore"
-#define QAPP_ORG_DOMAIN "bitcoincore.org"
-#define QAPP_APP_NAME_DEFAULT "BitcoinCore-App"
-#define QAPP_APP_NAME_TESTNET "BitcoinCore-App-testnet"
-#define QAPP_APP_NAME_SIGNET "BitcoinCore-App-signet"
-#define QAPP_APP_NAME_REGTEST "BitcoinCore-App-regtest"
+#define QAPP_ORG_NAME "BitcoinKnobs"
+#define QAPP_ORG_DOMAIN "tabconf.com"
+#define QAPP_APP_NAME_DEFAULT "BitcoinKnobs-App"
+#define QAPP_APP_NAME_TESTNET "BitcoinKnobs-App-testnet"
+#define QAPP_APP_NAME_SIGNET "BitcoinKnobs-App-signet"
+#define QAPP_APP_NAME_REGTEST "BitcoinKnobs-App-regtest"
 
 #endif // BITCOIN_QML_GUICONSTANTS_H

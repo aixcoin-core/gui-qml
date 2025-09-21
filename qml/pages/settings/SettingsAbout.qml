@@ -17,7 +17,7 @@ InformationPage {
     showHeader: root.onboarding
     headerText: qsTr("About")
     headerMargin: 0
-    description: qsTr("Bitcoin Core is an open source project.\nIf you find it useful, please contribute.\n\n This is experimental software.")
+    description: qsTr("Bitcoin Knobs is an open source project.\nIf you find it useful, please contribute.\n\n This is experimental software.")
     descriptionMargin: 20
     detailActive: true
     detailItem: AboutOptions {
