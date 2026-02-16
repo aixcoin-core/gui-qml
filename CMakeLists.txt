@@ -31,6 +31,7 @@ find_package(Qt 6.2 MODULE REQUIRED
     COMPONENTS ${qt_components}
 )
 find_package(Libevent 2.1.8 MODULE REQUIRED)
+find_package(QRencode MODULE REQUIRED)
 
 # Do not build any executable targets from bitcoin submodule
 set(BUILD_BENCH OFF)
@@ -47,6 +48,7 @@ set(BUILD_TX OFF)
 set(BUILD_UTIL OFF)
 set(BUILD_UTIL_CHAINSTATE OFF)
 set(BUILD_WALLET_TOOL OFF)
+set(USE_QRCODE TRUE)
 # We need this libraries, can ignore the executable bitcoin-qt
 set(BUILD_GUI ON)
 set(ENABLE_WALLET ON)
@@ -100,6 +102,7 @@ target_link_libraries(bitcoinqml
     bitcoin_node
     univalue
     Boost::headers
+    $<TARGET_NAME_IF_EXISTS:QRencode::QRencode>
     Qt6::Qml
     Qt6::Quick
     Qt6::QuickControls2
