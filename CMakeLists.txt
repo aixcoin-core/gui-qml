@@ -130,3 +130,10 @@ target_link_libraries(bitcoin-core-app
     bitcoinqml
     bitcoinqt
 )
+
+option(BUILD_APP_TESTS "Build unit tests for the app" ON)
+if(BUILD_APP_TESTS)
+  include(CTest)
+  enable_testing()
+  add_subdirectory(test)
+endif()

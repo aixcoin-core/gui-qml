@@ -64,18 +64,25 @@ appropriate document for your platform:
 
 - [build-unix.md](https://github.com/bitcoin/bitcoin/blob/master/doc/build-unix.md)
 
-In addition the following dependencies are required for the GUI:
+In addition the following dependencies are required for the GUI and tests:
 
 #### Debian-based systems:
 
 ```
 sudo apt install \
   qt6-base-dev \
+  qt6-base-dev-tools \
   qt6-tools-dev \
   qt6-l10n-tools \
   qt6-tools-dev-tools \
   qt6-declarative-dev \
+  qml6-module-qt-labs-settings \
   qml6-module-qtquick \
+  qml6-module-qtquick-controls \
+  qml6-module-qtquick-dialogs \
+  qml6-module-qtquick-layouts \
+  qml6-module-qtquick-templates \
+  qml6-module-qtquick-window \
   qml6-module-qtqml \
   libgl-dev \
   libqrencode-dev
@@ -91,6 +98,8 @@ sudo apt install qt6-wayland
 
 ```
 brew install qt@6 qrencode
+# Help CMake find Qt6 on macOS (adjust if needed)
+export CMAKE_PREFIX_PATH="$(brew --prefix qt@6)/lib/cmake"
 ```
 
 ### Build
@@ -116,5 +125,18 @@ Binaries are exported to the `build/` directory:
 build/bin/bitcoin-core-app
 ```
 
+### Run Tests
 
+- Enable tests at configure time and run them via CTest.
 
+```
+cmake -B build -DBUILD_APP_TESTS=ON
+cmake --build build -j$(nproc)
+ctest --test-dir build --output-on-failure
+```
+
+- If CMake reports "Target Qt6::Test not found", ensure Qt6 Test is available
+  and discoverable by CMake:
+
+  - Debian/Ubuntu: `qt6-base-dev` provides the Qt Test module (already listed above).
+  - macOS: set `CMAKE_PREFIX_PATH` as shown so CMake can locate Qt 6 modules.
