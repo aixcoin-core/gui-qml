@@ -1,0 +1,47 @@
+# Copyright (c) 2026 The Bitcoin Core developers
+# Distributed under the MIT software license, see the accompanying
+# file COPYING or http://www.opensource.org/licenses/mit-license.php.
+
+name: GUI Functional Tests
+
+on:
+  pull_request:
+  push:
+    branches:
+      - "**"
+    tags-ignore:
+      - "**"
+  workflow_dispatch:
+
+jobs:
+  qml-functional-tests:
+    runs-on: ubuntu-24.04
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            build-essential cmake pkgconf python3 \
+            libevent-dev libboost-dev libsqlite3-dev libgl-dev libqrencode-dev \
+            qt6-base-dev qt6-tools-dev qt6-l10n-tools qt6-tools-dev-tools \
+            qt6-declarative-dev qml6-module-qtquick qml6-module-qtqml
+
+      - name: Configure
+        run: |
+          cmake -B build \
+            -DENABLE_TEST_AUTOMATION=ON
+
+      - name: Build
+        run: |
+          cmake --build build -j"$(nproc)"
+
+      - name: Run QML test automation suite
+        run: |
+          python3 test/functional/qml_test_bridge_sanity.py
+          python3 test/functional/qml_test_onboarding.py
