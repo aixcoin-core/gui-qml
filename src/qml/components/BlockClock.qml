@@ -7,7 +7,7 @@ import QtQuick.Controls 2.15
 import QtQuick.Layouts 1.15
 import Qt.labs.settings 1.0
 
-import org.bitcoincore.qt 1.0
+import org.aixcoincore.qt 1.0
 
 import "../controls"
 import "../controls/utils.js" as Utils
@@ -71,8 +71,8 @@ Item {
     }
 
     Icon {
-        id: bitcoinIcon
-        source: "image://images/bitcoin-circle"
+        id: aixcoinIcon
+        source: "image://images/aixcoin-circle"
         color: Theme.color.neutral9
         size: Math.max(dial.width / 5, 1)
         anchors.bottom: mainText.top
@@ -199,7 +199,7 @@ Item {
                 estimating: false
             }
             PropertyChanges {
-                target: bitcoinIcon
+                target: aixcoinIcon
                 anchors.bottomMargin: dial.width / 40
             }
             PropertyChanges {
@@ -216,7 +216,7 @@ Item {
                 headerSize: dial.width * (3/25)
             }
             PropertyChanges {
-                target: bitcoinIcon
+                target: aixcoinIcon
                 anchors.bottomMargin: dial.width / 40
                 icon.source: "image://images/error"
             }
@@ -232,7 +232,7 @@ Item {
                 estimating: false
             }
             PropertyChanges {
-                target: bitcoinIcon
+                target: aixcoinIcon
                 anchors.bottomMargin: dial.width / 40
             }
             PropertyChanges {

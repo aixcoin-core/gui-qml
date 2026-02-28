@@ -184,7 +184,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Введите старую и новую парольные фразы для кошелька</translation>
     </message>
     <message>
-        <source>Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
+        <source>Remember that encrypting your wallet cannot fully protect your aixcoins from being stolen by malware infecting your computer.</source>
         <translation type="unfinished">Помните, что шифрование кошелька не может полностью защитить ваши биткоины от кражи вредоносными программами, заразившими ваш компьютер.</translation>
     </message>
     <message>
@@ -448,7 +448,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
 </context>
 <context>
-    <name>bitcoin-core</name>
+    <name>aixcoin-core</name>
     <message>
         <source>Settings file could not be read</source>
         <translation type="unfinished">Файл настроек не может быть прочитан</translation>
@@ -462,8 +462,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Разработчики %s</translation>
     </message>
     <message>
-        <source>%s corrupt. Try using the wallet tool bitcoin-wallet to salvage or restoring a backup.</source>
-        <translation type="unfinished">%s испорчен. Попробуйте восстановить его с помощью инструмента bitcoin-wallet или из резервной копии.</translation>
+        <source>%s corrupt. Try using the wallet tool aixcoin-wallet to salvage or restoring a backup.</source>
+        <translation type="unfinished">%s испорчен. Попробуйте восстановить его с помощью инструмента aixcoin-wallet или из резервной копии.</translation>
     </message>
     <message>
         <source>-maxtxfee is set very high! Fees this large could be paid on a single transaction.</source>
@@ -502,7 +502,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Ошибка: запись идентификатора дамп-файла неверна. Обнаружено "%s", ожидалось "%s".</translation>
     </message>
     <message>
-        <source>Error: Dumpfile version is not supported. This version of bitcoin-wallet only supports version 1 dumpfiles. Got dumpfile with version %s</source>
+        <source>Error: Dumpfile version is not supported. This version of aixcoin-wallet only supports version 1 dumpfiles. Got dumpfile with version %s</source>
         <translation type="unfinished">Ошибка: версия дамп-файла не поддерживается. Эта версия биткоин-кошелька поддерживает только дамп-файлы версии 1. Обнаружен дамп-файл версии %s</translation>
     </message>
     <message>
@@ -1430,8 +1430,8 @@ Unable to restore backup of wallet.</source>
         <translation type="unfinished">Подключение к узлам…</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation type="unfinished">Запросить платёж (генерирует QR-коды и URI протокола bitcoin:)</translation>
+        <source>Request payments (generates QR codes and aixcoin: URIs)</source>
+        <translation type="unfinished">Запросить платёж (генерирует QR-коды и URI протокола aixcoin:)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -1514,8 +1514,8 @@ Unable to restore backup of wallet.</source>
         <translation type="unfinished">&amp;Адреса для получения</translation>
     </message>
     <message>
-        <source>Open a bitcoin: URI</source>
-        <translation type="unfinished">Открыть URI протокола bitcoin:</translation>
+        <source>Open a aixcoin: URI</source>
+        <translation type="unfinished">Открыть URI протокола aixcoin:</translation>
     </message>
     <message>
         <source>Open Wallet</source>
@@ -2284,11 +2284,11 @@ Unable to restore backup of wallet.</source>
         <translation type="unfinished">Форма</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the bitcoin network, as detailed below.</source>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the aixcoin network, as detailed below.</source>
         <translation type="unfinished">Недавние транзакции могут быть пока не видны, и поэтому отображаемый баланс вашего кошелька может быть неверным. Информация станет верной после завершения синхронизации с сетью Bitcoin. Прогресс синхронизации вы можете видеть снизу.</translation>
     </message>
     <message>
-        <source>Attempting to spend bitcoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <source>Attempting to spend aixcoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
         <translation type="unfinished">Попытка потратить средства, использованные в транзакциях, которые ещё не синхронизированы, будет отклонена сетью.</translation>
     </message>
     <message>
@@ -2343,8 +2343,8 @@ Unable to restore backup of wallet.</source>
 <context>
     <name>OpenURIDialog</name>
     <message>
-        <source>Open bitcoin URI</source>
-        <translation type="unfinished">Открыть URI bitcoin</translation>
+        <source>Open aixcoin URI</source>
+        <translation type="unfinished">Открыть URI aixcoin</translation>
     </message>
     <message>
         <source>Paste address from clipboard</source>
@@ -2935,16 +2935,16 @@ Unable to restore backup of wallet.</source>
         <translation type="unfinished">Ошибка запроса платежа</translation>
     </message>
     <message>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation type="unfinished">Не удаётся запустить обработчик click-to-pay для протокола bitcoin:</translation>
+        <source>Cannot start aixcoin: click-to-pay handler</source>
+        <translation type="unfinished">Не удаётся запустить обработчик click-to-pay для протокола aixcoin:</translation>
     </message>
     <message>
         <source>URI handling</source>
         <translation type="unfinished">Обработка URI</translation>
     </message>
     <message>
-        <source>'bitcoin://' is not a valid URI. Use 'bitcoin:' instead.</source>
-        <translation type="unfinished">"bitcoin://" — это неверный URI. Используйте вместо него "bitcoin:".</translation>
+        <source>'aixcoin://' is not a valid URI. Use 'aixcoin:' instead.</source>
+        <translation type="unfinished">"aixcoin://" — это неверный URI. Используйте вместо него "aixcoin:".</translation>
     </message>
     <message>
         <source>Cannot process payment request because BIP70 is not supported.
@@ -3802,7 +3802,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
 Примечание: комиссия рассчитывается пропорционально размеру в байтах. Так при комиссии "100 сатоши за kvB (виртуальный КБ)" для транзакции размером 500 виртуальных байт (половина 1 kvB) комиссия будет всего 50 сатоши.</translation>
     </message>
     <message>
-        <source>When there is less transaction volume than space in the blocks, miners as well as relaying nodes may enforce a minimum fee. Paying only this minimum fee is just fine, but be aware that this can result in a never confirming transaction once there is more demand for bitcoin transactions than the network can process.</source>
+        <source>When there is less transaction volume than space in the blocks, miners as well as relaying nodes may enforce a minimum fee. Paying only this minimum fee is just fine, but be aware that this can result in a never confirming transaction once there is more demand for aixcoin transactions than the network can process.</source>
         <translation type="unfinished">Когда объём транзакций меньше, чем пространство в блоках, майнеры и ретранслирующие узлы могут устанавливать минимальную комиссию. Платить только эту минимальную комиссию вполне допустимо, но примите во внимание, что ваша транзакция может никогда не подтвердиться, если транзакций окажется больше, чем может обработать сеть.</translation>
     </message>
     <message>
@@ -4082,7 +4082,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
         <translation type="unfinished">Сумма к отправке в выбранных единицах</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less bitcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less aixcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
         <translation type="unfinished">Комиссия будет вычтена из отправляемой суммы. Получателю придёт меньше биткоинов, чем вы ввели в поле "Сумма". Если выбрано несколько получателей, комиссия распределится поровну.</translation>
     </message>
     <message>
@@ -4102,7 +4102,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
         <translation type="unfinished">Введите метку для этого адреса, чтобы добавить его в список использованных адресов</translation>
     </message>
     <message>
-        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
+        <source>A message that was attached to the aixcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
         <translation type="unfinished">Сообщение, которое было прикреплено к URI. Оно будет сохранено вместе с транзакцией для вашего удобства. Обратите внимание: это сообщение не будет отправлено в сеть Bitcoin.</translation>
     </message>
 </context>
@@ -4128,7 +4128,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
         <translation type="unfinished">&amp;Подписать сообщение</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive bitcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <source>You can sign messages/agreements with your addresses to prove you can receive aixcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation type="unfinished">Вы можете подписывать сообщения/соглашения своими адресами, чтобы доказать, что вы можете получать биткоины на них. Будьте осторожны и не подписывайте непонятные или случайные сообщения, так как мошенники могут таким образом пытаться присвоить вашу личность. Подписывайте только такие сообщения, с которыми вы согласны вплоть до мелочей.</translation>
     </message>
     <message>

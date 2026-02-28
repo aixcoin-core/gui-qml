@@ -4,7 +4,7 @@
 
 #include <string>
 
-// Test for bitcoin-unterminated-logprintf
+// Test for aixcoin-unterminated-logprintf
 
 enum LogFlags {
     NONE
@@ -90,7 +90,7 @@ void bad_func3()
 }
 void bad_func4_ignored()
 {
-    LogPrintf("hello world!"); // NOLINT(bitcoin-unterminated-logprintf)
+    LogPrintf("hello world!"); // NOLINT(aixcoin-unterminated-logprintf)
 }
 void bad_func5()
 {

@@ -184,8 +184,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Ingrese la frase de contraseña antigua y la nueva frase de contraseña para la billetera</translation>
     </message>
     <message>
-        <source>Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation type="unfinished">Recuerda que cifrar tu billetera no puede proteger completamente tus bitcoins de ser robados por malware que infecte tu computadora.</translation>
+        <source>Remember that encrypting your wallet cannot fully protect your aixcoins from being stolen by malware infecting your computer.</source>
+        <translation type="unfinished">Recuerda que cifrar tu billetera no puede proteger completamente tus aixcoins de ser robados por malware que infecte tu computadora.</translation>
     </message>
     <message>
         <source>Wallet to be encrypted</source>
@@ -316,7 +316,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     </context>
 <context>
-    <name>bitcoin-core</name>
+    <name>aixcoin-core</name>
     <message>
         <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
         <translation type="unfinished">Esta es una versión de pre-prueba - utilícela bajo su propio riesgo. No la utilice para usos comerciales o de minería.</translation>
@@ -501,7 +501,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Barra de pestañas</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
+        <source>Request payments (generates QR codes and aixcoin: URIs)</source>
         <translation type="unfinished">Solicitar pagos (genera codigo QR y URL's de Bitcoin)</translation>
     </message>
     <message>
@@ -1020,8 +1020,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Error en petición de pago</translation>
     </message>
     <message>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation type="unfinished">No se pudo iniciar bitcoin: manejador de pago-al-clic</translation>
+        <source>Cannot start aixcoin: click-to-pay handler</source>
+        <translation type="unfinished">No se pudo iniciar aixcoin: manejador de pago-al-clic</translation>
     </message>
     <message>
         <source>URI handling</source>

@@ -14,7 +14,7 @@
 #include <interfaces/wallet.h>
 #include <key_io.h>
 #include <outputtype.h>
-#include <qt/bitcoinunits.h>
+#include <qt/aixcoinunits.h>
 #include <wallet/coincontrol.h>
 #include <wallet/wallet.h>
 

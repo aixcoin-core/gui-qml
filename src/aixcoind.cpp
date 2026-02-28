@@ -4,7 +4,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include <config/bitcoin-config.h>
+#include <config/aixcoin-config.h>
 #endif
 
 #include <chainparams.h>
@@ -113,7 +113,7 @@ int fork_daemon(bool nochdir, bool noclose, TokenPipeEnd& endpoint)
 
 static bool ParseArgs(ArgsManager& args, int argc, char* argv[])
 {
-    // If Qt is used, parameters/bitcoin.conf are parsed in qt/bitcoin.cpp's main()
+    // If Qt is used, parameters/aixcoin.conf are parsed in qt/aixcoin.cpp's main()
     SetupServerArgs(args);
     std::string error;
     if (!args.ParseParameters(argc, argv, error)) {
@@ -127,7 +127,7 @@ static bool ParseArgs(ArgsManager& args, int argc, char* argv[])
     // Error out when loose non-argument tokens are encountered on command line
     for (int i = 1; i < argc; i++) {
         if (!IsSwitchChar(argv[i][0])) {
-            return InitError(Untranslated(strprintf("Command line contains unexpected token '%s', see bitcoind -h for a list of options.", argv[i])));
+            return InitError(Untranslated(strprintf("Command line contains unexpected token '%s', see aixcoind -h for a list of options.", argv[i])));
         }
     }
     return true;
@@ -142,7 +142,7 @@ static bool ProcessInitCommands(ArgsManager& args)
         if (args.IsArgSet("-version")) {
             strUsage += FormatParagraph(LicenseInfo());
         } else {
-            strUsage += "\nUsage:  bitcoind [options]                     Start " PACKAGE_NAME "\n"
+            strUsage += "\nUsage:  aixcoind [options]                     Start " PACKAGE_NAME "\n"
                 "\n";
             strUsage += args.GetHelpMessage();
         }
@@ -170,7 +170,7 @@ static bool AppInit(NodeContext& node)
     std::any context{&node};
     try
     {
-        // -server defaults to true for bitcoind but not for the GUI so do this here
+        // -server defaults to true for aixcoind but not for the GUI so do this here
         args.SoftSetBoolArg("-server", true);
         // Set this early so that parameter interactions go to console
         InitLogging(args);
@@ -260,7 +260,7 @@ MAIN_FUNCTION
 
     SetupEnvironment();
 
-    // Connect bitcoind signal handlers
+    // Connect aixcoind signal handlers
     noui_connect();
 
     util::ThreadSetInternalName("init");

@@ -5,7 +5,7 @@
 #ifndef BITCOIN_QML_MODELS_SENDRECIPIENT_H
 #define BITCOIN_QML_MODELS_SENDRECIPIENT_H
 
-#include <qml/bitcoinamount.h>
+#include <qml/aixcoinamount.h>
 
 #include <QObject>
 #include <QString>

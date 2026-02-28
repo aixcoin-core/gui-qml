@@ -2301,7 +2301,7 @@ static RPCHelpMan scanblocks()
 {
     return RPCHelpMan{"scanblocks",
         "\nReturn relevant blockhashes for given descriptors (requires blockfilterindex).\n"
-        "This call may take several minutes. Make sure to use no RPC timeout (bitcoin-cli -rpcclienttimeout=0)",
+        "This call may take several minutes. Make sure to use no RPC timeout (aixcoin-cli -rpcclienttimeout=0)",
         {
             scan_action_arg_desc,
             scan_objects_arg_desc,
@@ -2647,7 +2647,7 @@ UniValue CreateUTXOSnapshot(
         // use below this block.
         //
         // See discussion here:
-        //   https://github.com/bitcoin/bitcoin/pull/15606#discussion_r274479369
+        //   https://github.com/aixcoin/aixcoin/pull/15606#discussion_r274479369
         //
         LOCK(::cs_main);
 

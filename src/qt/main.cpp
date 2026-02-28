@@ -3,13 +3,13 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #ifdef HAVE_CONFIG_H
-#include <config/bitcoin-config.h>
+#include <config/aixcoin-config.h>
 #endif
 
 #if USE_QML
-#include <qml/bitcoin.h>
+#include <qml/aixcoin.h>
 #else
-#include <qt/bitcoin.h>
+#include <qt/aixcoin.h>
 #endif // USE_QML
 
 #include <common/url.h>
@@ -37,7 +37,7 @@ Q_IMPORT_PLUGIN(QAndroidPlatformIntegrationPlugin)
 
 /** Translate string to current locale using Qt. */
 extern const std::function<std::string(const char*)> G_TRANSLATION_FUN = [](const char* psz) {
-    return QCoreApplication::translate("bitcoin-core", psz).toStdString();
+    return QCoreApplication::translate("aixcoin-core", psz).toStdString();
 };
 UrlDecodeFn* const URL_DECODE = urlDecode;
 

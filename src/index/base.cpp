@@ -80,7 +80,7 @@ BaseIndex::~BaseIndex()
 bool BaseIndex::Init()
 {
     // m_chainstate member gives indexing code access to node internals. It is
-    // removed in followup https://github.com/bitcoin/bitcoin/pull/24230
+    // removed in followup https://github.com/aixcoin/aixcoin/pull/24230
     m_chainstate = &m_chain->context()->chainman->ActiveChainstate();
     // Register to validation interface before setting the 'm_synced' flag, so that
     // callbacks are not missed once m_synced is true.

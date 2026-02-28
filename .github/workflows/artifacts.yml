@@ -31,21 +31,21 @@ jobs:
             triplet: 'arm64-apple-darwin'
             compiler: 'clang'
             configure_options: ''
-            gui_exe: 'bitcoin-qt'
+            gui_exe: 'aixcoin-qt'
             artifact: 'unsecure_macos_apple_silicon_gui'
           - name: 'macOS x86_64'
             packages: ''
             triplet: 'x86_64-apple-darwin'
             compiler: 'clang'
             configure_options: ''
-            gui_exe: 'bitcoin-qt'
+            gui_exe: 'aixcoin-qt'
             artifact: 'unsecure_macos_intel_gui'
           - name: 'Windows'
             packages: 'g++-mingw-w64-x86-64-posix'
             triplet: 'x86_64-w64-mingw32'
             compiler: 'x86_64-w64-mingw32-g++-posix'
             configure_options: 'CXXFLAGS=-Wno-return-type'
-            gui_exe: 'bitcoin-qt.exe'
+            gui_exe: 'aixcoin-qt.exe'
             artifact: 'unsecure_windows_gui'
 
     env:
@@ -82,7 +82,7 @@ jobs:
       - name: Fetch SDK
         if: endsWith(matrix.host.triplet, '-apple-darwin') && steps.depends_cache.outputs.cache-hit != 'true'
         run: |
-          curl --location --fail https://bitcoincore.org/depends-sources/sdks/Xcode-${{ env.XCODE_VERSION }}-${{ env.XCODE_BUILD_ID }}-extracted-SDK-with-libcxx-headers.tar.gz -o sdk.tar.gz
+          curl --location --fail https://aixcoincore.org/depends-sources/sdks/Xcode-${{ env.XCODE_VERSION }}-${{ env.XCODE_BUILD_ID }}-extracted-SDK-with-libcxx-headers.tar.gz -o sdk.tar.gz
           mkdir depends/SDKs
           tar -C depends/SDKs -xf sdk.tar.gz
 
@@ -177,7 +177,7 @@ jobs:
 
       - name: Build GUI
         run: |
-          make -j$(nproc) -C src/qt bitcoin-qt
+          make -j$(nproc) -C src/qt aixcoin-qt
 
       - name: Build APK
         run: |

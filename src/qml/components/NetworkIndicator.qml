@@ -7,7 +7,7 @@ import QtQuick.Controls 2.15
 import "../controls"
 import "../components"
 
-import org.bitcoincore.qt 1.0
+import org.aixcoincore.qt 1.0
 
 Button {
     id: root

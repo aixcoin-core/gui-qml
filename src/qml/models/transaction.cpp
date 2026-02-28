@@ -52,12 +52,12 @@ QString Transaction::prettyAmount() const
     QString sign = (net > 0) ? "+" : (net < 0) ? "-" : "";
     net = std::abs(net);
 
-    qint64 bitcoins = net / 100000000;
+    qint64 aixcoins = net / 100000000;
     qint64 remainder = net % 100000000;
 
     QString result = QString("₿ %1%2.%3")
         .arg(sign)
-        .arg(bitcoins)
+        .arg(aixcoins)
         .arg(remainder, 8, 10, QChar('0'));
 
     return result;
@@ -171,7 +171,7 @@ QList<QSharedPointer<Transaction>> Transaction::fromWalletTx(const interfaces::W
 
             if (fAllFromMe) {
                 // Change is only really possible if we're the sender
-                // Otherwise, someone just sent bitcoins to a change address, which should be shown
+                // Otherwise, someone just sent aixcoins to a change address, which should be shown
                 //if (wtx.txout_is_change[i]) {
                 //   continue;
                 //}

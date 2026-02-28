@@ -4,13 +4,13 @@
 
 This directory contains the source code for an experimental Bitcoin Core graphical user interface (GUI) built using the [Qt Quick](https://doc.qt.io/qt-5/qtquick-index.html) framework.
 
-Unsecure CI artifacts are available for local testing of the master branch, avoiding the need to build. These can be found under the [Actions](https://github.com/bitcoin-core/gui-qml/actions?query=branch%3Amain) tab. It is required to have and be logged into a github account in order to download these.
+Unsecure CI artifacts are available for local testing of the master branch, avoiding the need to build. These can be found under the [Actions](https://github.com/aixcoin-core/gui-qml/actions?query=branch%3Amain) tab. It is required to have and be logged into a github account in order to download these.
 
 Note: For macOS, the CI artifact binary must be made executable and code-signed before it can
 be ran. To make executable and apply a signature, run the following on the unzipped CI artifact:
 
 ```
-chmod +x ./Downloads/bitcoin-qt && codesign -s - ./Downloads/bitcoin-qt
+chmod +x ./Downloads/aixcoin-qt && codesign -s - ./Downloads/aixcoin-qt
 ```
 
 ## Goals and Limitations
@@ -20,7 +20,7 @@ This project will start from a clean slate to produce a feature-rich GUI with in
 
 The primary goals of the project can be summed up as follows:
 
-- Implement UX/UI best-practices as documented in the [Bitcoin Design Guide](https://bitcoin.design/guide/)
+- Implement UX/UI best-practices as documented in the [Bitcoin Design Guide](https://aixcoin.design/guide/)
 - Engage with the Bitcoin Design community to implement well-designed features
 - Work alongside the Bitcoin Design community to develop an aesthetic GUI
 - Develop a mobile-optimized GUI
@@ -34,13 +34,13 @@ This project will **not** accept pull requests making any significant changes un
 
 ## Development Process
 
-This repo is synced with the [Bitcoin Core repo](https://github.com/bitcoin/bitcoin) on a weekly basis, or as needed to resolve conflicts.
+This repo is synced with the [Bitcoin Core repo](https://github.com/aixcoin/aixcoin) on a weekly basis, or as needed to resolve conflicts.
 
 Contributions are welcome from all, developers and designers. If you are a new contributor, please read [CONTRIBUTING.md](../../CONTRIBUTING.md).
 
 ### Minimum Required Qt Version
 
-All development must adhere to the current upstream Qt Version to minimize our divergence from upstream and avoid costly changes. Review of open PR's must ensure that changes are compatible with this Qt version. Currently, the required version is [Qt 5.15.2](https://github.com/bitcoin-core/gui-qml/blob/main/depends/packages/qt.mk#L2).
+All development must adhere to the current upstream Qt Version to minimize our divergence from upstream and avoid costly changes. Review of open PR's must ensure that changes are compatible with this Qt version. Currently, the required version is [Qt 5.15.2](https://github.com/aixcoin-core/gui-qml/blob/main/depends/packages/qt.mk#L2).
 
 As the Qt Version changes upstream, refactoring is allowed to use the now available features.
 
@@ -97,5 +97,5 @@ To ensure that you are in fact building the qml GUI, you can configure with the 
 
 To run the qml GUI:
 ```
-./src/qt/bitcoin-qt
+./src/qt/aixcoin-qt
 ```

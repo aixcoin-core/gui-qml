@@ -277,7 +277,7 @@ Registrarse solo es posible utilizando  una direccion tipo "Legal"</translation>
     </message>
     </context>
 <context>
-    <name>bitcoin-core</name>
+    <name>aixcoin-core</name>
     <message>
         <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
         <translation type="unfinished">Esta es una compilación de prueba pre-lanzamiento - use bajo su propio riesgo - no utilizar para aplicaciones de minería o mercantes</translation>
@@ -459,7 +459,7 @@ Registrarse solo es posible utilizando  una direccion tipo "Legal"</translation>
         <translation type="unfinished">Barra de pestañas</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
+        <source>Request payments (generates QR codes and aixcoin: URIs)</source>
         <translation type="unfinished">Solicitar pagos (genera codigo QR y URL's de Bitcoin)</translation>
     </message>
     <message>

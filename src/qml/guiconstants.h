@@ -6,7 +6,7 @@
 #define BITCOIN_QML_GUICONSTANTS_H
 
 #define QAPP_ORG_NAME "BitcoinCore"
-#define QAPP_ORG_DOMAIN "bitcoincore.org"
+#define QAPP_ORG_DOMAIN "aixcoincore.org"
 #define QAPP_APP_NAME_DEFAULT "BitcoinCore-App"
 #define QAPP_APP_NAME_TESTNET "BitcoinCore-App-testnet"
 #define QAPP_APP_NAME_SIGNET "BitcoinCore-App-signet"

@@ -280,7 +280,7 @@
     </message>
     </context>
 <context>
-    <name>bitcoin-core</name>
+    <name>aixcoin-core</name>
     <message>
         <source>Done loading</source>
         <translation type="unfinished">Zavrseno ucitavanje</translation>
@@ -394,8 +394,8 @@
         <translation type="unfinished">Alatke za tabove</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation type="unfinished">Zatražite plaćanje (generiše QR kodove i bitcoin: URI-e)</translation>
+        <source>Request payments (generates QR codes and aixcoin: URIs)</source>
+        <translation type="unfinished">Zatražite plaćanje (generiše QR kodove i aixcoin: URI-e)</translation>
     </message>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>

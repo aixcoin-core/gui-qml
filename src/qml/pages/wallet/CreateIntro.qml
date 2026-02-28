@@ -55,7 +55,7 @@ Page {
         CoreText {
             Layout.topMargin: 25
             Layout.alignment: Qt.AlignCenter
-            text: qsTr("You are about to create \na single-key bitcoin wallet")
+            text: qsTr("You are about to create \na single-key aixcoin wallet")
             font.pixelSize: 21
             bold: true
             color: Theme.color.neutral9

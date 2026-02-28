@@ -91,7 +91,7 @@ Page {
             Layout.fillWidth: true
             Layout.leftMargin: 20
             Layout.rightMargin: 20
-            description: qsTr("I understand that if I lose or forget this password I might lose access to the bitcoin stored in this wallet.")
+            description: qsTr("I understand that if I lose or forget this password I might lose access to the aixcoin stored in this wallet.")
             actionItem: OptionSwitch {
             }
             onClicked: {

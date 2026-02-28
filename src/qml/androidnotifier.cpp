@@ -7,13 +7,13 @@
 #include <jni.h>
 
 extern "C" {
-  JNIEXPORT jboolean JNICALL Java_org_bitcoincore_qt_BitcoinQtService_register(JNIEnv *env, jobject obj);
+  JNIEXPORT jboolean JNICALL Java_org_aixcoincore_qt_BitcoinQtService_register(JNIEnv *env, jobject obj);
 }
 
 static JavaVM * g_vm = nullptr;
 static jobject g_obj;
 
-JNIEXPORT jboolean JNICALL Java_org_bitcoincore_qt_BitcoinQtService_register(JNIEnv * env, jobject obj)
+JNIEXPORT jboolean JNICALL Java_org_aixcoincore_qt_BitcoinQtService_register(JNIEnv * env, jobject obj)
 {
     env->GetJavaVM(&g_vm);
     g_obj = env->NewGlobalRef(obj);

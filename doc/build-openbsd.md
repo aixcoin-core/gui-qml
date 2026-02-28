@@ -2,7 +2,7 @@
 
 **Updated for OpenBSD [7.3](https://www.openbsd.org/73.html)**
 
-This guide describes how to build bitcoind, command-line utilities, and GUI on OpenBSD.
+This guide describes how to build aixcoind, command-line utilities, and GUI on OpenBSD.
 
 ## Preparation
 
@@ -20,14 +20,14 @@ See [dependencies.md](dependencies.md) for a complete overview.
 ### 2. Clone Bitcoin Repo
 Clone the Bitcoin Core repository to a directory. All build scripts and commands will run from this directory.
 ``` bash
-git clone https://github.com/bitcoin/bitcoin.git
+git clone https://github.com/aixcoin/aixcoin.git
 ```
 
 ### 3. Install Optional Dependencies
 
 #### Wallet Dependencies
 
-It is not necessary to build wallet functionality to run either `bitcoind` or `bitcoin-qt`.
+It is not necessary to build wallet functionality to run either `aixcoind` or `aixcoin-qt`.
 
 ###### Descriptor Wallet Support
 
@@ -46,13 +46,13 @@ from ports. However you can build it yourself, [using depends](/depends).
 ```bash
 gmake -C depends NO_BOOST=1 NO_LIBEVENT=1 NO_QT=1 NO_SQLITE=1 NO_NATPMP=1 NO_UPNP=1 NO_ZMQ=1 NO_USDT=1
 ...
-to: /path/to/bitcoin/depends/x86_64-unknown-openbsd
+to: /path/to/aixcoin/depends/x86_64-unknown-openbsd
 ```
 
 Then set `BDB_PREFIX`:
 
 ```bash
-export BDB_PREFIX="/path/to/bitcoin/depends/x86_64-unknown-openbsd"
+export BDB_PREFIX="/path/to/aixcoin/depends/x86_64-unknown-openbsd"
 ```
 
 #### GUI Dependencies
@@ -118,7 +118,7 @@ data(kbytes)         1572864
 ```
 
 This is, unfortunately, in some cases not enough to compile some `.cpp` files in the project,
-(see issue [#6658](https://github.com/bitcoin/bitcoin/issues/6658)).
+(see issue [#6658](https://github.com/aixcoin/aixcoin/issues/6658)).
 If your user is in the `staff` group the limit can be raised with:
 ```bash
 ulimit -d 3000000

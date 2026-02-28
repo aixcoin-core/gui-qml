@@ -6,7 +6,7 @@
 
 export LC_ALL=C.UTF-8
 
-export CONTAINER_NAME=ci_native_nowallet_libbitcoinkernel
+export CONTAINER_NAME=ci_native_nowallet_libaixcoinkernel
 export CI_IMAGE_NAME_TAG="docker.io/ubuntu:20.04"
 # Use minimum supported python3.8 and clang-10, see doc/dependencies.md
 export PACKAGES="python3-zmq clang-10 llvm-10 libc++abi-10-dev libc++-10-dev"

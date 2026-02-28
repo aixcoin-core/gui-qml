@@ -216,7 +216,7 @@ class BackwardsCompatibilityTest(BitcoinTestFramework):
                     for wallet_name in ["w1", "w2", "w3"]:
                         assert_raises_rpc_error(-4, "Wallet file verification failed: wallet.dat corrupt, salvage failed", node.loadwallet, wallet_name)
 
-        # RPC loadwallet failure causes bitcoind to exit, in addition to the RPC
+        # RPC loadwallet failure causes aixcoind to exit, in addition to the RPC
         # call failure, so the following test won't work:
         # assert_raises_rpc_error(-4, "Wallet loading failed.", node_v17.loadwallet, 'w3')
 
@@ -264,7 +264,7 @@ class BackwardsCompatibilityTest(BitcoinTestFramework):
                 os.path.join(node_master_wallets_dir, "u1_v16")
             )
             load_res = node_master.loadwallet("u1_v16")
-            # Make sure this wallet opens with only the migration warning. See https://github.com/bitcoin/bitcoin/pull/19054
+            # Make sure this wallet opens with only the migration warning. See https://github.com/aixcoin/aixcoin/pull/19054
             if int(node_master.getnetworkinfo()["version"]) >= 249900:
                 # loadwallet#warnings (added in v25) -- only present if there is a warning
                 # Legacy wallets will have only a deprecation warning

@@ -7,7 +7,7 @@
 #define BITCOIN_COMMON_SYSTEM_H
 
 #if defined(HAVE_CONFIG_H)
-#include <config/bitcoin-config.h>
+#include <config/aixcoin-config.h>
 #endif
 
 #include <compat/assumptions.h>

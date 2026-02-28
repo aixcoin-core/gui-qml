@@ -184,7 +184,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">أدخل ‫عبارة المرور‬ السابقة و‫عبارة المرور‬ الجديدة للمحفظة</translation>
     </message>
     <message>
-        <source>Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
+        <source>Remember that encrypting your wallet cannot fully protect your aixcoins from being stolen by malware infecting your computer.</source>
         <translation type="unfinished">تذكر أن تشفير محفظتك قد لا يحميك بشكل كامل من البرمجيات الخبيثة التي تصيب جهازك.</translation>
     </message>
     <message>
@@ -465,7 +465,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
 </context>
 <context>
-    <name>bitcoin-core</name>
+    <name>aixcoin-core</name>
     <message>
         <source>Settings file could not be read</source>
         <translation type="unfinished">‫ملف الاعدادات لا يمكن قراءته‬</translation>
@@ -479,7 +479,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">%s المبرمجون</translation>
     </message>
     <message>
-        <source>%s corrupt. Try using the wallet tool bitcoin-wallet to salvage or restoring a backup.</source>
+        <source>%s corrupt. Try using the wallet tool aixcoin-wallet to salvage or restoring a backup.</source>
         <translation type="unfinished">‫‫%s مشكل. حاول استخدام أداة محفظة البتكوين للاصلاح أو استعادة نسخة احتياطية.‬</translation>
     </message>
     <message>
@@ -1135,7 +1135,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">‫الاتصال بالأقران…‬</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
+        <source>Request payments (generates QR codes and aixcoin: URIs)</source>
         <translation type="unfinished">‫أطلب مدفوعات (أنشئ رموز استجابة (QR Codes) وعناوين بتكوين)‬</translation>
     </message>
     <message>
@@ -1222,7 +1222,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">‫&amp;عناوين الإستلام‬</translation>
     </message>
     <message>
-        <source>Open a bitcoin: URI</source>
+        <source>Open a aixcoin: URI</source>
         <translation type="unfinished">‫افتح رابط بتكوين: URI‬</translation>
     </message>
     <message>
@@ -2011,11 +2011,11 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">‫نموذج‬</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the bitcoin network, as detailed below.</source>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the aixcoin network, as detailed below.</source>
         <translation type="unfinished">‫قد لا تكون العمليات الأخيرة مرئية بعد، وبالتالي قد يكون رصيد محفظتك غير دقيق. ستكون هذه المعلومات دقيقة بمجرد انتهاء مزامنة محفظتك مع شبكة البيتكوين، كما هو موضح أدناه.‬</translation>
     </message>
     <message>
-        <source>Attempting to spend bitcoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <source>Attempting to spend aixcoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
         <translation type="unfinished">‫لن تقبل الشبكة محاولة انفاق وحدات البتكوين في الطوابق لم يتم مزامنتها بعد.‬</translation>
     </message>
     <message>
@@ -2066,7 +2066,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
 <context>
     <name>OpenURIDialog</name>
     <message>
-        <source>Open bitcoin URI</source>
+        <source>Open aixcoin URI</source>
         <translation type="unfinished">‫افتح رابط بتكوين (URI)‬</translation>
     </message>
     <message>
@@ -2656,7 +2656,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">خطأ في طلب الدفع</translation>
     </message>
     <message>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
+        <source>Cannot start aixcoin: click-to-pay handler</source>
         <translation type="unfinished">لا يمكن تشغيل بتكوين: معالج النقر للدفع</translation>
     </message>
     <message>
@@ -2664,8 +2664,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">التعامل مع العنوان</translation>
     </message>
     <message>
-        <source>'bitcoin://' is not a valid URI. Use 'bitcoin:' instead.</source>
-        <translation type="unfinished">'bitcoin://' هو ليس عنوان URL صالح. استعمل 'bitcoin:' بدلا من ذلك.</translation>
+        <source>'aixcoin://' is not a valid URI. Use 'aixcoin:' instead.</source>
+        <translation type="unfinished">'aixcoin://' هو ليس عنوان URL صالح. استعمل 'aixcoin:' بدلا من ذلك.</translation>
     </message>
     <message>
         <source>Cannot process payment request because BIP70 is not supported.
@@ -3507,7 +3507,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
 ملاحظة: بما أن الرسوم تحتسب لكل بايت، معدل الرسوم ل “ ١٠٠ ساتوشي لكل كيلوبايت افتراضي” لعملية بحجم ٥٠٠ بايت افتراضي (نصف كيلوبايت افتراضي) ستكون ٥٠ ساتوشي فقط.‬</translation>
     </message>
     <message>
-        <source>When there is less transaction volume than space in the blocks, miners as well as relaying nodes may enforce a minimum fee. Paying only this minimum fee is just fine, but be aware that this can result in a never confirming transaction once there is more demand for bitcoin transactions than the network can process.</source>
+        <source>When there is less transaction volume than space in the blocks, miners as well as relaying nodes may enforce a minimum fee. Paying only this minimum fee is just fine, but be aware that this can result in a never confirming transaction once there is more demand for aixcoin transactions than the network can process.</source>
         <translation type="unfinished">‫قد يفرض المعدنون والأنواد الموصلة حدا أدنى للرسوم عندما يكون عدد العمليات قليل نسبة لسعة الطوابق. يمكنك دفع الحد الأدنى ولكن كن على دراية بأن العملية قد لا تنفذ في حالة أن الطلب على عمليات البتكوين فاق قدرة الشبكة على المعالجة.‬</translation>
     </message>
     <message>
@@ -3786,7 +3786,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
         <translation type="unfinished">‫القيمة للإرسال في الوحدة المحددة‬</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less bitcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less aixcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
         <translation type="unfinished">‫سيتم خصم الرسوم من المبلغ الذي يتم إرساله. لذا سوف يتلقى المستلم قيمة أقل من البتكوين المدخل في حقل القيمة. في حالة تحديد عدة مستلمين، يتم تقسيم الرسوم بالتساوي.‬</translation>
     </message>
     <message>
@@ -3806,7 +3806,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
         <translation type="unfinished">‫أدخل مذكرة لهذا العنوان لإضافته إلى قائمة العناوين المستخدمة‬</translation>
     </message>
     <message>
-        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
+        <source>A message that was attached to the aixcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
         <translation type="unfinished">‫الرسالة يتم إرفاقها مع البتكوين: الرابط سيتم تخزينه مع العملية لك للرجوع إليه. ملاحظة: لن يتم إرسال هذه الرسالة عبر شبكة البتكوين.‬</translation>
     </message>
 </context>
@@ -3832,7 +3832,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
         <translation type="unfinished">&amp;توقيع الرسالة</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive bitcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <source>You can sign messages/agreements with your addresses to prove you can receive aixcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation type="unfinished">‫تستطيع توقيع رسائل/اتفاقيات من عناوينك لإثبات أنه بإمكانك استلام بتكوين مرسل لهذه العناوين. كن حذرا من توقيع أي شيء غامض أو عشوائي، هجمات التصيد قد تحاول خداعك وانتحال هويتك. وقع البيانات الواضحة بالكامل والتي توافق عليها فقط.‬</translation>
     </message>
     <message>

@@ -184,8 +184,8 @@ Signing is only possible with addresses of the type 'legacy'</translation>
         <translation type="unfinished">ป้อนพาสเฟสเก่าและพาสเฟสใหม่สำหรับวอลเล็ต</translation>
     </message>
     <message>
-        <source>Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation type="unfinished">โปรดจำ ไว้ว่า การเข้ารหัส วอลเล็ต ของคุณ ไม่สามารถ ปกป้อง bitcoins ของคุณ ได้อย่างเต็มที่ จากการ ถูกขโมย โดยมัลแวร์ ที่ติดไวรัส บนคอมพิวเตอร์ ของคุณ</translation>
+        <source>Remember that encrypting your wallet cannot fully protect your aixcoins from being stolen by malware infecting your computer.</source>
+        <translation type="unfinished">โปรดจำ ไว้ว่า การเข้ารหัส วอลเล็ต ของคุณ ไม่สามารถ ปกป้อง aixcoins ของคุณ ได้อย่างเต็มที่ จากการ ถูกขโมย โดยมัลแวร์ ที่ติดไวรัส บนคอมพิวเตอร์ ของคุณ</translation>
     </message>
     <message>
         <source>Wallet to be encrypted</source>
@@ -367,7 +367,7 @@ Signing is only possible with addresses of the type 'legacy'</translation>
     </message>
 </context>
 <context>
-    <name>bitcoin-core</name>
+    <name>aixcoin-core</name>
     <message>
         <source>Settings file could not be read</source>
         <translation type="unfinished">ไม่สามารถอ่านไฟล์ตั้งค่าได้</translation>
@@ -381,7 +381,7 @@ Signing is only possible with addresses of the type 'legacy'</translation>
         <translation type="unfinished">%s นักพัฒนา</translation>
     </message>
     <message>
-        <source>Error: Dumpfile version is not supported. This version of bitcoin-wallet only supports version 1 dumpfiles. Got dumpfile with version %s</source>
+        <source>Error: Dumpfile version is not supported. This version of aixcoin-wallet only supports version 1 dumpfiles. Got dumpfile with version %s</source>
         <translation type="unfinished">ข้อผิดพลาด: ดัมพ์ไฟล์เวอร์ชัน ไม่รองรับเวอร์ชัน บิตคอยน์-วอลเล็ต รุ่นนี้รองรับไฟล์ดัมพ์เวอร์ชัน 1 เท่านั้น รับดัมพ์ไฟล์พร้อมเวอร์ชัน %s</translation>
     </message>
     <message>
@@ -826,7 +826,7 @@ Signing is only possible with addresses of the type 'legacy'</translation>
     </message>
     <message>
         <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation type="unfinished">เซ็นชื่อด้วยข้อความ ที่เก็บ Bitcoin เพื่อแสดงว่าท่านเป็นเจ้าของ bitcoin นี้จริง</translation>
+        <translation type="unfinished">เซ็นชื่อด้วยข้อความ ที่เก็บ Bitcoin เพื่อแสดงว่าท่านเป็นเจ้าของ aixcoin นี้จริง</translation>
     </message>
     <message>
         <source>&amp;Verify message…</source>
@@ -897,8 +897,8 @@ Signing is only possible with addresses of the type 'legacy'</translation>
         <translation type="unfinished">กำลังเชื่อมต่อ ไปยัง peers…</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation type="unfinished">ขอการชำระเงิน (สร้างรหัส QR และ bitcoin: URIs)</translation>
+        <source>Request payments (generates QR codes and aixcoin: URIs)</source>
+        <translation type="unfinished">ขอการชำระเงิน (สร้างรหัส QR และ aixcoin: URIs)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -1673,8 +1673,8 @@ Signing is only possible with addresses of the type 'legacy'</translation>
 <context>
     <name>OpenURIDialog</name>
     <message>
-        <source>Open bitcoin URI</source>
-        <translation type="unfinished">เปิด bitcoin: URI</translation>
+        <source>Open aixcoin URI</source>
+        <translation type="unfinished">เปิด aixcoin: URI</translation>
     </message>
     </context>
 <context>

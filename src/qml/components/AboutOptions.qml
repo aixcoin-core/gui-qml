@@ -17,8 +17,8 @@ ColumnLayout {
         header: qsTr("Website")
         actionItem: ExternalLink {
             parentState: websiteLink.state
-            description: "bitcoincore.org"
-            link: "https://bitcoincore.org"
+            description: "aixcoincore.org"
+            link: "https://aixcoincore.org"
         }
         onClicked: openPopup(loadedItem.link)
     }
@@ -29,8 +29,8 @@ ColumnLayout {
         header: qsTr("Source code")
         actionItem: ExternalLink {
             parentState: sourceLink.state
-            description: "github.com/bitcoin/bitcoin"
-            link: "https://github.com/bitcoin/bitcoin"
+            description: "github.com/aixcoin/aixcoin"
+            link: "https://github.com/aixcoin/aixcoin"
         }
         onClicked: openPopup(loadedItem.link)
     }
@@ -54,7 +54,7 @@ ColumnLayout {
         actionItem: ExternalLink {
             parentState: versionLink.state
             description: nodeModel.fullClientVersion
-            link: "https://bitcoin.org/en/download"
+            link: "https://aixcoin.org/en/download"
             iconSource: "image://images/caret-right"
             iconWidth: 18
             iconHeight: 18

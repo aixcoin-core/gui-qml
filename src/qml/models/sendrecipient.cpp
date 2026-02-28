@@ -4,7 +4,7 @@
 
 #include <qml/models/sendrecipient.h>
 
-#include <qml/bitcoinamount.h>
+#include <qml/aixcoinamount.h>
 
 SendRecipient::SendRecipient(QObject* parent)
     : QObject(parent), m_amount(new BitcoinAmount(this))

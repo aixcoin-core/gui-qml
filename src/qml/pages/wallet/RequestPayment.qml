@@ -5,7 +5,7 @@
 import QtQuick 2.15
 import QtQuick.Controls 2.15
 import QtQuick.Layouts 1.15
-import org.bitcoincore.qt 1.0
+import org.aixcoincore.qt 1.0
 
 import "../../controls"
 import "../../components"
@@ -51,7 +51,7 @@ Page {
 
                 Item {
                     BitcoinAmount {
-                        id: bitcoinAmount
+                        id: aixcoinAmount
                     }
 
                     height: amountInput.height
@@ -80,7 +80,7 @@ Page {
                         placeholderText: "0.00000000"
                         selectByMouse: true
                         onTextEdited: {
-                            amountInput.text = bitcoinAmount.sanitize(amountInput.text)
+                            amountInput.text = aixcoinAmount.sanitize(amountInput.text)
                         }
                     }
                     Item {
@@ -91,12 +91,12 @@ Page {
                         MouseArea {
                             anchors.fill: parent
                             onClicked: {
-                                if (bitcoinAmount.unit == BitcoinAmount.BTC) {
-                                    amountInput.text = bitcoinAmount.convert(amountInput.text, BitcoinAmount.BTC)
-                                    bitcoinAmount.unit = BitcoinAmount.SAT
+                                if (aixcoinAmount.unit == BitcoinAmount.BTC) {
+                                    amountInput.text = aixcoinAmount.convert(amountInput.text, BitcoinAmount.BTC)
+                                    aixcoinAmount.unit = BitcoinAmount.SAT
                                 } else {
-                                    amountInput.text = bitcoinAmount.convert(amountInput.text, BitcoinAmount.SAT)
-                                    bitcoinAmount.unit = BitcoinAmount.BTC
+                                    amountInput.text = aixcoinAmount.convert(amountInput.text, BitcoinAmount.SAT)
+                                    aixcoinAmount.unit = BitcoinAmount.BTC
                                 }
                             }
                         }
@@ -104,7 +104,7 @@ Page {
                             id: unitLabel
                             anchors.right: flipIcon.left
                             anchors.verticalCenter: parent.verticalCenter
-                            text: bitcoinAmount.unitLabel
+                            text: aixcoinAmount.unitLabel
                             font.pixelSize: 18
                             color: enabled ? Theme.color.neutral7 : Theme.color.neutral4
                         }
@@ -192,7 +192,7 @@ Page {
                     id: continueButton
                     Layout.fillWidth: true
                     Layout.topMargin: 30
-                    text: qsTr("Create bitcoin address")
+                    text: qsTr("Create aixcoin address")
                     onClicked: {
                         if (!clearRequest.visible) {
                             requestCounter = requestCounter + 1
@@ -222,7 +222,7 @@ Page {
                         title.text = qsTr("Request a payment")
                         address.text = ""
                         qrImage.code = ""
-                        continueButton.text = qsTr("Create bitcoin address")
+                        continueButton.text = qsTr("Create aixcoin address")
                     }
                 }
             }

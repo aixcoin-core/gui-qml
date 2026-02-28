@@ -2,7 +2,7 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-package org.bitcoincore.qt;
+package org.aixcoincore.qt;
 
 import android.app.Notification;
 import android.app.NotificationChannel;
@@ -37,7 +37,7 @@ public class BitcoinQtService extends QtService
         String description = "Bitcoin Core App notifications";
         // IMPORTANCE_LOW notifications won't make sound
         int importance = NotificationManager.IMPORTANCE_LOW;
-        NotificationChannel channel = new NotificationChannel("bitcoin_channel_id", name, importance);
+        NotificationChannel channel = new NotificationChannel("aixcoin_channel_id", name, importance);
         channel.setDescription(description);
 
         NotificationManager notificationManager = getSystemService(NotificationManager.class);
@@ -46,9 +46,9 @@ public class BitcoinQtService extends QtService
         Intent intent = new Intent(this, BitcoinQtActivity.class);
         PendingIntent pendingIntent = PendingIntent.getActivity(this, 0, intent, 0);
 
-        notificationBuilder = new Notification.Builder(this, "bitcoin_channel_id")
-            .setSmallIcon(R.drawable.bitcoin)
-            .setContentTitle("Running bitcoin")
+        notificationBuilder = new Notification.Builder(this, "aixcoin_channel_id")
+            .setSmallIcon(R.drawable.aixcoin)
+            .setContentTitle("Running aixcoin")
             .setOngoing(true)
             .setContentIntent(pendingIntent);
 

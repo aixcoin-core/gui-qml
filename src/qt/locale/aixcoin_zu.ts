@@ -84,7 +84,7 @@
     </message>
     </context>
 <context>
-    <name>bitcoin-core</name>
+    <name>aixcoin-core</name>
     <message>
         <source>Error: Missing checksum</source>
         <translation type="unfinished">Iphutha: iChecksum engekho</translation>

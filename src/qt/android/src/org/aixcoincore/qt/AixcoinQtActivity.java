@@ -1,4 +1,4 @@
-package org.bitcoincore.qt;
+package org.aixcoincore.qt;
 
 import android.content.Context;
 import android.content.Intent;
@@ -18,9 +18,9 @@ public class BitcoinQtActivity extends QtActivity
     @Override
     public void onCreate(Bundle savedInstanceState)
     {
-        final File bitcoinDir = new File(getFilesDir().getAbsolutePath() + "/.bitcoin");
-        if (!bitcoinDir.exists()) {
-            bitcoinDir.mkdir();
+        final File aixcoinDir = new File(getFilesDir().getAbsolutePath() + "/.aixcoin");
+        if (!aixcoinDir.exists()) {
+            aixcoinDir.mkdir();
         }
 
         Intent intent = new Intent(this, BitcoinQtService.class);

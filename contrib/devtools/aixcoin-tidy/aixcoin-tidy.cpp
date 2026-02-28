@@ -12,11 +12,11 @@ class BitcoinModule final : public clang::tidy::ClangTidyModule
 public:
     void addCheckFactories(clang::tidy::ClangTidyCheckFactories& CheckFactories) override
     {
-        CheckFactories.registerCheck<bitcoin::LogPrintfCheck>("bitcoin-unterminated-logprintf");
+        CheckFactories.registerCheck<aixcoin::LogPrintfCheck>("aixcoin-unterminated-logprintf");
     }
 };
 
 static clang::tidy::ClangTidyModuleRegistry::Add<BitcoinModule>
-    X("bitcoin-module", "Adds bitcoin checks.");
+    X("aixcoin-module", "Adds aixcoin checks.");
 
 volatile int BitcoinModuleAnchorSource = 0;

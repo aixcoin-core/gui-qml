@@ -2,7 +2,7 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include <qml/bitcoin.h>
+#include <qml/aixcoin.h>
 
 #include <chainparams.h>
 #include <common/args.h>
@@ -15,7 +15,7 @@
 #include <node/interface_ui.h>
 #include <noui.h>
 #include <qml/appmode.h>
-#include <qml/bitcoinamount.h>
+#include <qml/aixcoinamount.h>
 #include <qml/clipboard.h>
 #ifdef __ANDROID__
 #include <qml/androidnotifier.h>
@@ -115,7 +115,7 @@ bool InitErrorMessageBox(
 
     AppMode app_mode = SetupAppMode();
 
-    qmlRegisterSingletonInstance<AppMode>("org.bitcoincore.qt", 1, 0, "AppMode", &app_mode);
+    qmlRegisterSingletonInstance<AppMode>("org.aixcoincore.qt", 1, 0, "AppMode", &app_mode);
     engine.rootContext()->setContextProperty("message", QString::fromStdString(message.translated));
     engine.load(QUrl(QStringLiteral("qrc:///qml/pages/initerrormessage.qml")));
     if (engine.rootObjects().isEmpty()) {
@@ -178,7 +178,7 @@ int QmlGuiMain(int argc, char* argv[])
     std::tie(argc, argv) = winArgs.get();
 #endif // WIN32
 
-    Q_INIT_RESOURCE(bitcoin_qml);
+    Q_INIT_RESOURCE(aixcoin_qml);
     qRegisterMetaType<interfaces::BlockAndHeaderTipInfo>("interfaces::BlockAndHeaderTipInfo");
 
     QGuiApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
@@ -214,7 +214,7 @@ int QmlGuiMain(int argc, char* argv[])
         return EXIT_FAILURE;
     }
 
-    /// Read and parse bitcoin.conf file.
+    /// Read and parse aixcoin.conf file.
     if (!gArgs.ReadConfigFiles(error, true)) {
         InitError(strprintf(Untranslated("Cannot parse configuration file: %s\n"), error));
         return EXIT_FAILURE;
@@ -334,19 +334,19 @@ int QmlGuiMain(int argc, char* argv[])
     AppMode app_mode = SetupAppMode();
     Clipboard clipboard;
 
-    qmlRegisterSingletonInstance<AppMode>("org.bitcoincore.qt", 1, 0, "AppMode", &app_mode);
-    qmlRegisterSingletonInstance<Clipboard>("org.bitcoincore.qt", 1, 0, "Clipboard", &clipboard);
-    qmlRegisterType<BlockClockDial>("org.bitcoincore.qt", 1, 0, "BlockClockDial");
-    qmlRegisterType<LineGraph>("org.bitcoincore.qt", 1, 0, "LineGraph");
-    qmlRegisterUncreatableType<PeerDetailsModel>("org.bitcoincore.qt", 1, 0, "PeerDetailsModel", "");
-    qmlRegisterType<BitcoinAmount>("org.bitcoincore.qt", 1, 0, "BitcoinAmount");
-    qmlRegisterUncreatableType<Transaction>("org.bitcoincore.qt", 1, 0, "Transaction", "");
-    qmlRegisterUncreatableType<SendRecipient>("org.bitcoincore.qt", 1, 0, "SendRecipient", "");
+    qmlRegisterSingletonInstance<AppMode>("org.aixcoincore.qt", 1, 0, "AppMode", &app_mode);
+    qmlRegisterSingletonInstance<Clipboard>("org.aixcoincore.qt", 1, 0, "Clipboard", &clipboard);
+    qmlRegisterType<BlockClockDial>("org.aixcoincore.qt", 1, 0, "BlockClockDial");
+    qmlRegisterType<LineGraph>("org.aixcoincore.qt", 1, 0, "LineGraph");
+    qmlRegisterUncreatableType<PeerDetailsModel>("org.aixcoincore.qt", 1, 0, "PeerDetailsModel", "");
+    qmlRegisterType<BitcoinAmount>("org.aixcoincore.qt", 1, 0, "BitcoinAmount");
+    qmlRegisterUncreatableType<Transaction>("org.aixcoincore.qt", 1, 0, "Transaction", "");
+    qmlRegisterUncreatableType<SendRecipient>("org.aixcoincore.qt", 1, 0, "SendRecipient", "");
 
 #ifdef ENABLE_WALLET
-    qmlRegisterUncreatableType<WalletQmlModel>("org.bitcoincore.qt", 1, 0, "WalletQmlModel",
+    qmlRegisterUncreatableType<WalletQmlModel>("org.aixcoincore.qt", 1, 0, "WalletQmlModel",
                                                "WalletQmlModel cannot be instantiated from QML");
-    qmlRegisterUncreatableType<WalletQmlModelTransaction>("org.bitcoincore.qt", 1, 0, "WalletQmlModelTransaction",
+    qmlRegisterUncreatableType<WalletQmlModelTransaction>("org.aixcoincore.qt", 1, 0, "WalletQmlModelTransaction",
                                                           "WalletQmlModelTransaction cannot be instantiated from QML");
 #endif
 

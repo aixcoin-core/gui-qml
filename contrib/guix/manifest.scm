@@ -96,7 +96,7 @@ chain for " target " development."))
 (define base-gcc gcc-10)
 (define base-linux-kernel-headers linux-libre-headers-5.15)
 
-(define* (make-bitcoin-cross-toolchain target
+(define* (make-aixcoin-cross-toolchain target
                                        #:key
                                        (base-gcc-for-libc linux-base-gcc)
                                        (base-kernel-headers base-linux-kernel-headers)
@@ -149,7 +149,7 @@ chain for " target " development."))
 ;; While LIEF is packaged in Guix, we maintain our own package,
 ;; to simplify building, and more easily apply updates.
 ;; Moreover, the Guix's package uses cmake, which caused build
-;; failure; see https://github.com/bitcoin/bitcoin/pull/27296.
+;; failure; see https://github.com/aixcoin/aixcoin/pull/27296.
 (define-public python-lief
   (package
     (name "python-lief")
@@ -608,7 +608,7 @@ inspecting signatures in Mach-O binaries.")
                  nss-certs
                  osslsigncode))
           ((string-contains target "-linux-")
-           (list (make-bitcoin-cross-toolchain target)))
+           (list (make-aixcoin-cross-toolchain target)))
           ((string-contains target "darwin")
            (list clang-toolchain-15 binutils cmake-minimal xorriso python-signapple))
           (else '())))))

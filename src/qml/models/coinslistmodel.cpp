@@ -9,7 +9,7 @@
 #include <key_io.h>
 #include <primitives/transaction.h>
 #include <qml/models/walletqmlmodel.h>
-#include <qt/bitcoinunits.h>
+#include <qt/aixcoinunits.h>
 #include <vector>
 
 CoinsListModel::CoinsListModel(WalletQmlModel* parent)

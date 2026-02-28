@@ -4,7 +4,7 @@
 
 import QtQuick 2.15
 import QtQuick.Controls 2.15
-import org.bitcoincore.qt 1.0
+import org.aixcoincore.qt 1.0
 
 Button {
     property int bgRadius: 5

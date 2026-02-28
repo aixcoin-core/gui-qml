@@ -6,7 +6,7 @@ import QtQuick 2.15
 import QtQuick.Controls 2.15
 import QtQuick.Layouts 1.15
 import Qt.labs.settings 1.0
-import org.bitcoincore.qt 1.0
+import org.aixcoincore.qt 1.0
 
 import "../../controls"
 import "../../components"
@@ -78,7 +78,7 @@ PageStack {
                         id: title
                         anchors.left: parent.left
                         anchors.verticalCenter: parent.verticalCenter
-                        text: qsTr("Send bitcoin")
+                        text: qsTr("Send aixcoin")
                         font.pixelSize: 21
                         color: Theme.color.neutral9
                         bold: true
