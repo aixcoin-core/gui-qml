@@ -1,4 +1,4 @@
-// Copyright (c) 2025 The Bitcoin Core developers
+// Copyright (c) 2025 The Aixcoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -16,7 +16,7 @@ class SendRecipient : public QObject
     Q_PROPERTY(QString address READ address WRITE setAddress NOTIFY addressChanged)
     Q_PROPERTY(QString label READ label WRITE setLabel NOTIFY labelChanged)
     Q_PROPERTY(QString message READ message WRITE setMessage NOTIFY messageChanged)
-    Q_PROPERTY(BitcoinAmount* amount READ amount CONSTANT)
+    Q_PROPERTY(AixcoinAmount* amount READ amount CONSTANT)
 
 public:
     explicit SendRecipient(QObject* parent = nullptr);
@@ -27,7 +27,7 @@ public:
     QString label() const;
     void setLabel(const QString& label);
 
-    BitcoinAmount* amount() const;
+    AixcoinAmount* amount() const;
     void setAmount(const QString& amount);
 
     QString message() const;
@@ -48,7 +48,7 @@ private:
     QString m_address{""};
     QString m_label{""};
     QString m_message{""};
-    BitcoinAmount* m_amount;
+    AixcoinAmount* m_amount;
     bool m_subtractFeeFromAmount{false};
 };
 

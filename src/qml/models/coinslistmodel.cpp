@@ -1,4 +1,4 @@
-// Copyright (c) 2025 The Bitcoin Core developers
+// Copyright (c) 2025 The Aixcoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -35,7 +35,7 @@ QVariant CoinsListModel::data(const QModelIndex& index, int role) const
     case AddressRole:
         return QString::fromStdString(EncodeDestination(destination));
     case AmountRole:
-        return BitcoinUnits::format(BitcoinUnits::Unit::BTC, coin.txout.nValue);
+        return AixcoinUnits::format(AixcoinUnits::Unit::BTC, coin.txout.nValue);
     case LabelRole:
         return QString::fromStdString("");
     case LockedRole:
@@ -117,14 +117,14 @@ unsigned int CoinsListModel::selectedCoinsCount() const
 
 QString CoinsListModel::totalSelected() const
 {
-    return BitcoinUnits::format(BitcoinUnits::Unit::BTC, m_total_amount);
+    return AixcoinUnits::format(AixcoinUnits::Unit::BTC, m_total_amount);
 }
 
 QString CoinsListModel::changeAmount() const
 {
     CAmount change = m_total_amount - m_wallet_model->sendRecipientList()->totalAmountSatoshi();
     change = std::abs(change);
-    return BitcoinUnits::format(BitcoinUnits::Unit::BTC, change);
+    return AixcoinUnits::format(AixcoinUnits::Unit::BTC, change);
 }
 
 bool CoinsListModel::overRequiredAmount() const

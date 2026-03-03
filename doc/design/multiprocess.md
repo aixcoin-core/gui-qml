@@ -1,4 +1,4 @@
-# Multiprocess Bitcoin
+# Multiprocess Aixcoin
 
 On unix systems, the `--enable-multiprocess` build option can be passed to `./configure` to build new `aixcoin-node`, `aixcoin-wallet`, and `aixcoin-gui` executables alongside existing `aixcoind` and `aixcoin-qt` executables.
 

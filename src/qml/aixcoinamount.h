@@ -1,4 +1,4 @@
-// Copyright (c) 2024-2025 The Bitcoin Core developers
+// Copyright (c) 2024-2025 The Aixcoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -10,7 +10,7 @@
 #include <QObject>
 #include <QString>
 
-class BitcoinAmount : public QObject
+class AixcoinAmount : public QObject
 {
     Q_OBJECT
     Q_PROPERTY(Unit unit READ unit WRITE setUnit NOTIFY unitChanged)
@@ -25,7 +25,7 @@ public:
     };
     Q_ENUM(Unit)
 
-    explicit BitcoinAmount(QObject *parent = nullptr);
+    explicit AixcoinAmount(QObject *parent = nullptr);
 
     Unit unit() const;
     void setUnit(Unit unit);

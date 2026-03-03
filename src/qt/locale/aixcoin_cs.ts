@@ -62,11 +62,11 @@
         <translation type="unfinished">Přijímací adresy</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Aixcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished">Tohle jsou tvé aixcoinové adresy pro posílání plateb. Před odesláním mincí si vždy zkontroluj částku a cílovou adresu.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
+        <source>These are your Aixcoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
 Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Tohle jsou tvé aixcoinové adresy pro přijmaní plateb. Použij "Vytvoř novou přijimací adresu" pro vytvoření nových adres. Přihlašování je povoleno jen s adresami typu "Legacy"</translation>
     </message>
@@ -239,7 +239,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
 </context>
 <context>
-    <name>BitcoinApplication</name>
+    <name>AixcoinApplication</name>
     <message>
         <source>Settings file %1 might be corrupt or invalid.</source>
         <translation type="unfinished">Soubor s nastavením %1 může být poškozený nebo neplatný.</translation>
@@ -298,7 +298,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Částka</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
+        <source>Enter a Aixcoin address (e.g. %1)</source>
         <translation type="unfinished">Zadej aixcoinovou adresu (např. %1)</translation>
     </message>
     <message>
@@ -462,7 +462,7 @@ Ověřuji peněženku.</translation>
     </message>
     <message>
         <source>Error: Dumpfile version is not supported. This version of aixcoin-wallet only supports version 1 dumpfiles. Got dumpfile with version %s</source>
-        <translation type="unfinished">Chyba: verze souboru výpisu není podporována. Tato verze peněženky Bitcoin podporuje pouze soubory výpisu verze 1. Získán soubor výpisu verze %s</translation>
+        <translation type="unfinished">Chyba: verze souboru výpisu není podporována. Tato verze peněženky Aixcoin podporuje pouze soubory výpisu verze 1. Získán soubor výpisu verze %s</translation>
     </message>
     <message>
         <source>Error: Legacy wallets only support the "legacy", "p2sh-segwit", and "bech32" address types</source>
@@ -629,8 +629,8 @@ Ověřuji peněženku.</translation>
         <translation type="unfinished">Aktualizaci -txindex zahájenou předchozí verzí není možné dokončit. Restartujte s předchozí verzí a nebo spusťte úplný -reindex.</translation>
     </message>
     <message>
-        <source>%s request to listen on port %u. This port is considered "bad" and thus it is unlikely that any Bitcoin Core peers connect to it. See doc/p2p-bad-ports.md for details and a full list.</source>
-        <translation type="unfinished">%s požadavek pro naslouchání na portu %u. Tento port je považován za "špatný" a z tohoto důvodu je nepravděpodobné, že by se k němu připojovali některé uzly Bitcoin Core. Podrobnosti a úplný seznam špatných portů nalezneš v dokumentu doc/p2p-bad-ports.md.</translation>
+        <source>%s request to listen on port %u. This port is considered "bad" and thus it is unlikely that any Aixcoin Core peers connect to it. See doc/p2p-bad-ports.md for details and a full list.</source>
+        <translation type="unfinished">%s požadavek pro naslouchání na portu %u. Tento port je považován za "špatný" a z tohoto důvodu je nepravděpodobné, že by se k němu připojovali některé uzly Aixcoin Core. Podrobnosti a úplný seznam špatných portů nalezneš v dokumentu doc/p2p-bad-ports.md.</translation>
     </message>
     <message>
         <source>-reindex-chainstate option is not compatible with -blockfilterindex. Please temporarily disable blockfilterindex while using -reindex-chainstate, or replace -reindex-chainstate with -reindex to fully rebuild all indexes.</source>
@@ -1206,7 +1206,7 @@ Nelze obnovit zálohu peněženky.</translation>
     </message>
 </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>AixcoinGUI</name>
     <message>
         <source>&amp;Overview</source>
         <translation type="unfinished">&amp;Přehled</translation>
@@ -1273,7 +1273,7 @@ Nelze obnovit zálohu peněženky.</translation>
         <translation type="unfinished">Proxy je &lt;b&gt;zapnutá&lt;/b&gt;: %1</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
+        <source>Send coins to a Aixcoin address</source>
         <translation type="unfinished">Pošli mince na aixcoinovou adresu</translation>
     </message>
     <message>
@@ -1317,7 +1317,7 @@ Nelze obnovit zálohu peněženky.</translation>
         <translation type="unfinished">Podepiš &amp;zprávu...</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
+        <source>Sign messages with your Aixcoin addresses to prove you own them</source>
         <translation type="unfinished">Podepiš zprávy svými aixcoinovými adresami, čímž prokážeš, že jsi jejich vlastníkem</translation>
     </message>
     <message>
@@ -1325,7 +1325,7 @@ Nelze obnovit zálohu peněženky.</translation>
         <translation type="unfinished">&amp;Ověř zprávu...</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
+        <source>Verify messages to ensure they were signed with specified Aixcoin addresses</source>
         <translation type="unfinished">Ověř zprávy, aby ses ujistil, že byly podepsány danými aixcoinovými adresami</translation>
     </message>
     <message>
@@ -1445,16 +1445,16 @@ Nelze obnovit zálohu peněženky.</translation>
         <translation type="unfinished">Aktuální</translation>
     </message>
     <message>
-        <source>Load Partially Signed Bitcoin Transaction</source>
-        <translation type="unfinished">Načíst částečně podepsanou Bitcoinovou transakci</translation>
+        <source>Load Partially Signed Aixcoin Transaction</source>
+        <translation type="unfinished">Načíst částečně podepsanou Aixcoinovou transakci</translation>
     </message>
     <message>
         <source>Load PSBT from &amp;clipboard…</source>
         <translation type="unfinished">Načíst PSBT ze &amp;schránky</translation>
     </message>
     <message>
-        <source>Load Partially Signed Bitcoin Transaction from clipboard</source>
-        <translation type="unfinished">Načíst částečně podepsanou Bitcoinovou transakci ze schránky</translation>
+        <source>Load Partially Signed Aixcoin Transaction from clipboard</source>
+        <translation type="unfinished">Načíst částečně podepsanou Aixcoinovou transakci ze schránky</translation>
     </message>
     <message>
         <source>Node window</source>
@@ -1474,7 +1474,7 @@ Nelze obnovit zálohu peněženky.</translation>
     </message>
     <message>
         <source>Open a aixcoin: URI</source>
-        <translation type="unfinished">Načíst Bitcoin: URI</translation>
+        <translation type="unfinished">Načíst Aixcoin: URI</translation>
     </message>
     <message>
         <source>Open Wallet</source>
@@ -1503,8 +1503,8 @@ Nelze obnovit zálohu peněženky.</translation>
         <translation type="unfinished">Zavřít všechny peněženky</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
-        <translation type="unfinished">Seznam argumentů Bitcoinu pro příkazovou řádku získáš v nápovědě %1</translation>
+        <source>Show the %1 help message to get a list with possible Aixcoin command-line options</source>
+        <translation type="unfinished">Seznam argumentů Aixcoinu pro příkazovou řádku získáš v nápovědě %1</translation>
     </message>
     <message>
         <source>&amp;Mask values</source>
@@ -1567,12 +1567,12 @@ Nelze obnovit zálohu peněženky.</translation>
         <translation type="unfinished">Zobraz</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network.</source>
+        <source>%n active connection(s) to Aixcoin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
-            <numerusform>%n aktivní spojení s Bitcoinovou sítí.</numerusform>
-            <numerusform>%n aktivní spojení s Bitcoinovou sítí.</numerusform>
-            <numerusform>%n aktivních spojení s Bitcoinovou sítí.</numerusform>
+            <numerusform>%n aktivní spojení s Aixcoinovou sítí.</numerusform>
+            <numerusform>%n aktivní spojení s Aixcoinovou sítí.</numerusform>
+            <numerusform>%n aktivních spojení s Aixcoinovou sítí.</numerusform>
         </translation>
     </message>
     <message>
@@ -2063,7 +2063,7 @@ Nelze obnovit zálohu peněženky.</translation>
         <translation type="unfinished">Uprav odesílací adresu</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
+        <source>The entered address "%1" is not a valid Aixcoin address.</source>
         <translation type="unfinished">Zadaná adresa „%1“ není platná aixcoinová adresa.</translation>
     </message>
     <message>
@@ -2150,7 +2150,7 @@ Nelze obnovit zálohu peněženky.</translation>
         </translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Bitcoin block chain.</source>
+        <source>%1 will download and store a copy of the Aixcoin block chain.</source>
         <translation type="unfinished">%1 bude stahovat kopii blockchainu.</translation>
     </message>
     <message>
@@ -2458,11 +2458,11 @@ Nelze obnovit zálohu peněženky.</translation>
         <translation type="unfinished">Cesta ke skriptu &amp;Externího podepisovatele</translation>
     </message>
     <message>
-        <source>Full path to a Bitcoin Core compatible script (e.g. C:\Downloads\hwi.exe or /Users/you/Downloads/hwi.py). Beware: malware can steal your coins!</source>
-        <translation type="unfinished">Absolutní cesta ke skriptu kompatibilnímu s Bitcoin Core (např. C:\Downloads\hwi.exe nebo /Users/you/Downloads/hwi.py). Pozor: malware vám může ukrást mince!</translation>
+        <source>Full path to a Aixcoin Core compatible script (e.g. C:\Downloads\hwi.exe or /Users/you/Downloads/hwi.py). Beware: malware can steal your coins!</source>
+        <translation type="unfinished">Absolutní cesta ke skriptu kompatibilnímu s Aixcoin Core (např. C:\Downloads\hwi.exe nebo /Users/you/Downloads/hwi.py). Pozor: malware vám může ukrást mince!</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the Aixcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation type="unfinished">Automaticky otevře potřebný port na routeru. Tohle funguje jen za předpokladu, že tvůj router podporuje UPnP a že je UPnP povolené.</translation>
     </message>
     <message>
@@ -2470,8 +2470,8 @@ Nelze obnovit zálohu peněženky.</translation>
         <translation type="unfinished">Namapovat port přes &amp;UPnP</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports NAT-PMP and it is enabled. The external port could be random.</source>
-        <translation type="unfinished">Automaticky otevřít port pro Bitcoinový klient na routeru. Toto funguje pouze pokud váš router podporuje a má zapnutou funkci NAT-PMP. Vnější port může být zvolen náhodně.</translation>
+        <source>Automatically open the Aixcoin client port on the router. This only works when your router supports NAT-PMP and it is enabled. The external port could be random.</source>
+        <translation type="unfinished">Automaticky otevřít port pro Aixcoinový klient na routeru. Toto funguje pouze pokud váš router podporuje a má zapnutou funkci NAT-PMP. Vnější port může být zvolen náhodně.</translation>
     </message>
     <message>
         <source>Map port using NA&amp;T-PMP</source>
@@ -2486,7 +2486,7 @@ Nelze obnovit zálohu peněženky.</translation>
         <translation type="unfinished">Přijí&amp;mat příchozí spojení</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
+        <source>Connect to the Aixcoin network through a SOCKS5 proxy.</source>
         <translation type="unfinished">Připojí se do aixcoinové sítě přes SOCKS5 proxy.</translation>
     </message>
     <message>
@@ -2566,8 +2566,8 @@ Nelze obnovit zálohu peněženky.</translation>
         <translation type="unfinished">Zda ukazovat možnosti pro ruční správu mincí nebo ne.</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a separate SOCKS5 proxy for Tor onion services.</source>
-        <translation type="unfinished">Připojí se do Bitcoinové sítě přes vyhrazenou SOCKS5 proxy pro služby v Tor síti.</translation>
+        <source>Connect to the Aixcoin network through a separate SOCKS5 proxy for Tor onion services.</source>
+        <translation type="unfinished">Připojí se do Aixcoinové sítě přes vyhrazenou SOCKS5 proxy pro služby v Tor síti.</translation>
     </message>
     <message>
         <source>Use separate SOCKS&amp;5 proxy to reach peers via Tor onion services:</source>
@@ -2675,7 +2675,7 @@ Nelze obnovit zálohu peněženky.</translation>
         <translation type="unfinished">Formulář</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Aixcoin network after a connection is established, but this process has not completed yet.</source>
         <translation type="unfinished">Zobrazené informace nemusí být aktuální. Tvá peněženka se automaticky sesynchronizuje s aixcoinovou sítí, jakmile se s ní spojí. Zatím ale ještě není synchronizace dokončena.</translation>
     </message>
     <message>
@@ -2902,7 +2902,7 @@ Vzhledem k rozšířeným bezpečnostním chybám v BIP70 je důrazně doporuče
 Pokud vidíte tuto chybu, měli byste požádat, aby obchodník poskytl adresu kompatibilní s BIP21.</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid Aixcoin address or malformed URI parameters.</source>
         <translation type="unfinished">Nepodařilo se analyzovat URI! Důvodem může být neplatná aixcoinová adresa nebo poškozené parametry URI.</translation>
     </message>
     <message>
@@ -3439,7 +3439,7 @@ Pokud vidíte tuto chybu, měli byste požádat, aby obchodník poskytl adresu k
         <translation type="unfinished">&amp;Zpráva:</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Aixcoin network.</source>
         <translation type="unfinished">Volitelná zpráva, která se připojí k platebnímu požadavku a která se zobrazí, když se požadavek otevře. Poznámka: tahle zpráva se neposílá s platbou po aixcoinové síti.</translation>
     </message>
     <message>
@@ -3814,8 +3814,8 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
         <translation type="unfinished">Vytvořit bez podpisu</translation>
     </message>
     <message>
-        <source>Creates a Partially Signed Bitcoin Transaction (PSBT) for use with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
-        <translation type="unfinished">Vytvořit částečně podepsanou Bitcoin transakci (Partially Signed Bitcoin Transaction - PSBT) k použtí kupříkladu s offline %1 peněženkou nebo s jinou kompatibilní PSBT hardware peněženkou.</translation>
+        <source>Creates a Partially Signed Aixcoin Transaction (PSBT) for use with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
+        <translation type="unfinished">Vytvořit částečně podepsanou Aixcoin transakci (Partially Signed Aixcoin Transaction - PSBT) k použtí kupříkladu s offline %1 peněženkou nebo s jinou kompatibilní PSBT hardware peněženkou.</translation>
     </message>
     <message>
         <source> from wallet '%1'</source>
@@ -3873,7 +3873,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
         <translation type="unfinished">Poplatek můžete navýšit později (vysílá se "Replace-By-Fee" - nahrazení poplatkem, BIP-125).</translation>
     </message>
     <message>
-        <source>Please, review your transaction proposal. This will produce a Partially Signed Bitcoin Transaction (PSBT) which you can save or copy and then sign with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
+        <source>Please, review your transaction proposal. This will produce a Partially Signed Aixcoin Transaction (PSBT) which you can save or copy and then sign with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
         <extracomment>Text to inform a user attempting to create a transaction of their current options. At this stage, a user can only create a PSBT. This string is displayed when private keys are disabled and an external signer is not available.</extracomment>
         <translation type="unfinished">Zkontrolujte prosím svůj návrh transakce. Výsledkem bude částečně podepsaná aixcoinová transakce (PSBT), kterou můžete uložit nebo kopírovat a poté podepsat např. pomocí offline %1 peněženky nebo hardwarové peněženky kompatibilní s PSBT.</translation>
     </message>
@@ -3883,9 +3883,9 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
         <translation type="unfinished">Přejete si vytvořit tuto transakci?</translation>
     </message>
     <message>
-        <source>Please, review your transaction. You can create and send this transaction or create a Partially Signed Bitcoin Transaction (PSBT), which you can save or copy and then sign with, e.g., an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
+        <source>Please, review your transaction. You can create and send this transaction or create a Partially Signed Aixcoin Transaction (PSBT), which you can save or copy and then sign with, e.g., an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
         <extracomment>Text to inform a user attempting to create a transaction of their current options. At this stage, a user can send their transaction or create a PSBT. This string is displayed when both private keys and PSBT controls are enabled.</extracomment>
-        <translation type="unfinished">Prosím ověř svojí transakci. Můžeš vytvořit a odeslat tuto transakci nebo vytvořit Částečně Podepsanou Bitcoinovou Transakci (PSBT), kterou můžeš uložit nebo zkopírovat a poté podepsat např. v offline %1 peněžence, nebo hardwarové peněžence kompatibilní s PSBT.</translation>
+        <translation type="unfinished">Prosím ověř svojí transakci. Můžeš vytvořit a odeslat tuto transakci nebo vytvořit Částečně Podepsanou Aixcoinovou Transakci (PSBT), kterou můžeš uložit nebo zkopírovat a poté podepsat např. v offline %1 peněžence, nebo hardwarové peněžence kompatibilní s PSBT.</translation>
     </message>
     <message>
         <source>Please, review your transaction.</source>
@@ -3949,7 +3949,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
         </translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
+        <source>Warning: Invalid Aixcoin address</source>
         <translation type="unfinished">Upozornění: Neplatná aixcoinová adresa</translation>
     </message>
     <message>
@@ -3988,8 +3988,8 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
         <translation type="unfinished">Vyber již použitou adresu</translation>
     </message>
     <message>
-        <source>The Bitcoin address to send the payment to</source>
-        <translation type="unfinished">Bitcoinová adresa příjemce</translation>
+        <source>The Aixcoin address to send the payment to</source>
+        <translation type="unfinished">Aixcoinová adresa příjemce</translation>
     </message>
     <message>
         <source>Paste address from clipboard</source>
@@ -4024,7 +4024,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
         <translation type="unfinished">Zadej označení této adresy; obojí se ti pak uloží do adresáře</translation>
     </message>
     <message>
-        <source>A message that was attached to the aixcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
+        <source>A message that was attached to the aixcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Aixcoin network.</source>
         <translation type="unfinished">Zpráva, která byla připojena k aixcoin: URI a která se ti pro přehled uloží k transakci. Poznámka: Tahle zpráva se neposílá s platbou po aixcoinové síti.</translation>
     </message>
 </context>
@@ -4054,8 +4054,8 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
         <translation type="unfinished">Podepsáním zprávy/smlouvy svými adresami můžeš prokázat, že jsi na ně schopen přijmout aixcoiny. Buď opatrný a nepodepisuj nic vágního nebo náhodného; například při phishingových útocích můžeš být lákán, abys něco takového podepsal. Podepisuj pouze naprosto úplná a detailní prohlášení, se kterými souhlasíš.</translation>
     </message>
     <message>
-        <source>The Bitcoin address to sign the message with</source>
-        <translation type="unfinished">Bitcoinová adresa, kterou se zpráva podepíše</translation>
+        <source>The Aixcoin address to sign the message with</source>
+        <translation type="unfinished">Aixcoinová adresa, kterou se zpráva podepíše</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -4078,7 +4078,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
         <translation type="unfinished">Zkopíruj tento podpis do schránky</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
+        <source>Sign the message to prove you own this Aixcoin address</source>
         <translation type="unfinished">Podepiš zprávu, čímž prokážeš, že jsi vlastníkem této aixcoinové adresy</translation>
     </message>
     <message>
@@ -4102,8 +4102,8 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
         <translation type="unfinished">K ověření podpisu zprávy zadej adresu příjemce, zprávu (ověř si, že správně kopíruješ zalomení řádků, mezery, tabulátory apod.) a podpis. Dávej pozor na to, abys nezkopíroval do podpisu víc, než co je v samotné podepsané zprávě, abys nebyl napálen man-in-the-middle útokem. Poznamenejme však, že takto lze pouze prokázat, že podepisující je schopný na dané adrese přijmout platbu, ale není možnéprokázat, že odeslal jakoukoli transakci!</translation>
     </message>
     <message>
-        <source>The Bitcoin address the message was signed with</source>
-        <translation type="unfinished">Bitcoinová adresa, kterou je zpráva podepsána</translation>
+        <source>The Aixcoin address the message was signed with</source>
+        <translation type="unfinished">Aixcoinová adresa, kterou je zpráva podepsána</translation>
     </message>
     <message>
         <source>The signed message to verify</source>
@@ -4114,7 +4114,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
         <translation type="unfinished">Podpis daný při podpisu zprávy</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
+        <source>Verify the message to ensure it was signed with the specified Aixcoin address</source>
         <translation type="unfinished">Ověř zprávu, aby ses ujistil, že byla podepsána danou aixcoinovou adresou</translation>
     </message>
     <message>

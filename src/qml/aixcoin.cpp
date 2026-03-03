@@ -1,4 +1,4 @@
-// Copyright (c) 2021 The Bitcoin Core developers
+// Copyright (c) 2021 The Aixcoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -339,7 +339,7 @@ int QmlGuiMain(int argc, char* argv[])
     qmlRegisterType<BlockClockDial>("org.aixcoincore.qt", 1, 0, "BlockClockDial");
     qmlRegisterType<LineGraph>("org.aixcoincore.qt", 1, 0, "LineGraph");
     qmlRegisterUncreatableType<PeerDetailsModel>("org.aixcoincore.qt", 1, 0, "PeerDetailsModel", "");
-    qmlRegisterType<BitcoinAmount>("org.aixcoincore.qt", 1, 0, "BitcoinAmount");
+    qmlRegisterType<AixcoinAmount>("org.aixcoincore.qt", 1, 0, "AixcoinAmount");
     qmlRegisterUncreatableType<Transaction>("org.aixcoincore.qt", 1, 0, "Transaction", "");
     qmlRegisterUncreatableType<SendRecipient>("org.aixcoincore.qt", 1, 0, "SendRecipient", "");
 

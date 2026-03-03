@@ -17,8 +17,8 @@ pkg_add autoconf automake python
 
 See [dependencies.md](dependencies.md) for a complete overview.
 
-### 2. Clone Bitcoin Repo
-Clone the Bitcoin Core repository to a directory. All build scripts and commands will run from this directory.
+### 2. Clone Aixcoin Repo
+Clone the Aixcoin Core repository to a directory. All build scripts and commands will run from this directory.
 ``` bash
 git clone https://github.com/aixcoin/aixcoin.git
 ```
@@ -58,13 +58,13 @@ export BDB_PREFIX="/path/to/aixcoin/depends/x86_64-unknown-openbsd"
 #### GUI Dependencies
 ###### Qt5
 
-Bitcoin Core includes a GUI built with the cross-platform Qt Framework. To compile the GUI, Qt 5 is required.
+Aixcoin Core includes a GUI built with the cross-platform Qt Framework. To compile the GUI, Qt 5 is required.
 
 ```bash
 pkg_add qt5
 ```
 
-## Building Bitcoin Core
+## Building Aixcoin Core
 
 **Important**: Use `gmake` (the non-GNU `make` will exit with an error).
 
@@ -80,7 +80,7 @@ export AUTOMAKE_VERSION=1.16
 
 ### 1. Configuration
 
-There are many ways to configure Bitcoin Core, here are a few common examples:
+There are many ways to configure Aixcoin Core, here are a few common examples:
 
 ##### Descriptor Wallet and GUI:
 This enables the GUI and descriptor wallet support, assuming `sqlite` and `qt5` are installed.

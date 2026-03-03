@@ -1,4 +1,4 @@
-// Copyright (c) 2021 The Bitcoin Core developers
+// Copyright (c) 2021 The Aixcoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -13,7 +13,7 @@ class QQuickWindow;
 QT_END_NAMESPACE
 
 /**
- * Utility functions used by the QML-based Bitcoin Core GUI.
+ * Utility functions used by the QML-based Aixcoin Core GUI.
  */
 namespace QmlUtil {
 /**

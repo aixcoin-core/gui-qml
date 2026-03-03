@@ -1,4 +1,4 @@
-// Copyright (c) 2023 The Bitcoin Core developers
+// Copyright (c) 2023 The Aixcoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -15,9 +15,9 @@ import org.qtproject.qt5.android.bindings.QtService;
 import android.content.Context;
 import android.os.PowerManager;
 
-public class BitcoinQtService extends QtService
+public class AixcoinQtService extends QtService
 {
-    private static final String TAG = "BitcoinQtService";
+    private static final String TAG = "AixcoinQtService";
     private static final int NOTIFICATION_ID = 21000000;
     private PowerManager.WakeLock wakeLock;
     private WifiManager.WifiLock wifiLock;
@@ -33,8 +33,8 @@ public class BitcoinQtService extends QtService
     public void onCreate() {
         super.onCreate();
 
-        CharSequence name = "Bitcoin Core";
-        String description = "Bitcoin Core App notifications";
+        CharSequence name = "Aixcoin Core";
+        String description = "Aixcoin Core App notifications";
         // IMPORTANCE_LOW notifications won't make sound
         int importance = NotificationManager.IMPORTANCE_LOW;
         NotificationChannel channel = new NotificationChannel("aixcoin_channel_id", name, importance);
@@ -43,7 +43,7 @@ public class BitcoinQtService extends QtService
         NotificationManager notificationManager = getSystemService(NotificationManager.class);
         notificationManager.createNotificationChannel(channel);
 
-        Intent intent = new Intent(this, BitcoinQtActivity.class);
+        Intent intent = new Intent(this, AixcoinQtActivity.class);
         PendingIntent pendingIntent = PendingIntent.getActivity(this, 0, intent, 0);
 
         notificationBuilder = new Notification.Builder(this, "aixcoin_channel_id")
@@ -54,10 +54,10 @@ public class BitcoinQtService extends QtService
 
         startForeground(NOTIFICATION_ID, notificationBuilder.build());
         PowerManager powerManager = (PowerManager) getSystemService(Context.POWER_SERVICE);
-        wakeLock = powerManager.newWakeLock(PowerManager.PARTIAL_WAKE_LOCK, "BitcoinCore::IBD");
+        wakeLock = powerManager.newWakeLock(PowerManager.PARTIAL_WAKE_LOCK, "AixcoinCore::IBD");
 
         WifiManager wifiManager = (WifiManager) getSystemService(Context.WIFI_SERVICE);
-        wifiLock = wifiManager.createWifiLock(WifiManager.WIFI_MODE_FULL_HIGH_PERF, "BitcoinCore::WIFI_LOCK");
+        wifiLock = wifiManager.createWifiLock(WifiManager.WIFI_MODE_FULL_HIGH_PERF, "AixcoinCore::WIFI_LOCK");
     }
 
     @Override

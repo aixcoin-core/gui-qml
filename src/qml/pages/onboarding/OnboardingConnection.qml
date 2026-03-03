@@ -1,4 +1,4 @@
-// Copyright (c) 2022 The Bitcoin Core developers
+// Copyright (c) 2022 The Aixcoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -38,7 +38,7 @@ Page {
                 bold: true
                 headerText: qsTr("Starting initial download")
                 headerMargin: 30
-                description: qsTr("The application will connect to the Bitcoin network and start downloading and verifying transactions.\n\nThis may take several hours, or even days, based on your connection.")
+                description: qsTr("The application will connect to the Aixcoin network and start downloading and verifying transactions.\n\nThis may take several hours, or even days, based on your connection.")
                 descriptionMargin: 10
                 detailActive: true
                 detailTopMargin: 10

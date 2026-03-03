@@ -66,8 +66,8 @@
         <translation type="unfinished">Adrešu saņemšana</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished">Šīs ir jūsu Bitcoin adreses, kuras izmantojamas maksājumu veikšanai. Vienmēr pārbaudiet summu un saņēmēja adresi pirms monētu nosūtīšanas.</translation>
+        <source>These are your Aixcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation type="unfinished">Šīs ir jūsu Aixcoin adreses, kuras izmantojamas maksājumu veikšanai. Vienmēr pārbaudiet summu un saņēmēja adresi pirms monētu nosūtīšanas.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -296,7 +296,7 @@
     </message>
     </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>AixcoinGUI</name>
     <message>
         <source>&amp;Overview</source>
         <translation type="unfinished">&amp;Pārskats</translation>
@@ -346,8 +346,8 @@
         <translation type="unfinished">Maciņš:</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation type="unfinished">Nosūtīt bitkoinus uz Bitcoin adresi</translation>
+        <source>Send coins to a Aixcoin address</source>
+        <translation type="unfinished">Nosūtīt bitkoinus uz Aixcoin adresi</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -374,12 +374,12 @@
         <translation type="unfinished">Šifrēt privātās atslēgas kuras pieder tavam maciņam</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation type="unfinished">Parakstīt ziņojumus ar savām Bitcoin adresēm lai pierādītu ka tās pieder tev</translation>
+        <source>Sign messages with your Aixcoin addresses to prove you own them</source>
+        <translation type="unfinished">Parakstīt ziņojumus ar savām Aixcoin adresēm lai pierādītu ka tās pieder tev</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation type="unfinished">Pārbaudīt ziņojumus lai pārliecinātos, ka tie tika parakstīti ar norādītajām Bitcoin adresēm</translation>
+        <source>Verify messages to ensure they were signed with specified Aixcoin addresses</source>
+        <translation type="unfinished">Pārbaudīt ziņojumus lai pārliecinātos, ka tie tika parakstīti ar norādītajām Aixcoin adresēm</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -446,7 +446,7 @@
         <translation type="unfinished">&amp;Logs</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network.</source>
+        <source>%n active connection(s) to Aixcoin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform />
@@ -715,8 +715,8 @@
         <translation type="unfinished">&amp;Tērēt neapstiprinātu atlikumu</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="unfinished">Uz rūtera automātiski atvērt Bitcoin klienta portu. Tas strādā tikai tad, ja rūteris atbalsta UPnP un tas ir ieslēgts.</translation>
+        <source>Automatically open the Aixcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation type="unfinished">Uz rūtera automātiski atvērt Aixcoin klienta portu. Tas strādā tikai tad, ja rūteris atbalsta UPnP un tas ir ieslēgts.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -768,7 +768,7 @@
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
-        <translation type="unfinished">Vai rādīt Bitcoin kontroles funkcijas vai nē.</translation>
+        <translation type="unfinished">Vai rādīt Aixcoin kontroles funkcijas vai nē.</translation>
     </message>
     <message>
         <source>&amp;OK</source>
@@ -812,8 +812,8 @@
         <translation type="unfinished">Forma</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="unfinished">Attēlotā informācija var būt novecojusi. Jūsu maciņš pēc savienojuma izveides automātiski sinhronizējas ar Bitcoin tīklu, taču šis process vēl nav beidzies.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Aixcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation type="unfinished">Attēlotā informācija var būt novecojusi. Jūsu maciņš pēc savienojuma izveides automātiski sinhronizējas ar Aixcoin tīklu, taču šis process vēl nav beidzies.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1048,7 +1048,7 @@
     </message>
     <message>
         <source>Coin Control Features</source>
-        <translation type="unfinished">Bitcoin Kontroles Funkcijas</translation>
+        <translation type="unfinished">Aixcoin Kontroles Funkcijas</translation>
     </message>
     <message>
         <source>automatically selected</source>
@@ -1197,8 +1197,8 @@
         <translation type="unfinished">Kopēt parakstu uz sistēmas starpliktuvi</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation type="unfinished">Parakstīt ziņojumu lai pierādītu, ka esi šīs Bitcoin adreses īpašnieks.</translation>
+        <source>Sign the message to prove you own this Aixcoin address</source>
+        <translation type="unfinished">Parakstīt ziņojumu lai pierādītu, ka esi šīs Aixcoin adreses īpašnieks.</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>

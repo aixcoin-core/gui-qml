@@ -72,11 +72,11 @@
         <context-group purpose="location"><context context-type="linenumber">102</context></context-group>
       </trans-unit>
       <trans-unit id="_msg17">
-        <source xml:space="preserve">These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source xml:space="preserve">These are your Aixcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <context-group purpose="location"><context context-type="linenumber">109</context></context-group>
       </trans-unit>
       <trans-unit id="_msg18">
-        <source xml:space="preserve">These are your Bitcoin addresses for receiving payments. Use the &apos;Create new receiving address&apos; button in the receive tab to create new addresses.
+        <source xml:space="preserve">These are your Aixcoin addresses for receiving payments. Use the &apos;Create new receiving address&apos; button in the receive tab to create new addresses.
 Signing is only possible with addresses of the type &apos;legacy&apos;.</source>
         <context-group purpose="location"><context context-type="linenumber">114</context></context-group>
       </trans-unit>
@@ -278,7 +278,7 @@ Signing is only possible with addresses of the type &apos;legacy&apos;.</source>
     </group>
   </body></file>
   <file original="../aixcoin.cpp" datatype="cpp" source-language="en"><body>
-    <group restype="x-trolltech-linguist-context" resname="BitcoinApplication">
+    <group restype="x-trolltech-linguist-context" resname="AixcoinApplication">
       <trans-unit id="_msg61">
         <source xml:space="preserve">Settings file %1 might be corrupt or invalid.</source>
         <context-group purpose="location"><context context-type="linenumber">267</context></context-group>
@@ -322,7 +322,7 @@ Signing is only possible with addresses of the type &apos;legacy&apos;.</source>
     </group>
   </body></file>
   <file original="../aixcoingui.cpp" datatype="cpp" source-language="en"><body>
-    <group restype="x-trolltech-linguist-context" resname="BitcoinGUI">
+    <group restype="x-trolltech-linguist-context" resname="AixcoinGUI">
       <trans-unit id="_msg70">
         <source xml:space="preserve">&amp;Overview</source>
         <context-group purpose="location"><context context-type="linenumber">253</context></context-group>
@@ -389,7 +389,7 @@ Signing is only possible with addresses of the type &apos;legacy&apos;.</source>
         <context-group purpose="location"><context context-type="linenumber">1433</context></context-group>
       </trans-unit>
       <trans-unit id="_msg86">
-        <source xml:space="preserve">Send coins to a Bitcoin address</source>
+        <source xml:space="preserve">Send coins to a Aixcoin address</source>
         <context-group purpose="location"><context context-type="linenumber">261</context></context-group>
       </trans-unit>
       <trans-unit id="_msg87">
@@ -433,7 +433,7 @@ Signing is only possible with addresses of the type &apos;legacy&apos;.</source>
         <context-group purpose="location"><context context-type="linenumber">317</context></context-group>
       </trans-unit>
       <trans-unit id="_msg97">
-        <source xml:space="preserve">Sign messages with your Bitcoin addresses to prove you own them</source>
+        <source xml:space="preserve">Sign messages with your Aixcoin addresses to prove you own them</source>
         <context-group purpose="location"><context context-type="linenumber">318</context></context-group>
       </trans-unit>
       <trans-unit id="_msg98">
@@ -441,7 +441,7 @@ Signing is only possible with addresses of the type &apos;legacy&apos;.</source>
         <context-group purpose="location"><context context-type="linenumber">319</context></context-group>
       </trans-unit>
       <trans-unit id="_msg99">
-        <source xml:space="preserve">Verify messages to ensure they were signed with specified Bitcoin addresses</source>
+        <source xml:space="preserve">Verify messages to ensure they were signed with specified Aixcoin addresses</source>
         <context-group purpose="location"><context context-type="linenumber">320</context></context-group>
       </trans-unit>
       <trans-unit id="_msg100">
@@ -562,7 +562,7 @@ Signing is only possible with addresses of the type &apos;legacy&apos;.</source>
         <context-group purpose="location"><context context-type="linenumber">296</context></context-group>
       </trans-unit>
       <trans-unit id="_msg128">
-        <source xml:space="preserve">Load Partially Signed Bitcoin Transaction</source>
+        <source xml:space="preserve">Load Partially Signed Aixcoin Transaction</source>
         <context-group purpose="location"><context context-type="linenumber">322</context></context-group>
       </trans-unit>
       <trans-unit id="_msg129">
@@ -570,7 +570,7 @@ Signing is only possible with addresses of the type &apos;legacy&apos;.</source>
         <context-group purpose="location"><context context-type="linenumber">323</context></context-group>
       </trans-unit>
       <trans-unit id="_msg130">
-        <source xml:space="preserve">Load Partially Signed Bitcoin Transaction from clipboard</source>
+        <source xml:space="preserve">Load Partially Signed Aixcoin Transaction from clipboard</source>
         <context-group purpose="location"><context context-type="linenumber">324</context></context-group>
       </trans-unit>
       <trans-unit id="_msg131">
@@ -620,7 +620,7 @@ Signing is only possible with addresses of the type &apos;legacy&apos;.</source>
         <context-group purpose="location"><context context-type="linenumber">359</context></context-group>
       </trans-unit>
       <trans-unit id="_msg142">
-        <source xml:space="preserve">Show the %1 help message to get a list with possible Bitcoin command-line options</source>
+        <source xml:space="preserve">Show the %1 help message to get a list with possible Aixcoin command-line options</source>
         <context-group purpose="location"><context context-type="linenumber">363</context></context-group>
       </trans-unit>
       <trans-unit id="_msg143">
@@ -691,10 +691,10 @@ Signing is only possible with addresses of the type &apos;legacy&apos;.</source>
         <context-group purpose="location"><context context-type="linenumber">994</context></context-group>
         <note annotates="source" from="developer">A substring of the tooltip.</note>
         <trans-unit id="_msg158[0]">
-          <source xml:space="preserve">%n active connection(s) to Bitcoin network.</source>
+          <source xml:space="preserve">%n active connection(s) to Aixcoin network.</source>
         </trans-unit>
         <trans-unit id="_msg158[1]">
-          <source xml:space="preserve">%n active connection(s) to Bitcoin network.</source>
+          <source xml:space="preserve">%n active connection(s) to Aixcoin network.</source>
         </trans-unit>
       </group>
       <trans-unit id="_msg159">
@@ -1191,7 +1191,7 @@ Signing is only possible with addresses of the type &apos;legacy&apos;.</source>
         <context-group purpose="location"><context context-type="linenumber">34</context></context-group>
       </trans-unit>
       <trans-unit id="_msg267">
-        <source xml:space="preserve">The entered address &quot;%1&quot; is not a valid Bitcoin address.</source>
+        <source xml:space="preserve">The entered address &quot;%1&quot; is not a valid Aixcoin address.</source>
         <context-group purpose="location"><context context-type="linenumber">111</context></context-group>
       </trans-unit>
       <trans-unit id="_msg268">
@@ -1237,7 +1237,7 @@ Signing is only possible with addresses of the type &apos;legacy&apos;.</source>
     </group>
     <group restype="x-trolltech-linguist-context" resname="Intro">
       <trans-unit id="_msg277">
-        <source xml:space="preserve">Bitcoin</source>
+        <source xml:space="preserve">Aixcoin</source>
         <context-group purpose="location"><context context-type="linenumber">137</context></context-group>
       </trans-unit>
       <group restype="x-gettext-plurals">
@@ -1290,7 +1290,7 @@ Signing is only possible with addresses of the type &apos;legacy&apos;.</source>
         </trans-unit>
       </group>
       <trans-unit id="_msg285">
-        <source xml:space="preserve">%1 will download and store a copy of the Bitcoin block chain.</source>
+        <source xml:space="preserve">%1 will download and store a copy of the Aixcoin block chain.</source>
         <context-group purpose="location"><context context-type="linenumber">390</context></context-group>
       </trans-unit>
       <trans-unit id="_msg286">
@@ -1637,7 +1637,7 @@ Signing is only possible with addresses of the type &apos;legacy&apos;.</source>
         <context-group purpose="location"><context context-type="linenumber">279</context></context-group>
       </trans-unit>
       <trans-unit id="_msg361">
-        <source xml:space="preserve">Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source xml:space="preserve">Automatically open the Aixcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <context-group purpose="location"><context context-type="linenumber">321</context></context-group>
       </trans-unit>
       <trans-unit id="_msg362">
@@ -1645,7 +1645,7 @@ Signing is only possible with addresses of the type &apos;legacy&apos;.</source>
         <context-group purpose="location"><context context-type="linenumber">324</context></context-group>
       </trans-unit>
       <trans-unit id="_msg363">
-        <source xml:space="preserve">Automatically open the Bitcoin client port on the router. This only works when your router supports NAT-PMP and it is enabled. The external port could be random.</source>
+        <source xml:space="preserve">Automatically open the Aixcoin client port on the router. This only works when your router supports NAT-PMP and it is enabled. The external port could be random.</source>
         <context-group purpose="location"><context context-type="linenumber">331</context></context-group>
       </trans-unit>
       <trans-unit id="_msg364">
@@ -1661,7 +1661,7 @@ Signing is only possible with addresses of the type &apos;legacy&apos;.</source>
         <context-group purpose="location"><context context-type="linenumber">344</context></context-group>
       </trans-unit>
       <trans-unit id="_msg367">
-        <source xml:space="preserve">Connect to the Bitcoin network through a SOCKS5 proxy.</source>
+        <source xml:space="preserve">Connect to the Aixcoin network through a SOCKS5 proxy.</source>
         <context-group purpose="location"><context context-type="linenumber">351</context></context-group>
       </trans-unit>
       <trans-unit id="_msg368">
@@ -1757,7 +1757,7 @@ Signing is only possible with addresses of the type &apos;legacy&apos;.</source>
         <context-group purpose="location"><context context-type="linenumber">238</context></context-group>
       </trans-unit>
       <trans-unit id="_msg390">
-        <source xml:space="preserve">Connect to the Bitcoin network through a separate SOCKS5 proxy for Tor onion services.</source>
+        <source xml:space="preserve">Connect to the Aixcoin network through a separate SOCKS5 proxy for Tor onion services.</source>
         <context-group purpose="location"><context context-type="linenumber">538</context></context-group>
       </trans-unit>
       <trans-unit id="_msg391">
@@ -1873,7 +1873,7 @@ Signing is only possible with addresses of the type &apos;legacy&apos;.</source>
         <context-group purpose="location"><context context-type="linenumber">14</context></context-group>
       </trans-unit>
       <trans-unit id="_msg414">
-        <source xml:space="preserve">The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
+        <source xml:space="preserve">The displayed information may be out of date. Your wallet automatically synchronizes with the Aixcoin network after a connection is established, but this process has not completed yet.</source>
         <context-group purpose="location"><context context-type="linenumber">76</context></context-group>
         <context-group purpose="location"><context context-type="linenumber">411</context></context-group>
       </trans-unit>
@@ -2117,7 +2117,7 @@ If you are receiving this error you should request the merchant provide a BIP21 
         <context-group purpose="location"><context context-type="linenumber">238</context></context-group>
       </trans-unit>
       <trans-unit id="_msg469">
-        <source xml:space="preserve">URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
+        <source xml:space="preserve">URI cannot be parsed! This can be caused by an invalid Aixcoin address or malformed URI parameters.</source>
         <context-group purpose="location"><context context-type="linenumber">228</context></context-group>
       </trans-unit>
       <trans-unit id="_msg470">
@@ -2205,7 +2205,7 @@ If you are receiving this error you should request the merchant provide a BIP21 
   <file original="../guiutil.cpp" datatype="cpp" source-language="en"><body>
     <group restype="x-trolltech-linguist-context" resname="QObject">
       <trans-unit id="_msg484">
-        <source xml:space="preserve">Enter a Bitcoin address (e.g. %1)</source>
+        <source xml:space="preserve">Enter a Aixcoin address (e.g. %1)</source>
         <context-group purpose="location"><context context-type="linenumber">130</context></context-group>
       </trans-unit>
       <trans-unit id="_msg485">
@@ -2966,7 +2966,7 @@ For more information on using this console, type %6.
         <context-group purpose="location"><context context-type="linenumber">53</context></context-group>
       </trans-unit>
       <trans-unit id="_msg638">
-        <source xml:space="preserve">An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
+        <source xml:space="preserve">An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Aixcoin network.</source>
         <context-group purpose="location"><context context-type="linenumber">50</context></context-group>
       </trans-unit>
       <trans-unit id="_msg639">
@@ -3388,7 +3388,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of &quot;100 
         <context-group purpose="location"><context context-type="linenumber">215</context></context-group>
       </trans-unit>
       <trans-unit id="_msg736">
-        <source xml:space="preserve">Creates a Partially Signed Bitcoin Transaction (PSBT) for use with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
+        <source xml:space="preserve">Creates a Partially Signed Aixcoin Transaction (PSBT) for use with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
         <context-group purpose="location"><context context-type="linenumber">216</context></context-group>
       </trans-unit>
       <trans-unit id="_msg737">
@@ -3448,7 +3448,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of &quot;100 
         <context-group purpose="location"><context context-type="linenumber">369</context></context-group>
       </trans-unit>
       <trans-unit id="_msg750">
-        <source xml:space="preserve">Please, review your transaction proposal. This will produce a Partially Signed Bitcoin Transaction (PSBT) which you can save or copy and then sign with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
+        <source xml:space="preserve">Please, review your transaction proposal. This will produce a Partially Signed Aixcoin Transaction (PSBT) which you can save or copy and then sign with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
         <context-group purpose="location"><context context-type="linenumber">338</context></context-group>
         <note annotates="source" from="developer">Text to inform a user attempting to create a transaction of their current options. At this stage, a user can only create a PSBT. This string is displayed when private keys are disabled and an external signer is not available.</note>
       </trans-unit>
@@ -3458,7 +3458,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of &quot;100 
         <note annotates="source" from="developer">Message displayed when attempting to create a transaction. Cautionary text to prompt the user to verify that the displayed transaction details represent the transaction the user intends to create.</note>
       </trans-unit>
       <trans-unit id="_msg752">
-        <source xml:space="preserve">Please, review your transaction. You can create and send this transaction or create a Partially Signed Bitcoin Transaction (PSBT), which you can save or copy and then sign with, e.g., an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
+        <source xml:space="preserve">Please, review your transaction. You can create and send this transaction or create a Partially Signed Aixcoin Transaction (PSBT), which you can save or copy and then sign with, e.g., an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
         <context-group purpose="location"><context context-type="linenumber">343</context></context-group>
         <note annotates="source" from="developer">Text to inform a user attempting to create a transaction of their current options. At this stage, a user can send their transaction or create a PSBT. This string is displayed when both private keys and PSBT controls are enabled.</note>
       </trans-unit>
@@ -3550,7 +3550,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of &quot;100 
         </trans-unit>
       </group>
       <trans-unit id="_msg772">
-        <source xml:space="preserve">Warning: Invalid Bitcoin address</source>
+        <source xml:space="preserve">Warning: Invalid Aixcoin address</source>
         <context-group purpose="location"><context context-type="linenumber">981</context></context-group>
       </trans-unit>
       <trans-unit id="_msg773">
@@ -3590,7 +3590,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of &quot;100 
         <context-group purpose="location"><context context-type="linenumber">60</context></context-group>
       </trans-unit>
       <trans-unit id="_msg781">
-        <source xml:space="preserve">The Bitcoin address to send the payment to</source>
+        <source xml:space="preserve">The Aixcoin address to send the payment to</source>
         <context-group purpose="location"><context context-type="linenumber">53</context></context-group>
       </trans-unit>
       <trans-unit id="_msg782">
@@ -3635,7 +3635,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of &quot;100 
         <context-group purpose="location"><context context-type="linenumber">144</context></context-group>
       </trans-unit>
       <trans-unit id="_msg792">
-        <source xml:space="preserve">A message that was attached to the aixcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
+        <source xml:space="preserve">A message that was attached to the aixcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Aixcoin network.</source>
         <context-group purpose="location"><context context-type="linenumber">202</context></context-group>
       </trans-unit>
     </group>
@@ -3667,7 +3667,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of &quot;100 
         <context-group purpose="location"><context context-type="linenumber">33</context></context-group>
       </trans-unit>
       <trans-unit id="_msg798">
-        <source xml:space="preserve">The Bitcoin address to sign the message with</source>
+        <source xml:space="preserve">The Aixcoin address to sign the message with</source>
         <context-group purpose="location"><context context-type="linenumber">51</context></context-group>
       </trans-unit>
       <trans-unit id="_msg799">
@@ -3702,7 +3702,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of &quot;100 
         <context-group purpose="location"><context context-type="linenumber">140</context></context-group>
       </trans-unit>
       <trans-unit id="_msg806">
-        <source xml:space="preserve">Sign the message to prove you own this Bitcoin address</source>
+        <source xml:space="preserve">Sign the message to prove you own this Aixcoin address</source>
         <context-group purpose="location"><context context-type="linenumber">161</context></context-group>
       </trans-unit>
       <trans-unit id="_msg807">
@@ -3727,7 +3727,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of &quot;100 
         <context-group purpose="location"><context context-type="linenumber">246</context></context-group>
       </trans-unit>
       <trans-unit id="_msg812">
-        <source xml:space="preserve">The Bitcoin address the message was signed with</source>
+        <source xml:space="preserve">The Aixcoin address the message was signed with</source>
         <context-group purpose="location"><context context-type="linenumber">267</context></context-group>
       </trans-unit>
       <trans-unit id="_msg813">
@@ -3741,7 +3741,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of &quot;100 
         <context-group purpose="location"><context context-type="linenumber">309</context></context-group>
       </trans-unit>
       <trans-unit id="_msg815">
-        <source xml:space="preserve">Verify the message to ensure it was signed with the specified Bitcoin address</source>
+        <source xml:space="preserve">Verify the message to ensure it was signed with the specified Aixcoin address</source>
         <context-group purpose="location"><context context-type="linenumber">318</context></context-group>
       </trans-unit>
       <trans-unit id="_msg816">

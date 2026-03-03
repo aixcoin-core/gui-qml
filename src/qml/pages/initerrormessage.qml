@@ -1,4 +1,4 @@
-// Copyright (c) 2021 The Bitcoin Core developers
+// Copyright (c) 2021 The Aixcoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -10,7 +10,7 @@ import "../controls"
 ApplicationWindow {
     id: root
     visible: true
-    title: "Bitcoin Core App"
+    title: "Aixcoin Core App"
     minimumWidth: 500
     minimumHeight: 250
     color: Theme.color.background

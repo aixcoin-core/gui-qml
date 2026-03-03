@@ -66,8 +66,8 @@
         <translation type="unfinished">Adresa na koju se prima</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished">Ovo su Vaše Bitcoin adrese na koju se vrše uplate. Uvek proverite iznos i prijemnu adresu pre slanja novčića.</translation>
+        <source>These are your Aixcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation type="unfinished">Ovo su Vaše Aixcoin adrese na koju se vrše uplate. Uvek proverite iznos i prijemnu adresu pre slanja novčića.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -291,7 +291,7 @@
     </message>
     </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>AixcoinGUI</name>
     <message>
         <source>&amp;Overview</source>
         <translation type="unfinished">&amp;Pregled</translation>
@@ -346,8 +346,8 @@
         <translation type="unfinished">Aktivnost na mreži je prekinuta.</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation type="unfinished">Pošalji novčiće na Bitcoin adresu</translation>
+        <source>Send coins to a Aixcoin address</source>
+        <translation type="unfinished">Pošalji novčiće na Aixcoin adresu</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -370,12 +370,12 @@
         <translation type="unfinished">Enkriptuj privatne ključeve novčanika</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation type="unfinished">Potpišite poruke sa svojim Bitcoin adresama da biste dokazali njihovo vlasništvo</translation>
+        <source>Sign messages with your Aixcoin addresses to prove you own them</source>
+        <translation type="unfinished">Potpišite poruke sa svojim Aixcoin adresama da biste dokazali njihovo vlasništvo</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation type="unfinished">Proverite poruke da biste utvrdili sa kojim Bitcoin adresama su potpisane</translation>
+        <source>Verify messages to ensure they were signed with specified Aixcoin addresses</source>
+        <translation type="unfinished">Proverite poruke da biste utvrdili sa kojim Aixcoin adresama su potpisane</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -426,7 +426,7 @@
         <translation type="unfinished">%1 klijent</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network.</source>
+        <source>%n active connection(s) to Aixcoin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform />

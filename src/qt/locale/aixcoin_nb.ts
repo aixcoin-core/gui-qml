@@ -66,13 +66,13 @@
         <translation type="unfinished">Mottager adresser</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished">Dette er dine Bitcoin adresser for å sende  å sende betalinger. Husk å sjekke beløp og mottager adresser før du sender mynter.</translation>
+        <source>These are your Aixcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation type="unfinished">Dette er dine Aixcoin adresser for å sende  å sende betalinger. Husk å sjekke beløp og mottager adresser før du sender mynter.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
+        <source>These are your Aixcoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
 Signing is only possible with addresses of the type 'legacy'.</source>
-        <translation type="unfinished">Dette er dine Bitcoin adresser for å motta betalinger. Bruk 'Lag ny mottaksadresse' knappen i motta tabben for å lage nye adresser. Signering er bare mulig for adresser av typen 'legacy'.</translation>
+        <translation type="unfinished">Dette er dine Aixcoin adresser for å motta betalinger. Bruk 'Lag ny mottaksadresse' knappen i motta tabben for å lage nye adresser. Signering er bare mulig for adresser av typen 'legacy'.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -243,7 +243,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
 </context>
 <context>
-    <name>BitcoinApplication</name>
+    <name>AixcoinApplication</name>
     <message>
         <source>Runaway exception</source>
         <translation type="unfinished">Løpsk unntak</translation>
@@ -294,8 +294,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Beløp</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
-        <translation type="unfinished">Oppgi en Bitcoin-adresse (f.eks. %1)</translation>
+        <source>Enter a Aixcoin address (e.g. %1)</source>
+        <translation type="unfinished">Oppgi en Aixcoin-adresse (f.eks. %1)</translation>
     </message>
     <message>
         <source>Unroutable</source>
@@ -929,7 +929,7 @@ Kunne ikke gjenopprette sikkerhetskopi av lommebok.</translation>
     </message>
 </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>AixcoinGUI</name>
     <message>
         <source>&amp;Overview</source>
         <translation type="unfinished">&amp;Oversikt</translation>
@@ -992,8 +992,8 @@ Kunne ikke gjenopprette sikkerhetskopi av lommebok.</translation>
         <translation type="unfinished">Proxy er &lt;b&gt;slått på&lt;/b&gt;: %1</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation type="unfinished">Send mynter til en Bitcoin adresse</translation>
+        <source>Send coins to a Aixcoin address</source>
+        <translation type="unfinished">Send mynter til en Aixcoin adresse</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -1036,16 +1036,16 @@ Kunne ikke gjenopprette sikkerhetskopi av lommebok.</translation>
         <translation type="unfinished">Signer &amp;melding...</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation type="unfinished">Signer meldingene med Bitcoin adresse for å bevise at diu eier dem</translation>
+        <source>Sign messages with your Aixcoin addresses to prove you own them</source>
+        <translation type="unfinished">Signer meldingene med Aixcoin adresse for å bevise at diu eier dem</translation>
     </message>
     <message>
         <source>&amp;Verify message…</source>
         <translation type="unfinished">&amp;Verifiser melding...</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation type="unfinished">Verifiser meldinger for å sikre at de ble signert med en angitt Bitcoin adresse</translation>
+        <source>Verify messages to ensure they were signed with specified Aixcoin addresses</source>
+        <translation type="unfinished">Verifiser meldinger for å sikre at de ble signert med en angitt Aixcoin adresse</translation>
     </message>
     <message>
         <source>&amp;Load PSBT from file…</source>
@@ -1163,12 +1163,12 @@ Kunne ikke gjenopprette sikkerhetskopi av lommebok.</translation>
         <translation type="unfinished">Oppdatert</translation>
     </message>
     <message>
-        <source>Load Partially Signed Bitcoin Transaction</source>
-        <translation type="unfinished">Last delvis signert Bitcoin transaksjon</translation>
+        <source>Load Partially Signed Aixcoin Transaction</source>
+        <translation type="unfinished">Last delvis signert Aixcoin transaksjon</translation>
     </message>
     <message>
-        <source>Load Partially Signed Bitcoin Transaction from clipboard</source>
-        <translation type="unfinished">Last Delvis Signert Bitcoin Transaksjon fra utklippstavle</translation>
+        <source>Load Partially Signed Aixcoin Transaction from clipboard</source>
+        <translation type="unfinished">Last Delvis Signert Aixcoin Transaksjon fra utklippstavle</translation>
     </message>
     <message>
         <source>Node window</source>
@@ -1217,8 +1217,8 @@ Kunne ikke gjenopprette sikkerhetskopi av lommebok.</translation>
         <translation type="unfinished">Lukk alle lommebøker</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
-        <translation type="unfinished">Vis %1-hjelpemeldingen for å få en liste over mulige Bitcoin-kommandolinjealternativer</translation>
+        <source>Show the %1 help message to get a list with possible Aixcoin command-line options</source>
+        <translation type="unfinished">Vis %1-hjelpemeldingen for å få en liste over mulige Aixcoin-kommandolinjealternativer</translation>
     </message>
     <message>
         <source>&amp;Mask values</source>
@@ -1269,11 +1269,11 @@ Kunne ikke gjenopprette sikkerhetskopi av lommebok.</translation>
         <translation type="unfinished">%1-klient</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network.</source>
+        <source>%n active connection(s) to Aixcoin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
-            <numerusform> %n aktiv tilkobling til Bitcoin-nettverket.</numerusform>
-            <numerusform>%n aktive tilkoblinger til Bitcoin-nettverket.</numerusform>
+            <numerusform> %n aktiv tilkobling til Aixcoin-nettverket.</numerusform>
+            <numerusform>%n aktive tilkoblinger til Aixcoin-nettverket.</numerusform>
         </translation>
     </message>
     <message>
@@ -1722,8 +1722,8 @@ Kunne ikke gjenopprette sikkerhetskopi av lommebok.</translation>
         <translation type="unfinished">Rediger utsendingsadresse</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation type="unfinished">Den angitte adressen "%1" er ikke en gyldig Bitcoin-adresse.</translation>
+        <source>The entered address "%1" is not a valid Aixcoin address.</source>
+        <translation type="unfinished">Den angitte adressen "%1" er ikke en gyldig Aixcoin-adresse.</translation>
     </message>
     <message>
         <source>Address "%1" already exists as a receiving address with label "%2" and so cannot be added as a sending address.</source>
@@ -1805,8 +1805,8 @@ Kunne ikke gjenopprette sikkerhetskopi av lommebok.</translation>
         </translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Bitcoin block chain.</source>
-        <translation type="unfinished">%1 vil laste ned og lagre en kopi av Bitcoin blokkjeden.</translation>
+        <source>%1 will download and store a copy of the Aixcoin block chain.</source>
+        <translation type="unfinished">%1 vil laste ned og lagre en kopi av Aixcoin blokkjeden.</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -2057,12 +2057,12 @@ Kunne ikke gjenopprette sikkerhetskopi av lommebok.</translation>
         <translation type="unfinished">&amp;Ekstern undertegner skriptsti</translation>
     </message>
     <message>
-        <source>Full path to a Bitcoin Core compatible script (e.g. C:\Downloads\hwi.exe or /Users/you/Downloads/hwi.py). Beware: malware can steal your coins!</source>
-        <translation type="unfinished">Fullstendig sti til et Bitcoin Core-kompatibelt skript (f.eks. C:\Downloads\hwi.exe eller /Users/you/Downloads/hwi.py). Advarsel: skadevare kan stjele myntene dine!</translation>
+        <source>Full path to a Aixcoin Core compatible script (e.g. C:\Downloads\hwi.exe or /Users/you/Downloads/hwi.py). Beware: malware can steal your coins!</source>
+        <translation type="unfinished">Fullstendig sti til et Aixcoin Core-kompatibelt skript (f.eks. C:\Downloads\hwi.exe eller /Users/you/Downloads/hwi.py). Advarsel: skadevare kan stjele myntene dine!</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="unfinished">Åpne automatisk Bitcoin klientporten på ruteren. Dette virker kun om din ruter støtter UPnP og dette er påslått.</translation>
+        <source>Automatically open the Aixcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation type="unfinished">Åpne automatisk Aixcoin klientporten på ruteren. Dette virker kun om din ruter støtter UPnP og dette er påslått.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -2077,8 +2077,8 @@ Kunne ikke gjenopprette sikkerhetskopi av lommebok.</translation>
         <translation type="unfinished">Tillatt innkommend&amp;e tilkoblinger</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
-        <translation type="unfinished">Koble til Bitcoin-nettverket gjennom en SOCKS5 proxy.</translation>
+        <source>Connect to the Aixcoin network through a SOCKS5 proxy.</source>
+        <translation type="unfinished">Koble til Aixcoin-nettverket gjennom en SOCKS5 proxy.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -2141,8 +2141,8 @@ Kunne ikke gjenopprette sikkerhetskopi av lommebok.</translation>
         <translation type="unfinished">Skal myntkontroll funksjoner vises eller ikke.</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a separate SOCKS5 proxy for Tor onion services.</source>
-        <translation type="unfinished">Kobl til Bitcoin nettverket gjennom en separat SOCKS5 proxy for Tor onion tjenester. </translation>
+        <source>Connect to the Aixcoin network through a separate SOCKS5 proxy for Tor onion services.</source>
+        <translation type="unfinished">Kobl til Aixcoin nettverket gjennom en separat SOCKS5 proxy for Tor onion tjenester. </translation>
     </message>
     <message>
         <source>Use separate SOCKS&amp;5 proxy to reach peers via Tor onion services:</source>
@@ -2230,8 +2230,8 @@ Kunne ikke gjenopprette sikkerhetskopi av lommebok.</translation>
         <translation type="unfinished">Skjema</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="unfinished">Informasjonen som vises kan være foreldet. Din lommebok synkroniseres automatisk med Bitcoin-nettverket etter at tilkobling er opprettet, men denne prosessen er ikke ferdig enda.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Aixcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation type="unfinished">Informasjonen som vises kan være foreldet. Din lommebok synkroniseres automatisk med Aixcoin-nettverket etter at tilkobling er opprettet, men denne prosessen er ikke ferdig enda.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -2453,7 +2453,7 @@ Grunnet utbredte sikkerhetshull i BIP70 er det sterkt anbefalt å ignorere instr
 Hvis du får denne feilen burde du be forretningsdrivende om å tilby en BIP21 kompatibel URI.</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid Aixcoin address or malformed URI parameters.</source>
         <translation type="unfinished">URI kan ikke fortolkes! Dette kan være forårsaket av en ugyldig aixcoin-adresse eller feilformede URI-parametre.</translation>
     </message>
     <message>
@@ -2943,8 +2943,8 @@ Hvis du får denne feilen burde du be forretningsdrivende om å tilby en BIP21 k
         <translation type="unfinished">&amp;Melding:</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
-        <translation type="unfinished">En valgfri melding å tilknytte betalingsetterspørringen, som vil bli vist når forespørselen er åpnet. Meldingen vil ikke bli sendt med betalingen over Bitcoin-nettverket.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Aixcoin network.</source>
+        <translation type="unfinished">En valgfri melding å tilknytte betalingsetterspørringen, som vil bli vist når forespørselen er åpnet. Meldingen vil ikke bli sendt med betalingen over Aixcoin-nettverket.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -3117,7 +3117,7 @@ Hvis du får denne feilen burde du be forretningsdrivende om å tilby en BIP21 k
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation type="unfinished">Send Bitcoins</translation>
+        <translation type="unfinished">Send Aixcoins</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -3336,9 +3336,9 @@ Hvis du får denne feilen burde du be forretningsdrivende om å tilby en BIP21 k
         <translation type="unfinished">Du kan øke gebyret senere (signaliserer Replace-By-Fee, BIP-125).</translation>
     </message>
     <message>
-        <source>Please, review your transaction proposal. This will produce a Partially Signed Bitcoin Transaction (PSBT) which you can save or copy and then sign with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
+        <source>Please, review your transaction proposal. This will produce a Partially Signed Aixcoin Transaction (PSBT) which you can save or copy and then sign with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
         <extracomment>Text to inform a user attempting to create a transaction of their current options. At this stage, a user can only create a PSBT. This string is displayed when private keys are disabled and an external signer is not available.</extracomment>
-        <translation type="unfinished">Se over ditt transaksjonsforslag. Dette kommer til å produsere en Delvis Signert Bitcoin Transaksjon (PSBT) som du kan lagre eller kopiere og så signere med f.eks. en offline %1 lommebok, eller en PSBT kompatibel hardware lommebok.</translation>
+        <translation type="unfinished">Se over ditt transaksjonsforslag. Dette kommer til å produsere en Delvis Signert Aixcoin Transaksjon (PSBT) som du kan lagre eller kopiere og så signere med f.eks. en offline %1 lommebok, eller en PSBT kompatibel hardware lommebok.</translation>
     </message>
     <message>
         <source>Do you want to create this transaction?</source>
@@ -3406,7 +3406,7 @@ Hvis du får denne feilen burde du be forretningsdrivende om å tilby en BIP21 k
         </translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
+        <source>Warning: Invalid Aixcoin address</source>
         <translation type="unfinished">Advarsel Ugyldig aixcoin-adresse</translation>
     </message>
     <message>
@@ -3445,8 +3445,8 @@ Hvis du får denne feilen burde du be forretningsdrivende om å tilby en BIP21 k
         <translation type="unfinished">Velg tidligere brukt adresse</translation>
     </message>
     <message>
-        <source>The Bitcoin address to send the payment to</source>
-        <translation type="unfinished">Bitcoin-adressen betalingen skal sendes til</translation>
+        <source>The Aixcoin address to send the payment to</source>
+        <translation type="unfinished">Aixcoin-adressen betalingen skal sendes til</translation>
     </message>
     <message>
         <source>Paste address from clipboard</source>
@@ -3481,8 +3481,8 @@ Hvis du får denne feilen burde du be forretningsdrivende om å tilby en BIP21 k
         <translation type="unfinished">Skriv inn en merkelapp for denne adressen for å legge den til listen av brukte adresser</translation>
     </message>
     <message>
-        <source>A message that was attached to the aixcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
-        <translation type="unfinished">En melding som var tilknyttet aixcoinen: URI vil bli lagret med transaksjonen for din oversikt. Denne meldingen vil ikke bli sendt over Bitcoin-nettverket.</translation>
+        <source>A message that was attached to the aixcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Aixcoin network.</source>
+        <translation type="unfinished">En melding som var tilknyttet aixcoinen: URI vil bli lagret med transaksjonen for din oversikt. Denne meldingen vil ikke bli sendt over Aixcoin-nettverket.</translation>
     </message>
 </context>
 <context>
@@ -3507,8 +3507,8 @@ Hvis du får denne feilen burde du be forretningsdrivende om å tilby en BIP21 k
         <translation type="unfinished">Du kan signere meldinger/avtaler med adresser for å bevise at du kan motta aixcoins sendt til dem. Vær forsiktig med å signere noe vagt eller tilfeldig, siden phishing-angrep kan prøve å lure deg til å signere din identitet over til dem. Bare signer fullt detaljerte utsagn som du er enig i.</translation>
     </message>
     <message>
-        <source>The Bitcoin address to sign the message with</source>
-        <translation type="unfinished">Bitcoin-adressen meldingen skal signeres med</translation>
+        <source>The Aixcoin address to sign the message with</source>
+        <translation type="unfinished">Aixcoin-adressen meldingen skal signeres med</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3531,8 +3531,8 @@ Hvis du får denne feilen burde du be forretningsdrivende om å tilby en BIP21 k
         <translation type="unfinished">Kopier valgt signatur til utklippstavle</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation type="unfinished">Signer meldingen for å bevise at du eier denne Bitcoin-adressen</translation>
+        <source>Sign the message to prove you own this Aixcoin address</source>
+        <translation type="unfinished">Signer meldingen for å bevise at du eier denne Aixcoin-adressen</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -3555,8 +3555,8 @@ Hvis du får denne feilen burde du be forretningsdrivende om å tilby en BIP21 k
         <translation type="unfinished">Skriv inn mottakerens adresse, melding (forsikre deg om at du kopier linjeskift, mellomrom, faner osv. nøyaktig) og underskrift nedenfor for å bekrefte meldingen. Vær forsiktig så du ikke leser mer ut av signaturen enn hva som er i den signerte meldingen i seg selv, for å unngå å bli lurt av et man-in-the-middle-angrep. Merk at dette bare beviser at den som signerer kan motta med adressen, dette beviser ikke hvem som har sendt transaksjoner!</translation>
     </message>
     <message>
-        <source>The Bitcoin address the message was signed with</source>
-        <translation type="unfinished">Bitcoin-adressen meldingen ble signert med</translation>
+        <source>The Aixcoin address the message was signed with</source>
+        <translation type="unfinished">Aixcoin-adressen meldingen ble signert med</translation>
     </message>
     <message>
         <source>The signed message to verify</source>
@@ -3567,8 +3567,8 @@ Hvis du får denne feilen burde du be forretningsdrivende om å tilby en BIP21 k
         <translation type="unfinished">signaturen som ble gitt da meldingen ble signert</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation type="unfinished">Verifiser meldingen for å være sikker på at den ble signert av den angitte Bitcoin-adressen</translation>
+        <source>Verify the message to ensure it was signed with the specified Aixcoin address</source>
+        <translation type="unfinished">Verifiser meldingen for å være sikker på at den ble signert av den angitte Aixcoin-adressen</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -4085,7 +4085,7 @@ Gå til Fil &gt; Åpne lommebok for å laste en lommebok.
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation type="unfinished">Send Bitcoins</translation>
+        <translation type="unfinished">Send Aixcoins</translation>
     </message>
     <message>
         <source>Fee bump error</source>

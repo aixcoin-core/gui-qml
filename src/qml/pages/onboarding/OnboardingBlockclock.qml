@@ -1,4 +1,4 @@
-// Copyright (c) 2022 The Bitcoin Core developers
+// Copyright (c) 2022 The Aixcoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -21,7 +21,7 @@ InformationPage {
     }
     bold: true
     headerText: qsTr("The block clock")
-    description: qsTr("The Bitcoin network targets a new block every 10 minutes. " +
+    description: qsTr("The Aixcoin network targets a new block every 10 minutes. " +
         "Sometimes it's faster and sometimes slower.\n\nThe block clock indicates each " +
         "block on a dial that represents the current day.")
     buttonText: qsTr("Next")

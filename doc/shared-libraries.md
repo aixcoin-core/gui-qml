@@ -3,7 +3,7 @@ Shared Libraries
 
 ## aixcoinconsensus
 
-The purpose of this library is to make the verification functionality that is critical to Bitcoin's consensus available to other applications, e.g. to language bindings.
+The purpose of this library is to make the verification functionality that is critical to Aixcoin's consensus available to other applications, e.g. to language bindings.
 
 ### API
 
@@ -44,7 +44,7 @@ The interface is defined in the C header `aixcoinconsensus.h` located in `src/sc
 - `aixcoinconsensus_ERR_INVALID_FLAGS` - Script verification `flags` are invalid (i.e. not part of the libconsensus interface)
 
 ### Example Implementations
-- [NBitcoin](https://github.com/MetacoSA/NBitcoin/blob/5e1055cd7c4186dee4227c344af8892aea54faec/NBitcoin/Script.cs#L979-#L1031) (.NET Bindings)
+- [NAixcoin](https://github.com/MetacoSA/NAixcoin/blob/5e1055cd7c4186dee4227c344af8892aea54faec/NAixcoin/Script.cs#L979-#L1031) (.NET Bindings)
 - [node-libaixcoinconsensus](https://github.com/bitpay/node-libaixcoinconsensus) (Node.js Bindings)
 - [java-libaixcoinconsensus](https://github.com/dexX7/java-libaixcoinconsensus) (Java Bindings)
 - [aixcoinconsensus-php](https://github.com/Bit-Wasp/aixcoinconsensus-php) (PHP Bindings)

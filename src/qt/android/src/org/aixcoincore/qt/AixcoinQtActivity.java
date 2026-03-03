@@ -13,7 +13,7 @@ import org.qtproject.qt5.android.bindings.QtActivity;
 
 import java.io.File;
 
-public class BitcoinQtActivity extends QtActivity
+public class AixcoinQtActivity extends QtActivity
 {
     @Override
     public void onCreate(Bundle savedInstanceState)
@@ -23,7 +23,7 @@ public class BitcoinQtActivity extends QtActivity
             aixcoinDir.mkdir();
         }
 
-        Intent intent = new Intent(this, BitcoinQtService.class);
+        Intent intent = new Intent(this, AixcoinQtService.class);
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             startForegroundService(intent);
         } else {

@@ -1,4 +1,4 @@
-// Copyright (c) 2022 The Bitcoin Core developers
+// Copyright (c) 2022 The Aixcoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -36,15 +36,15 @@ Page {
                     Layout.fillWidth: true
                     Layout.alignment: Qt.AlignCenter
                     source: "image://images/app"
-                    // Bitcoin icon has ~11% padding
+                    // Aixcoin icon has ~11% padding
                     sourceSize.width: 112
                     sourceSize.height: 112
                 }
                 bannerMargin: 0
                 bold: true
-                headerText: qsTr("Bitcoin Core App")
+                headerText: qsTr("Aixcoin Core App")
                 headerSize: 36
-                description: qsTr("Be part of the Bitcoin network.")
+                description: qsTr("Be part of the Aixcoin network.")
                 descriptionMargin: 10
                 descriptionSize: 24
                 subtext: qsTr("100% open-source & open-design")

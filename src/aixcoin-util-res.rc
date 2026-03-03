@@ -14,8 +14,8 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Bitcoin"
-            VALUE "FileDescription",    "aixcoin-util (CLI Bitcoin utility)"
+            VALUE "CompanyName",        "Aixcoin"
+            VALUE "FileDescription",    "aixcoin-util (CLI Aixcoin utility)"
             VALUE "FileVersion",        PACKAGE_VERSION
             VALUE "InternalName",       "aixcoin-util"
             VALUE "LegalCopyright",     COPYRIGHT_STR

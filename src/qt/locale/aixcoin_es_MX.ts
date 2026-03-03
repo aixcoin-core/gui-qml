@@ -234,7 +234,7 @@
     </message>
 </context>
 <context>
-    <name>BitcoinApplication</name>
+    <name>AixcoinApplication</name>
     <message>
         <source>Runaway exception</source>
         <translation type="unfinished">Excepción fuera de control</translation>
@@ -539,7 +539,7 @@
     </message>
     </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>AixcoinGUI</name>
     <message>
         <source>&amp;Overview</source>
         <translation type="unfinished">&amp;Vista previa</translation>
@@ -602,8 +602,8 @@
         <translation type="unfinished">El proxy está &lt;b&gt;habilitado&lt;/b&gt;: %1</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation type="unfinished">Enviar monedas a una dirección Bitcoin</translation>
+        <source>Send coins to a Aixcoin address</source>
+        <translation type="unfinished">Enviar monedas a una dirección Aixcoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -646,16 +646,16 @@
         <translation type="unfinished">Firmar &amp;mensaje...</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation type="unfinished">Firme mensajes con sus direcciones de Bitcoin para demostrar que los posee</translation>
+        <source>Sign messages with your Aixcoin addresses to prove you own them</source>
+        <translation type="unfinished">Firme mensajes con sus direcciones de Aixcoin para demostrar que los posee</translation>
     </message>
     <message>
         <source>&amp;Verify message…</source>
         <translation type="unfinished">&amp;Verificar mensaje...</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation type="unfinished">Verifique los mensajes para asegurarse de que se firmaron con direcciones de Bitcoin especificadas.</translation>
+        <source>Verify messages to ensure they were signed with specified Aixcoin addresses</source>
+        <translation type="unfinished">Verifique los mensajes para asegurarse de que se firmaron con direcciones de Aixcoin especificadas.</translation>
     </message>
     <message>
         <source>&amp;Load PSBT from file…</source>
@@ -791,7 +791,7 @@ Solicitar pagos (genera códigos QR y aixcoin: URI)
         <translation type="unfinished">Ventana Principal</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network.</source>
+        <source>%n active connection(s) to Aixcoin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform />
@@ -1348,12 +1348,12 @@ Solicitar pagos (genera códigos QR y aixcoin: URI)
         <translation type="unfinished">Dispositivo Externo de Firma (ej. billetera de hardware)</translation>
     </message>
     <message>
-        <source>Full path to a Bitcoin Core compatible script (e.g. C:\Downloads\hwi.exe or /Users/you/Downloads/hwi.py). Beware: malware can steal your coins!</source>
-        <translation type="unfinished">Ruta completa al script compatible con Bitcoin Core (ej. C:\Descargas\hwi.exe o /Usuarios/SuUsuario/Descargas/hwi.py). Cuidado: código malicioso podría robarle sus monedas!</translation>
+        <source>Full path to a Aixcoin Core compatible script (e.g. C:\Downloads\hwi.exe or /Users/you/Downloads/hwi.py). Beware: malware can steal your coins!</source>
+        <translation type="unfinished">Ruta completa al script compatible con Aixcoin Core (ej. C:\Descargas\hwi.exe o /Usuarios/SuUsuario/Descargas/hwi.py). Cuidado: código malicioso podría robarle sus monedas!</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports NAT-PMP and it is enabled. The external port could be random.</source>
-        <translation type="unfinished">Abre el puerto del cliente de Bitcoin en el router automáticamente. Esto solo funciona cuando el router soporta NAT-PMP y está habilitado. El puerto externo podría ser elegido al azar.</translation>
+        <source>Automatically open the Aixcoin client port on the router. This only works when your router supports NAT-PMP and it is enabled. The external port could be random.</source>
+        <translation type="unfinished">Abre el puerto del cliente de Aixcoin en el router automáticamente. Esto solo funciona cuando el router soporta NAT-PMP y está habilitado. El puerto externo podría ser elegido al azar.</translation>
     </message>
     <message>
         <source>Map port using NA&amp;T-PMP</source>
@@ -1738,8 +1738,8 @@ Para obtener más información, escriba %6.
         <translation type="unfinished">Mensaje:</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
-        <translation type="unfinished">Mensaje opcional para agregar a la solicitud de pago, el cual será mostrado cuando la solicitud este abierta. Nota: El mensaje no se manda con el pago a travéz de la red de Bitcoin.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Aixcoin network.</source>
+        <translation type="unfinished">Mensaje opcional para agregar a la solicitud de pago, el cual será mostrado cuando la solicitud este abierta. Nota: El mensaje no se manda con el pago a travéz de la red de Aixcoin.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -2056,8 +2056,8 @@ Nota: Dado que la tasa se calcula por cada byte, una tasa de "100 satoshis por k
         </translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
-        <translation type="unfinished">Advertencia: Dirección de Bitcoin invalida</translation>
+        <source>Warning: Invalid Aixcoin address</source>
+        <translation type="unfinished">Advertencia: Dirección de Aixcoin invalida</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2091,8 +2091,8 @@ Nota: Dado que la tasa se calcula por cada byte, una tasa de "100 satoshis por k
         <translation type="unfinished">Elegir la dirección utilizada anteriormente</translation>
     </message>
     <message>
-        <source>The Bitcoin address to send the payment to</source>
-        <translation type="unfinished">La dirección de Bitcoin para enviar el pago a</translation>
+        <source>The Aixcoin address to send the payment to</source>
+        <translation type="unfinished">La dirección de Aixcoin para enviar el pago a</translation>
     </message>
     <message>
         <source>Paste address from clipboard</source>

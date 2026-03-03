@@ -1,4 +1,4 @@
-// Copyright (c) 2024 The Bitcoin Core developers
+// Copyright (c) 2024 The Aixcoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -50,7 +50,7 @@ Page {
                 spacing: 5
 
                 Item {
-                    BitcoinAmount {
+                    AixcoinAmount {
                         id: aixcoinAmount
                     }
 
@@ -91,12 +91,12 @@ Page {
                         MouseArea {
                             anchors.fill: parent
                             onClicked: {
-                                if (aixcoinAmount.unit == BitcoinAmount.BTC) {
-                                    amountInput.text = aixcoinAmount.convert(amountInput.text, BitcoinAmount.BTC)
-                                    aixcoinAmount.unit = BitcoinAmount.SAT
+                                if (aixcoinAmount.unit == AixcoinAmount.BTC) {
+                                    amountInput.text = aixcoinAmount.convert(amountInput.text, AixcoinAmount.BTC)
+                                    aixcoinAmount.unit = AixcoinAmount.SAT
                                 } else {
-                                    amountInput.text = aixcoinAmount.convert(amountInput.text, BitcoinAmount.SAT)
-                                    aixcoinAmount.unit = BitcoinAmount.BTC
+                                    amountInput.text = aixcoinAmount.convert(amountInput.text, AixcoinAmount.SAT)
+                                    aixcoinAmount.unit = AixcoinAmount.BTC
                                 }
                             }
                         }

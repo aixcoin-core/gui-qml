@@ -66,13 +66,13 @@
         <translation type="unfinished">Direcciones de recepción</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished">Estas son tus direcciones Bitcoin para realizar pagos. Verifica siempre el monto y la dirección de recepción antes de enviar monedas. </translation>
+        <source>These are your Aixcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation type="unfinished">Estas son tus direcciones Aixcoin para realizar pagos. Verifica siempre el monto y la dirección de recepción antes de enviar monedas. </translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
+        <source>These are your Aixcoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
 Signing is only possible with addresses of the type 'legacy'.</source>
-        <translation type="unfinished">Estas son tus direcciones de Bitcoin para recibir pagos. Utilice el botón 'Crear nueva dirección de recepción' en la pestaña Recibir para crear nuevas direcciones. La firma solo es posible con direcciones del tipo 'legacy'</translation>
+        <translation type="unfinished">Estas son tus direcciones de Aixcoin para recibir pagos. Utilice el botón 'Crear nueva dirección de recepción' en la pestaña Recibir para crear nuevas direcciones. La firma solo es posible con direcciones del tipo 'legacy'</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -244,7 +244,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
 </context>
 <context>
-    <name>BitcoinApplication</name>
+    <name>AixcoinApplication</name>
     <message>
         <source>Internal error</source>
         <translation type="unfinished">Error interno</translation>
@@ -407,7 +407,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>AixcoinGUI</name>
     <message>
         <source>&amp;Overview</source>
         <translation type="unfinished">&amp;Vista general</translation>
@@ -449,8 +449,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Minimizar</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation type="unfinished">Enviar monedas a una dirección Bitcoin</translation>
+        <source>Send coins to a Aixcoin address</source>
+        <translation type="unfinished">Enviar monedas a una dirección Aixcoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -477,12 +477,12 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Encriptar las llaves privadas que pertenecen a tu billetera</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation type="unfinished">Firma mensajes con tus direcciones Bitcoin para probar que eres dueño de ellas</translation>
+        <source>Sign messages with your Aixcoin addresses to prove you own them</source>
+        <translation type="unfinished">Firma mensajes con tus direcciones Aixcoin para probar que eres dueño de ellas</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation type="unfinished">Verificar mensajes para asegurar que estaban firmados con direcciones Bitcoin especificas</translation>
+        <source>Verify messages to ensure they were signed with specified Aixcoin addresses</source>
+        <translation type="unfinished">Verificar mensajes para asegurar que estaban firmados con direcciones Aixcoin especificas</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -502,7 +502,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Request payments (generates QR codes and aixcoin: URIs)</source>
-        <translation type="unfinished">Solicitar pagos (genera codigo QR y URL's de Bitcoin)</translation>
+        <translation type="unfinished">Solicitar pagos (genera codigo QR y URL's de Aixcoin)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -552,7 +552,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">&amp;Ventana</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network.</source>
+        <source>%n active connection(s) to Aixcoin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform />
@@ -729,8 +729,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Editar dirección de envío</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation type="unfinished">La dirección introducida "%1" no es una dirección Bitcoin válida.</translation>
+        <source>The entered address "%1" is not a valid Aixcoin address.</source>
+        <translation type="unfinished">La dirección introducida "%1" no es una dirección Aixcoin válida.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -877,8 +877,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Experto</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="unfinished">Abrir automáticamente el puerto del cliente Bitcoin en el router. Esta opción solo funciona si el router admite UPnP y está activado.</translation>
+        <source>Automatically open the Aixcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation type="unfinished">Abrir automáticamente el puerto del cliente Aixcoin en el router. Esta opción solo funciona si el router admite UPnP y está activado.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -974,8 +974,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Desde</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="unfinished">La información mostrada puede estar desactualizada. Su monedero se sincroniza automáticamente con la red Bitcoin después de que se haya establecido una conexión, pero este proceso aún no se ha completado.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Aixcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation type="unfinished">La información mostrada puede estar desactualizada. Su monedero se sincroniza automáticamente con la red Aixcoin después de que se haya establecido una conexión, pero este proceso aún no se ha completado.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1387,12 +1387,12 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         </translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
-        <translation type="unfinished">Alerta: Dirección de Bitcoin inválida</translation>
+        <source>Warning: Invalid Aixcoin address</source>
+        <translation type="unfinished">Alerta: Dirección de Aixcoin inválida</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
-        <translation type="unfinished">Alerta: Dirección de Bitcoin inválida</translation>
+        <translation type="unfinished">Alerta: Dirección de Aixcoin inválida</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1465,8 +1465,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Copiar la firma actual al portapapeles del sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation type="unfinished">Firmar el mensaje para demostrar que se posee esta dirección Bitcoin</translation>
+        <source>Sign the message to prove you own this Aixcoin address</source>
+        <translation type="unfinished">Firmar el mensaje para demostrar que se posee esta dirección Aixcoin</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1485,8 +1485,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">&amp;Verificar mensaje</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation type="unfinished">Verificar el mensaje para comprobar que fue firmado con la dirección Bitcoin indicada</translation>
+        <source>Verify the message to ensure it was signed with the specified Aixcoin address</source>
+        <translation type="unfinished">Verificar el mensaje para comprobar que fue firmado con la dirección Aixcoin indicada</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>

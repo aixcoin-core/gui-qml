@@ -1,4 +1,4 @@
-// Copyright (c) 2024 The Bitcoin Core developers
+// Copyright (c) 2024 The Aixcoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -186,7 +186,7 @@ QList<QSharedPointer<Transaction>> Transaction::fromWalletTx(const interfaces::W
 
                 if (!std::get_if<CNoDestination>(&wtx.txout_address[i]))
                 {
-                    // Sent to Bitcoin Address
+                    // Sent to Aixcoin Address
                     sub->type = Transaction::SendToAddress;
                     sub->address = QString::fromStdString(EncodeDestination(wtx.txout_address[i]));
                 }
@@ -222,7 +222,7 @@ QList<QSharedPointer<Transaction>> Transaction::fromWalletTx(const interfaces::W
                 sub->involvesWatchAddress = mine & ISMINE_WATCH_ONLY;
                 if (wtx.txout_address_is_mine[i])
                 {
-                    // Received by Bitcoin Address
+                    // Received by Aixcoin Address
                     sub->type = Transaction::RecvWithAddress;
                     sub->address = QString::fromStdString(EncodeDestination(wtx.txout_address[i]));
                 }

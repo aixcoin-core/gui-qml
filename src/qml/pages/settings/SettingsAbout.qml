@@ -1,4 +1,4 @@
-// Copyright (c) 2022 The Bitcoin Core developers
+// Copyright (c) 2022 The Aixcoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -17,7 +17,7 @@ InformationPage {
     showHeader: root.onboarding
     headerText: qsTr("About")
     headerMargin: 0
-    description: qsTr("Bitcoin Core is an open source project.\nIf you find it useful, please contribute.\n\n This is experimental software.")
+    description: qsTr("Aixcoin Core is an open source project.\nIf you find it useful, please contribute.\n\n This is experimental software.")
     descriptionMargin: 20
     detailActive: true
     detailItem: AboutOptions {

@@ -66,11 +66,11 @@
         <translation type="unfinished">接收地址</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Aixcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished">这些是你的比特币支付地址。在发送之前，一定要核对金额和接收地址。</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
+        <source>These are your Aixcoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
 Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">你将使用下列比特币地址接受付款。选取收款选项卡中 “产生新收款地址” 按钮来生成新地址。
 签名只能使用“传统”类型的地址。</translation>
@@ -244,7 +244,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
 </context>
 <context>
-    <name>BitcoinApplication</name>
+    <name>AixcoinApplication</name>
     <message>
         <source>Settings file %1 might be corrupt or invalid.</source>
         <translation type="unfinished">设置文件%1可能已损坏或无效。</translation>
@@ -343,7 +343,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>AixcoinGUI</name>
     <message>
         <source>&amp;Overview</source>
         <translation type="unfinished">&amp;概述</translation>
@@ -381,11 +381,11 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">加密您的钱包私钥</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
+        <source>Sign messages with your Aixcoin addresses to prove you own them</source>
         <translation type="unfinished">用您的比特币地址签名信息，以证明拥有它们</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
+        <source>Verify messages to ensure they were signed with specified Aixcoin addresses</source>
         <translation type="unfinished">验证消息，确保它们是用指定的比特币地址签名的</translation>
     </message>
     <message>
@@ -487,8 +487,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">关闭钱包</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
-        <translation type="unfinished">显示%1帮助消息以获得可能包含Bitcoin命令行选项的列表</translation>
+        <source>Show the %1 help message to get a list with possible Aixcoin command-line options</source>
+        <translation type="unfinished">显示%1帮助消息以获得可能包含Aixcoin命令行选项的列表</translation>
     </message>
     <message>
         <source>No wallets available</source>
@@ -511,10 +511,10 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">%1 客户端</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network.</source>
+        <source>%n active connection(s) to Aixcoin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
-            <numerusform>%n active connection(s) to Bitcoin network.</numerusform>
+            <numerusform>%n active connection(s) to Aixcoin network.</numerusform>
         </translation>
     </message>
     </context>

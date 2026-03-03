@@ -1,5 +1,5 @@
 # Icon policy
-This document provides guidelines for contributing icons to Bitcoin Core.
+This document provides guidelines for contributing icons to Aixcoin Core.
 
 ## Preparing Icons
 Both an icon source file, in Scalable Vector Graphics (SVG) format,
@@ -17,18 +17,18 @@ PNGs are used in production due to wide application support, transparency suppor
 and better image quality compared to competing file types such as JPEG.
 
 #### Optimizing Production Files (PNG)
-Production (PNG) files must be processed by the [optimize-pngs.py](https://github.com/aixcoin-core/aixcoin-maintainer-tools/blob/master/optimize-pngs.py) script before their inclusion in Bitcoin Core.
+Production (PNG) files must be processed by the [optimize-pngs.py](https://github.com/aixcoin-core/aixcoin-maintainer-tools/blob/master/optimize-pngs.py) script before their inclusion in Aixcoin Core.
 PNG optimization removes various unnecessary color profiles, ancillary data,
 and text chunks, resulting in a lossless file size reduction.
 
 ## Contributing
-Bitcoin Core primarily uses icons from the [Bitcoin Icon set](https://github.com/BitcoinDesign/Bitcoin-Icons),
-an open source icon set made for Bitcoin applications.
+Aixcoin Core primarily uses icons from the [Aixcoin Icon set](https://github.com/AixcoinDesign/Aixcoin-Icons),
+an open source icon set made for Aixcoin applications.
 If a proposed feature requires an icon to be designed,
-an issue should be opened in the [Bitcoin Icons repo](https://github.com/BitcoinDesign/Bitcoin-Icons/issues)
+an issue should be opened in the [Aixcoin Icons repo](https://github.com/AixcoinDesign/Aixcoin-Icons/issues)
 with the request.
 
-Icons are not to be added to Bitcoin Core prior to a production use case.
+Icons are not to be added to Aixcoin Core prior to a production use case.
 If an icon is not being used, it should be removed.
 
 SVGs are to be included under the `src/qml/res/src` directory.

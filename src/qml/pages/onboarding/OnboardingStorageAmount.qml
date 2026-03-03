@@ -1,4 +1,4 @@
-// Copyright (c) 2022 The Bitcoin Core developers
+// Copyright (c) 2022 The Aixcoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -34,7 +34,7 @@ Page {
                 bold: true
                 headerText: qsTr("Storage")
                 headerMargin: 0
-                description: qsTr("Data retrieved from the Bitcoin network is stored on your device.\nYou have 500GB of storage available.")
+                description: qsTr("Data retrieved from the Aixcoin network is stored on your device.\nYou have 500GB of storage available.")
                 descriptionMargin: 10
                 detailActive: true
                 detailItem: ColumnLayout {

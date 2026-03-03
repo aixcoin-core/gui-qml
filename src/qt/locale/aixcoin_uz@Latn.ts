@@ -66,11 +66,11 @@
         <translation type="unfinished">Qabul qilish manzillari</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished">Quyida to'lovlarni jo'natish uchun Bitcoin manzillaringiz. Coinlarni yuborishdan oldin har doim miqdor va qabul qilish manzilini tekshiring.</translation>
+        <source>These are your Aixcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation type="unfinished">Quyida to'lovlarni jo'natish uchun Aixcoin manzillaringiz. Coinlarni yuborishdan oldin har doim miqdor va qabul qilish manzilini tekshiring.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
+        <source>These are your Aixcoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
 Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Bular to'lovlarni qabul qilish uchun mo'ljallangan Bitkoin manzillar. Yangi manzillar yaratish uchun 'Yangi qabul qilish manzili yaratish' tugmasini ishlating.
 Kirish faqat 'legacy' turidagi manzillar uchun.</translation>
@@ -240,7 +240,7 @@ Kirish faqat 'legacy' turidagi manzillar uchun.</translation>
     </message>
 </context>
 <context>
-    <name>BitcoinApplication</name>
+    <name>AixcoinApplication</name>
     <message>
         <source>Runaway exception</source>
         <translation type="unfinished">qo'shimcha istisno</translation>
@@ -365,7 +365,7 @@ Kirish faqat 'legacy' turidagi manzillar uchun.</translation>
     </message>
 </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>AixcoinGUI</name>
     <message>
         <source>&amp;Overview</source>
         <translation type="unfinished">&amp;Umumiy ko'rinish</translation>
@@ -432,7 +432,7 @@ Kirish faqat 'legacy' turidagi manzillar uchun.</translation>
         <translation type="unfinished">Proksi &lt;b&gt;yoqildi&lt;/b&gt;: %1</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
+        <source>Send coins to a Aixcoin address</source>
         <translation type="unfinished">Bitkoin manziliga coinlarni yuborish</translation>
     </message>
     <message>
@@ -476,7 +476,7 @@ Kirish faqat 'legacy' turidagi manzillar uchun.</translation>
         <translation type="unfinished">Kirish &amp;xabarlashish</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
+        <source>Sign messages with your Aixcoin addresses to prove you own them</source>
         <translation type="unfinished">Bitkoin manzillarga ega ekaningizni tasdiqlash uchun xabarni signlang</translation>
     </message>
     <message>
@@ -484,7 +484,7 @@ Kirish faqat 'legacy' turidagi manzillar uchun.</translation>
         <translation type="unfinished">&amp;Xabarni tasdiqlash</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
+        <source>Verify messages to ensure they were signed with specified Aixcoin addresses</source>
         <translation type="unfinished">Xabar belgilangan Bitkoin manzillari bilan imzolanganligiga ishonch hosil qilish uchun ularni tasdiqlang</translation>
     </message>
     <message>
@@ -603,7 +603,7 @@ Kirish faqat 'legacy' turidagi manzillar uchun.</translation>
         <translation type="unfinished">Hozirgi kunda</translation>
     </message>
     <message>
-        <source>Load Partially Signed Bitcoin Transaction</source>
+        <source>Load Partially Signed Aixcoin Transaction</source>
         <translation type="unfinished">Qisman signlangan Bitkoin tranzaksiyasini yuklash</translation>
     </message>
     <message>
@@ -611,7 +611,7 @@ Kirish faqat 'legacy' turidagi manzillar uchun.</translation>
         <translation type="unfinished">&amp;Nusxalanganlar dan PSBT ni yuklash</translation>
     </message>
     <message>
-        <source>Load Partially Signed Bitcoin Transaction from clipboard</source>
+        <source>Load Partially Signed Aixcoin Transaction from clipboard</source>
         <translation type="unfinished">Nusxalanganlar qisman signlangan Bitkoin tranzaksiyalarini yuklash</translation>
     </message>
     <message>
@@ -651,7 +651,7 @@ Kirish faqat 'legacy' turidagi manzillar uchun.</translation>
         <translation type="unfinished">Barcha hamyonlarni yopish</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
+        <source>Show the %1 help message to get a list with possible Aixcoin command-line options</source>
         <translation type="unfinished">Yozilishi mumkin bo'lgan command-line sozlamalar ro'yxatini olish uchun %1 yordam xabarini ko'rsatish</translation>
     </message>
     <message>
@@ -696,7 +696,7 @@ Kirish faqat 'legacy' turidagi manzillar uchun.</translation>
         <translation type="unfinished">Ko'&amp;rsatish</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network.</source>
+        <source>%n active connection(s) to Aixcoin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform>Bitkoin tarmog'iga %n aktiv ulanishlar.</numerusform>
@@ -1150,8 +1150,8 @@ Kirish faqat 'legacy' turidagi manzillar uchun.</translation>
         <translation type="unfinished">Yuboruvchi manzilini tahrirlash</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation type="unfinished">%1 manzil Bitcoin da mavjud manzil emas</translation>
+        <source>The entered address "%1" is not a valid Aixcoin address.</source>
+        <translation type="unfinished">%1 manzil Aixcoin da mavjud manzil emas</translation>
     </message>
     <message>
         <source>Address "%1" already exists as a receiving address with label "%2" and so cannot be added as a sending address.</source>
@@ -1196,7 +1196,7 @@ Kirish faqat 'legacy' turidagi manzillar uchun.</translation>
 <context>
     <name>Intro</name>
     <message>
-        <source>Bitcoin</source>
+        <source>Aixcoin</source>
         <translation type="unfinished">Bitkoin</translation>
     </message>
     <message numerus="yes">
@@ -1237,8 +1237,8 @@ Kirish faqat 'legacy' turidagi manzillar uchun.</translation>
         </translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Bitcoin block chain.</source>
-        <translation type="unfinished"> Bitcoin blok zanjirining%1 nusxasini yuklab oladi va saqlaydi</translation>
+        <source>%1 will download and store a copy of the Aixcoin block chain.</source>
+        <translation type="unfinished"> Aixcoin blok zanjirining%1 nusxasini yuklab oladi va saqlaydi</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>

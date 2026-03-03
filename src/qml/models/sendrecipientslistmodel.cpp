@@ -1,4 +1,4 @@
-// Copyright (c) 2025 The Bitcoin Core developers
+// Copyright (c) 2025 The Aixcoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -10,7 +10,7 @@ SendRecipientsListModel::SendRecipientsListModel(QObject* parent)
     : QAbstractListModel(parent)
 {
     auto* recipient = new SendRecipient(this);
-    connect(recipient->amount(), &BitcoinAmount::amountChanged,
+    connect(recipient->amount(), &AixcoinAmount::amountChanged,
             this, &SendRecipientsListModel::updateTotalAmount);
     m_recipients.append(recipient);
 }
@@ -51,7 +51,7 @@ void SendRecipientsListModel::add()
     const int row = m_recipients.size();
     beginInsertRows(QModelIndex(), row, row);
     auto* recipient = new SendRecipient(this);
-    connect(recipient->amount(), &BitcoinAmount::amountChanged,
+    connect(recipient->amount(), &AixcoinAmount::amountChanged,
             this, &SendRecipientsListModel::updateTotalAmount);
     if (m_recipients.size() > 0) {
         recipient->amount()->setUnit(m_recipients[m_current]->amount()->unit());
@@ -124,7 +124,7 @@ void SendRecipientsListModel::updateTotalAmount()
 
 QString SendRecipientsListModel::totalAmount() const
 {
-    return BitcoinAmount::satsToBtcString(m_totalAmount);
+    return AixcoinAmount::satsToBtcString(m_totalAmount);
 }
 
 void SendRecipientsListModel::clear()
@@ -138,7 +138,7 @@ void SendRecipientsListModel::clear()
     m_totalAmount = 0;
 
     auto* recipient = new SendRecipient(this);
-    connect(recipient->amount(), &BitcoinAmount::amountChanged,
+    connect(recipient->amount(), &AixcoinAmount::amountChanged,
             this, &SendRecipientsListModel::updateTotalAmount);
     m_recipients.append(recipient);
     endResetModel();

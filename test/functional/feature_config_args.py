@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Copyright (c) 2017-2022 The Bitcoin Core developers
+# Copyright (c) 2017-2022 The Aixcoin Core developers
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 """Test various command line arguments and configuration file parameters."""
@@ -11,12 +11,12 @@ import sys
 import tempfile
 import time
 
-from test_framework.test_framework import BitcoinTestFramework
+from test_framework.test_framework import AixcoinTestFramework
 from test_framework.test_node import ErrorMatch
 from test_framework import util
 
 
-class ConfArgsTest(BitcoinTestFramework):
+class ConfArgsTest(AixcoinTestFramework):
     def add_options(self, parser):
         self.add_wallet_options(parser)
 

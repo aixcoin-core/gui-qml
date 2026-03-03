@@ -1,4 +1,4 @@
-// Copyright (c) 2022 The Bitcoin Core developers
+// Copyright (c) 2022 The Aixcoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -21,7 +21,7 @@ InformationPage {
     }
     bold: true
     headerText: qsTr("Strengthen aixcoin")
-    description: qsTr("Bitcoin Core runs a full Bitcoin node which verifies " +
+    description: qsTr("Aixcoin Core runs a full Aixcoin node which verifies " +
         "the rules of the network are being followed.\n\nUsers running nodes " +
         "is what makes aixcoin so resilient and trustworthy.")
     buttonText: qsTr("Next")

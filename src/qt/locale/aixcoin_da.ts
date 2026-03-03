@@ -66,13 +66,13 @@
         <translation type="unfinished">Modtagelsesadresser</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished">Disse er dine Bitcoin-adresser til afsendelse af betalinger. Tjek altid beløb og modtagelsesadresse, inden du sender aixcoins.</translation>
+        <source>These are your Aixcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation type="unfinished">Disse er dine Aixcoin-adresser til afsendelse af betalinger. Tjek altid beløb og modtagelsesadresse, inden du sender aixcoins.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
+        <source>These are your Aixcoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
 Signing is only possible with addresses of the type 'legacy'.</source>
-        <translation type="unfinished">Disse er dine Bitcoin adresser til at modtage betalinger. Benyt 'Opret ny modtager adresse' knappen i modtag fanen for at oprette nye adresser.</translation>
+        <translation type="unfinished">Disse er dine Aixcoin adresser til at modtage betalinger. Benyt 'Opret ny modtager adresse' knappen i modtag fanen for at oprette nye adresser.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -243,7 +243,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
 </context>
 <context>
-    <name>BitcoinApplication</name>
+    <name>AixcoinApplication</name>
     <message>
         <source>Settings file %1 might be corrupt or invalid.</source>
         <translation type="unfinished">Indstillings filen 1%1 kan være korrupt eller invalid.</translation>
@@ -302,8 +302,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Beløb</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
-        <translation type="unfinished">Indtast en Bitcoin-adresse (fx %1)</translation>
+        <source>Enter a Aixcoin address (e.g. %1)</source>
+        <translation type="unfinished">Indtast en Aixcoin-adresse (fx %1)</translation>
     </message>
     <message>
         <source>Unroutable</source>
@@ -614,8 +614,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Opgraderingen af -txindex som er startet af en tidligere version kan ikke fuldføres. Genstart med den tidligere version eller kør en fuld -reindex.</translation>
     </message>
     <message>
-        <source>%s request to listen on port %u. This port is considered "bad" and thus it is unlikely that any Bitcoin Core peers connect to it. See doc/p2p-bad-ports.md for details and a full list.</source>
-        <translation type="unfinished">%sanmodning om st lytte på havn%uDenne port betragtes som „dårlig“, og det er derfor usandsynligt, at nogen Bitcoin Core-jævnaldrende opretter forbindelse til den. Se doc/p2p-bad-ports.md for detaljer og en komplet liste.</translation>
+        <source>%s request to listen on port %u. This port is considered "bad" and thus it is unlikely that any Aixcoin Core peers connect to it. See doc/p2p-bad-ports.md for details and a full list.</source>
+        <translation type="unfinished">%sanmodning om st lytte på havn%uDenne port betragtes som „dårlig“, og det er derfor usandsynligt, at nogen Aixcoin Core-jævnaldrende opretter forbindelse til den. Se doc/p2p-bad-ports.md for detaljer og en komplet liste.</translation>
     </message>
     <message>
         <source>Cannot provide specific connections and have addrman find outgoing connections at the same time.</source>
@@ -1059,7 +1059,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
 </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>AixcoinGUI</name>
     <message>
         <source>&amp;Overview</source>
         <translation type="unfinished">&amp;Oversigt</translation>
@@ -1126,8 +1126,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Proxy er &lt;b&gt;aktiveret&lt;/b&gt;: %1</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation type="unfinished">Send aixcoins til en Bitcoin-adresse</translation>
+        <source>Send coins to a Aixcoin address</source>
+        <translation type="unfinished">Send aixcoins til en Aixcoin-adresse</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -1166,16 +1166,16 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Signér &amp;besked</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation type="unfinished">Signér beskeder med dine Bitcoin-adresser for at bevise, at de tilhører dig</translation>
+        <source>Sign messages with your Aixcoin addresses to prove you own them</source>
+        <translation type="unfinished">Signér beskeder med dine Aixcoin-adresser for at bevise, at de tilhører dig</translation>
     </message>
     <message>
         <source>&amp;Verify message…</source>
         <translation type="unfinished">&amp;Verificér besked...</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation type="unfinished">Verificér beskeder for at sikre, at de er signeret med de angivne Bitcoin-adresser</translation>
+        <source>Verify messages to ensure they were signed with specified Aixcoin addresses</source>
+        <translation type="unfinished">Verificér beskeder for at sikre, at de er signeret med de angivne Aixcoin-adresser</translation>
     </message>
     <message>
         <source>&amp;Load PSBT from file…</source>
@@ -1289,16 +1289,16 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Opdateret</translation>
     </message>
     <message>
-        <source>Load Partially Signed Bitcoin Transaction</source>
-        <translation type="unfinished">Indlæs Partvist Signeret Bitcoin-Transaktion</translation>
+        <source>Load Partially Signed Aixcoin Transaction</source>
+        <translation type="unfinished">Indlæs Partvist Signeret Aixcoin-Transaktion</translation>
     </message>
     <message>
         <source>Load PSBT from &amp;clipboard…</source>
         <translation type="unfinished">Indlæs PSBT fra &amp;clipboard</translation>
     </message>
     <message>
-        <source>Load Partially Signed Bitcoin Transaction from clipboard</source>
-        <translation type="unfinished">Indlæs Partvist Signeret Bitcoin-Transaktion fra udklipsholder</translation>
+        <source>Load Partially Signed Aixcoin Transaction from clipboard</source>
+        <translation type="unfinished">Indlæs Partvist Signeret Aixcoin-Transaktion fra udklipsholder</translation>
     </message>
     <message>
         <source>Node window</source>
@@ -1347,8 +1347,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Luk alle tegnebøgerne </translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
-        <translation type="unfinished">Vis %1 hjælpebesked for at få en liste over mulige tilvalg for Bitcoin kommandolinje</translation>
+        <source>Show the %1 help message to get a list with possible Aixcoin command-line options</source>
+        <translation type="unfinished">Vis %1 hjælpebesked for at få en liste over mulige tilvalg for Aixcoin kommandolinje</translation>
     </message>
     <message>
         <source>&amp;Mask values</source>
@@ -1397,11 +1397,11 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">&amp;Vis</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network.</source>
+        <source>%n active connection(s) to Aixcoin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
-            <numerusform>%n aktiv(e) forbindelse(r) til Bitcoin-netværket.</numerusform>
-            <numerusform>%n aktiv(e) forbindelse(r) til Bitcoin-netværket.</numerusform>
+            <numerusform>%n aktiv(e) forbindelse(r) til Aixcoin-netværket.</numerusform>
+            <numerusform>%n aktiv(e) forbindelse(r) til Aixcoin-netværket.</numerusform>
         </translation>
     </message>
     <message>
@@ -1850,8 +1850,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Redigér afsendelsesadresse</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation type="unfinished">Den indtastede adresse “%1” er ikke en gyldig Bitcoin-adresse.</translation>
+        <source>The entered address "%1" is not a valid Aixcoin address.</source>
+        <translation type="unfinished">Den indtastede adresse “%1” er ikke en gyldig Aixcoin-adresse.</translation>
     </message>
     <message>
         <source>Address "%1" already exists as a receiving address with label "%2" and so cannot be added as a sending address.</source>
@@ -1933,8 +1933,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         </translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Bitcoin block chain.</source>
-        <translation type="unfinished">%1 vil downloade og gemme en kopi af Bitcoin-blokkæden.</translation>
+        <source>%1 will download and store a copy of the Aixcoin block chain.</source>
+        <translation type="unfinished">%1 vil downloade og gemme en kopi af Aixcoin-blokkæden.</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -2221,20 +2221,20 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">&amp;Ekstern underskrivers scriptsti</translation>
     </message>
     <message>
-        <source>Full path to a Bitcoin Core compatible script (e.g. C:\Downloads\hwi.exe or /Users/you/Downloads/hwi.py). Beware: malware can steal your coins!</source>
-        <translation type="unfinished">Fuld sti til et Bitcoin Core-kompatibelt script (f.eks. C:\Downloads\hwi.exe eller /Users/you/Downloads/hwi.py). Pas på: malware kan stjæle dine mønter!</translation>
+        <source>Full path to a Aixcoin Core compatible script (e.g. C:\Downloads\hwi.exe or /Users/you/Downloads/hwi.py). Beware: malware can steal your coins!</source>
+        <translation type="unfinished">Fuld sti til et Aixcoin Core-kompatibelt script (f.eks. C:\Downloads\hwi.exe eller /Users/you/Downloads/hwi.py). Pas på: malware kan stjæle dine mønter!</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="unfinished">Åbn automatisk Bitcoin-klientens port på routeren. Dette virker kun, når din router understøtter UPnP, og UPnP er aktiveret.</translation>
+        <source>Automatically open the Aixcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation type="unfinished">Åbn automatisk Aixcoin-klientens port på routeren. Dette virker kun, når din router understøtter UPnP, og UPnP er aktiveret.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation type="unfinished">Konfigurér port vha. &amp;UPnP</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports NAT-PMP and it is enabled. The external port could be random.</source>
-        <translation type="unfinished">Åbn automatisk Bitcoin-klientporten på routeren. Dette virker kun, når din router understøtter NAT-PMP, og den er aktiveret. Den eksterne port kan være tilfældig.</translation>
+        <source>Automatically open the Aixcoin client port on the router. This only works when your router supports NAT-PMP and it is enabled. The external port could be random.</source>
+        <translation type="unfinished">Åbn automatisk Aixcoin-klientporten på routeren. Dette virker kun, når din router understøtter NAT-PMP, og den er aktiveret. Den eksterne port kan være tilfældig.</translation>
     </message>
     <message>
         <source>Map port using NA&amp;T-PMP</source>
@@ -2249,8 +2249,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Tillad &amp;indkommende forbindelser</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
-        <translation type="unfinished">Forbind til Bitcoin-netværket gennem en SOCKS5-proxy.</translation>
+        <source>Connect to the Aixcoin network through a SOCKS5 proxy.</source>
+        <translation type="unfinished">Forbind til Aixcoin-netværket gennem en SOCKS5-proxy.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -2325,8 +2325,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Hvorvidt egenskaber for coin-styring skal vises eller ej.</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a separate SOCKS5 proxy for Tor onion services.</source>
-        <translation type="unfinished">Opret forbindelse til Bitcoin-netværk igennem en separat SOCKS5 proxy til Tor-onion-tjenester.</translation>
+        <source>Connect to the Aixcoin network through a separate SOCKS5 proxy for Tor onion services.</source>
+        <translation type="unfinished">Opret forbindelse til Aixcoin-netværk igennem en separat SOCKS5 proxy til Tor-onion-tjenester.</translation>
     </message>
     <message>
         <source>Use separate SOCKS&amp;5 proxy to reach peers via Tor onion services:</source>
@@ -2422,8 +2422,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Formular</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="unfinished">Den viste information kan være forældet. Din tegnebog synkroniserer automatisk med Bitcoin-netværket, når en forbindelse etableres, men denne proces er ikke gennemført endnu.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Aixcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation type="unfinished">Den viste information kan være forældet. Din tegnebog synkroniserer automatisk med Aixcoin-netværket, når en forbindelse etableres, men denne proces er ikke gennemført endnu.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -2645,8 +2645,8 @@ På grund af udbredte sikkerhedsfejl i BIP70 anbefales det på det kraftigste, a
 Hvis du modtager denne fejl, skal du anmode forhandleren om en BIP21-kompatibel URI.</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
-        <translation type="unfinished">URI kan ikke tolkes! Dette kan skyldes en ugyldig Bitcoin-adresse eller forkert udformede URL-parametre.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Aixcoin address or malformed URI parameters.</source>
+        <translation type="unfinished">URI kan ikke tolkes! Dette kan skyldes en ugyldig Aixcoin-adresse eller forkert udformede URL-parametre.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -3162,8 +3162,8 @@ For mere information om brug af denne konsol, skriv %6.
         <translation type="unfinished">&amp;Besked:</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
-        <translation type="unfinished">En valgfri besked, der føjes til betalingsanmodningen, og som vil vises, når anmodningen åbnes. Bemærk: Beskeden vil ikke sendes sammen med betalingen over Bitcoin-netværket.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Aixcoin network.</source>
+        <translation type="unfinished">En valgfri besked, der føjes til betalingsanmodningen, og som vil vises, når anmodningen åbnes. Bemærk: Beskeden vil ikke sendes sammen med betalingen over Aixcoin-netværket.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -3592,9 +3592,9 @@ Bemærk: Da gebyret beregnes på per-byte-basis, ville en gebyrsats på "100 sat
         <translation type="unfinished">Du kan øge gebyret senere (signalerer erstat-med-gebyr, BIP-125).</translation>
     </message>
     <message>
-        <source>Please, review your transaction proposal. This will produce a Partially Signed Bitcoin Transaction (PSBT) which you can save or copy and then sign with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
+        <source>Please, review your transaction proposal. This will produce a Partially Signed Aixcoin Transaction (PSBT) which you can save or copy and then sign with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
         <extracomment>Text to inform a user attempting to create a transaction of their current options. At this stage, a user can only create a PSBT. This string is displayed when private keys are disabled and an external signer is not available.</extracomment>
-        <translation type="unfinished">Gennemse venligst dit transaktionsforslag. Dette vil producere en Partvist Signeret Bitcoin Transaktion (PSBT), som du kan gemme eller kopiere, og så signere med f.eks. en offline %1 pung, eller en PSBT-kompatibel maskinelpung.</translation>
+        <translation type="unfinished">Gennemse venligst dit transaktionsforslag. Dette vil producere en Partvist Signeret Aixcoin Transaktion (PSBT), som du kan gemme eller kopiere, og så signere med f.eks. en offline %1 pung, eller en PSBT-kompatibel maskinelpung.</translation>
     </message>
     <message>
         <source>Do you want to create this transaction?</source>
@@ -3602,9 +3602,9 @@ Bemærk: Da gebyret beregnes på per-byte-basis, ville en gebyrsats på "100 sat
         <translation type="unfinished">Vil du oprette denne transaktion?</translation>
     </message>
     <message>
-        <source>Please, review your transaction. You can create and send this transaction or create a Partially Signed Bitcoin Transaction (PSBT), which you can save or copy and then sign with, e.g., an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
+        <source>Please, review your transaction. You can create and send this transaction or create a Partially Signed Aixcoin Transaction (PSBT), which you can save or copy and then sign with, e.g., an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
         <extracomment>Text to inform a user attempting to create a transaction of their current options. At this stage, a user can send their transaction or create a PSBT. This string is displayed when both private keys and PSBT controls are enabled.</extracomment>
-        <translation type="unfinished">Gennemgå venligst din transaktion. Du kan oprette og sende denne transaktion eller oprette en delvist underskrevet Bitcoin-transaktion (PSBT), som du kan gemme eller kopiere og derefter underskrive med, f.eks. en offline %1 tegnebog eller en PSBT-kompatibel hardwaretegnebog.</translation>
+        <translation type="unfinished">Gennemgå venligst din transaktion. Du kan oprette og sende denne transaktion eller oprette en delvist underskrevet Aixcoin-transaktion (PSBT), som du kan gemme eller kopiere og derefter underskrive med, f.eks. en offline %1 tegnebog eller en PSBT-kompatibel hardwaretegnebog.</translation>
     </message>
     <message>
         <source>Please, review your transaction.</source>
@@ -3667,8 +3667,8 @@ Bemærk: Da gebyret beregnes på per-byte-basis, ville en gebyrsats på "100 sat
         </translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
-        <translation type="unfinished">Advarsel: Ugyldig Bitcoin-adresse</translation>
+        <source>Warning: Invalid Aixcoin address</source>
+        <translation type="unfinished">Advarsel: Ugyldig Aixcoin-adresse</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -3706,8 +3706,8 @@ Bemærk: Da gebyret beregnes på per-byte-basis, ville en gebyrsats på "100 sat
         <translation type="unfinished">Vælg tidligere brugt adresse</translation>
     </message>
     <message>
-        <source>The Bitcoin address to send the payment to</source>
-        <translation type="unfinished">Bitcoin-adresse, som betalingen skal sendes til</translation>
+        <source>The Aixcoin address to send the payment to</source>
+        <translation type="unfinished">Aixcoin-adresse, som betalingen skal sendes til</translation>
     </message>
     <message>
         <source>Paste address from clipboard</source>
@@ -3742,8 +3742,8 @@ Bemærk: Da gebyret beregnes på per-byte-basis, ville en gebyrsats på "100 sat
         <translation type="unfinished">Indtast et mærkat for denne adresse for at føje den til listen over brugte adresser</translation>
     </message>
     <message>
-        <source>A message that was attached to the aixcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
-        <translation type="unfinished">En besked, som blev føjet til “aixcoin:”-URI'en, som vil gemmes med transaktionen til din reference. Bemærk: Denne besked vil ikke blive sendt over Bitcoin-netværket.</translation>
+        <source>A message that was attached to the aixcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Aixcoin network.</source>
+        <translation type="unfinished">En besked, som blev føjet til “aixcoin:”-URI'en, som vil gemmes med transaktionen til din reference. Bemærk: Denne besked vil ikke blive sendt over Aixcoin-netværket.</translation>
     </message>
 </context>
 <context>
@@ -3772,8 +3772,8 @@ Bemærk: Da gebyret beregnes på per-byte-basis, ville en gebyrsats på "100 sat
         <translation type="unfinished">Du kan signere beskeder/aftaler med dine adresser for at bevise, at du kan modtage aixcoin, der bliver sendt til adresserne. Vær forsigtig med ikke at signere noget vagt eller tilfældigt, da eventuelle phishing-angreb kan snyde dig til at overlade din identitet til dem. Signér kun fuldt ud detaljerede udsagn, som du er enig i.</translation>
     </message>
     <message>
-        <source>The Bitcoin address to sign the message with</source>
-        <translation type="unfinished">Bitcoin-adresse, som beskeden skal signeres med</translation>
+        <source>The Aixcoin address to sign the message with</source>
+        <translation type="unfinished">Aixcoin-adresse, som beskeden skal signeres med</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3796,8 +3796,8 @@ Bemærk: Da gebyret beregnes på per-byte-basis, ville en gebyrsats på "100 sat
         <translation type="unfinished">Kopiér den nuværende signatur til systemets udklipsholder</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation type="unfinished">Signér denne besked for at bevise, at Bitcoin-adressen tilhører dig</translation>
+        <source>Sign the message to prove you own this Aixcoin address</source>
+        <translation type="unfinished">Signér denne besked for at bevise, at Aixcoin-adressen tilhører dig</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -3820,8 +3820,8 @@ Bemærk: Da gebyret beregnes på per-byte-basis, ville en gebyrsats på "100 sat
         <translation type="unfinished">Indtast modtagerens adresse, besked (vær sikker på at kopiere linjeskift, mellemrum, tabuleringer, etc. præcist) og signatur herunder for at verificere beskeden. Vær forsigtig med ikke at læse noget ud fra signaturen, som ikke står i selve beskeden, for at undgå at blive snydt af et eventuelt man-in-the-middle-angreb. Bemærk, at dette kun beviser, at den signerende person kan modtage med adressen; det kan ikke bevise hvem der har sendt en given transaktion!</translation>
     </message>
     <message>
-        <source>The Bitcoin address the message was signed with</source>
-        <translation type="unfinished">Bitcoin-adressen, som beskeden blev signeret med</translation>
+        <source>The Aixcoin address the message was signed with</source>
+        <translation type="unfinished">Aixcoin-adressen, som beskeden blev signeret med</translation>
     </message>
     <message>
         <source>The signed message to verify</source>
@@ -3832,8 +3832,8 @@ Bemærk: Da gebyret beregnes på per-byte-basis, ville en gebyrsats på "100 sat
         <translation type="unfinished">Signaturen som blev givet da meddelelsen blev signeret</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation type="unfinished">Verificér beskeden for at sikre, at den er signeret med den angivne Bitcoin-adresse</translation>
+        <source>Verify the message to ensure it was signed with the specified Aixcoin address</source>
+        <translation type="unfinished">Verificér beskeden for at sikre, at den er signeret med den angivne Aixcoin-adresse</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>

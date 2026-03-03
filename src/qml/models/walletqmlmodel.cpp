@@ -1,5 +1,5 @@
 
-// Copyright (c) 2024 The Bitcoin Core developers
+// Copyright (c) 2024 The Aixcoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -52,7 +52,7 @@ QString WalletQmlModel::balance() const
     if (!m_wallet) {
         return "0";
     }
-    return BitcoinUnits::format(BitcoinUnits::Unit::BTC, m_wallet->getBalance());
+    return AixcoinUnits::format(AixcoinUnits::Unit::BTC, m_wallet->getBalance());
 }
 
 QString WalletQmlModel::name() const

@@ -12,10 +12,10 @@
 
     <supports-screens android:largeScreens="true" android:normalScreens="true" android:anyDensity="true" android:smallScreens="true"/>
 
-    <application android:hardwareAccelerated="true" android:name="org.qtproject.qt5.android.bindings.QtApplication" android:label="Bitcoin Core">
+    <application android:hardwareAccelerated="true" android:name="org.qtproject.qt5.android.bindings.QtApplication" android:label="Aixcoin Core">
         <activity android:configChanges="orientation|uiMode|screenLayout|screenSize|smallestScreenSize|layoutDirection|locale|fontScale|keyboard|keyboardHidden|navigation|mcc|mnc|density"
-                  android:name="org.aixcoincore.qt.BitcoinQtActivity"
-                  android:label="Bitcoin Core"
+                  android:name="org.aixcoincore.qt.AixcoinQtActivity"
+                  android:label="Aixcoin Core"
                   android:icon="@drawable/aixcoin"
                   android:screenOrientation="unspecified"
                   android:launchMode="singleTop">
@@ -36,7 +36,7 @@
             <meta-data android:name="android.app.extract_android_style" android:value="default"/>
             <meta-data android:name="android.app.load_local_libs_resource_id" android:resource="@array/load_local_libs"/>
         </activity>
-        <service android:name="org.aixcoincore.qt.BitcoinQtService" android:exported="true">
+        <service android:name="org.aixcoincore.qt.AixcoinQtService" android:exported="true">
             <meta-data android:name="android.app.background_running" android:value="true"/>
         </service>
     </application>

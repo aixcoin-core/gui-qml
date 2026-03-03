@@ -96,7 +96,7 @@ src/qt/aixcoin-qt.includes
 Makefile
 !depends/Makefile
 src/qt/aixcoin-qt
-Bitcoin-Qt.app
+Aixcoin-Qt.app
 
 # Qt Creator
 Makefile.am.user

@@ -66,13 +66,13 @@
         <translation type="unfinished">Endereços de receção</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished">Estes são os seus endereços Bitcoin para enviar pagamentos. Verifique sempre o valor e o endereço de receção antes de enviar moedas.</translation>
+        <source>These are your Aixcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation type="unfinished">Estes são os seus endereços Aixcoin para enviar pagamentos. Verifique sempre o valor e o endereço de receção antes de enviar moedas.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
+        <source>These are your Aixcoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
 Signing is only possible with addresses of the type 'legacy'.</source>
-        <translation type="unfinished">Estes são seus novos endereços Bitcoin para o recebimento de pagamentos. Use o botão "Criar novo endereço de recebimento" na aba "Receber"  para criar novos endereços.
+        <translation type="unfinished">Estes são seus novos endereços Aixcoin para o recebimento de pagamentos. Use o botão "Criar novo endereço de recebimento" na aba "Receber"  para criar novos endereços.
 Assinar só é possível com endereços do tipo "legado".</translation>
     </message>
     <message>
@@ -244,7 +244,7 @@ Assinar só é possível com endereços do tipo "legado".</translation>
     </message>
 </context>
 <context>
-    <name>BitcoinApplication</name>
+    <name>AixcoinApplication</name>
     <message>
         <source>Settings file %1 might be corrupt or invalid.</source>
         <translation type="unfinished">O ficheiro de configurações %1 pode estar corrompido ou inválido.</translation>
@@ -303,8 +303,8 @@ Assinar só é possível com endereços do tipo "legado".</translation>
         <translation type="unfinished">Quantia</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
-        <translation type="unfinished">Introduza um endereço Bitcoin (ex. %1)</translation>
+        <source>Enter a Aixcoin address (e.g. %1)</source>
+        <translation type="unfinished">Introduza um endereço Aixcoin (ex. %1)</translation>
     </message>
     <message>
         <source>Unroutable</source>
@@ -966,7 +966,7 @@ A pasta de blocos especificados "%s" não existe.</translation>
     </message>
 </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>AixcoinGUI</name>
     <message>
         <source>&amp;Overview</source>
         <translation type="unfinished">&amp;Resumo</translation>
@@ -1033,8 +1033,8 @@ A pasta de blocos especificados "%s" não existe.</translation>
         <translation type="unfinished">Proxy está &lt;b&gt;ativado&lt;/b&gt;: %1</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation type="unfinished">Enviar moedas para um endereço Bitcoin</translation>
+        <source>Send coins to a Aixcoin address</source>
+        <translation type="unfinished">Enviar moedas para um endereço Aixcoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -1077,16 +1077,16 @@ A pasta de blocos especificados "%s" não existe.</translation>
         <translation type="unfinished">Assinar &amp;mensagem…</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation type="unfinished">Assine as mensagens com os seus endereços Bitcoin para provar que é o proprietário dos mesmos</translation>
+        <source>Sign messages with your Aixcoin addresses to prove you own them</source>
+        <translation type="unfinished">Assine as mensagens com os seus endereços Aixcoin para provar que é o proprietário dos mesmos</translation>
     </message>
     <message>
         <source>&amp;Verify message…</source>
         <translation type="unfinished">&amp;Verificar mensagem…</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation type="unfinished">Verifique mensagens para assegurar que foram assinadas com o endereço Bitcoin especificado</translation>
+        <source>Verify messages to ensure they were signed with specified Aixcoin addresses</source>
+        <translation type="unfinished">Verifique mensagens para assegurar que foram assinadas com o endereço Aixcoin especificado</translation>
     </message>
     <message>
         <source>&amp;Load PSBT from file…</source>
@@ -1204,16 +1204,16 @@ A pasta de blocos especificados "%s" não existe.</translation>
         <translation type="unfinished">Atualizado</translation>
     </message>
     <message>
-        <source>Load Partially Signed Bitcoin Transaction</source>
-        <translation type="unfinished">Carregar transação de Bitcoin parcialmente assinada</translation>
+        <source>Load Partially Signed Aixcoin Transaction</source>
+        <translation type="unfinished">Carregar transação de Aixcoin parcialmente assinada</translation>
     </message>
     <message>
         <source>Load PSBT from &amp;clipboard…</source>
         <translation type="unfinished">Carregar PSBT da área de transferência...</translation>
     </message>
     <message>
-        <source>Load Partially Signed Bitcoin Transaction from clipboard</source>
-        <translation type="unfinished">Carregar transação de Bitcoin parcialmente assinada da área de transferência.</translation>
+        <source>Load Partially Signed Aixcoin Transaction from clipboard</source>
+        <translation type="unfinished">Carregar transação de Aixcoin parcialmente assinada da área de transferência.</translation>
     </message>
     <message>
         <source>Node window</source>
@@ -1262,7 +1262,7 @@ A pasta de blocos especificados "%s" não existe.</translation>
         <translation type="unfinished">Fechar todas carteiras.</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
+        <source>Show the %1 help message to get a list with possible Aixcoin command-line options</source>
         <translation type="unfinished">Mostrar a mensagem de ajuda %1 para obter uma lista com possíveis opções a usar na linha de comandos.</translation>
     </message>
     <message>
@@ -1326,11 +1326,11 @@ A pasta de blocos especificados "%s" não existe.</translation>
         <translation type="unfinished">Mo&amp;strar</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network.</source>
+        <source>%n active connection(s) to Aixcoin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
-            <numerusform>%n conexão ativa na rede Bitcoin.</numerusform>
-            <numerusform>%n conexões ativas na rede Bitcoin.</numerusform>
+            <numerusform>%n conexão ativa na rede Aixcoin.</numerusform>
+            <numerusform>%n conexões ativas na rede Aixcoin.</numerusform>
         </translation>
     </message>
     <message>
@@ -1817,7 +1817,7 @@ A pasta de blocos especificados "%s" não existe.</translation>
         <translation type="unfinished">Editar o endereço de envio</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
+        <source>The entered address "%1" is not a valid Aixcoin address.</source>
         <translation type="unfinished">O endereço introduzido "%1" não é um endereço aixcoin válido.</translation>
     </message>
     <message>
@@ -1900,8 +1900,8 @@ A pasta de blocos especificados "%s" não existe.</translation>
         </translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Bitcoin block chain.</source>
-        <translation type="unfinished">%1 irá descarregar e armazenar uma cópia da cadeia de blocos da Bitcoin.</translation>
+        <source>%1 will download and store a copy of the Aixcoin block chain.</source>
+        <translation type="unfinished">%1 irá descarregar e armazenar uma cópia da cadeia de blocos da Aixcoin.</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -2049,7 +2049,7 @@ A pasta de blocos especificados "%s" não existe.</translation>
     <name>OpenURIDialog</name>
     <message>
         <source>Open aixcoin URI</source>
-        <translation type="unfinished">Abrir um Bitcoin URI</translation>
+        <translation type="unfinished">Abrir um Aixcoin URI</translation>
     </message>
     <message>
         <source>Paste address from clipboard</source>
@@ -2208,11 +2208,11 @@ A pasta de blocos especificados "%s" não existe.</translation>
         <translation type="unfinished">&amp;Caminho do script para signatário externo </translation>
     </message>
     <message>
-        <source>Full path to a Bitcoin Core compatible script (e.g. C:\Downloads\hwi.exe or /Users/you/Downloads/hwi.py). Beware: malware can steal your coins!</source>
-        <translation type="unfinished">Caminho completo para um script compatível com Bitcoin Core (por exemplo, C: \ Downloads \ hwi.exe ou /Users/you/Downloads/hwi.py). Cuidado: o malware pode roubar suas moedas!</translation>
+        <source>Full path to a Aixcoin Core compatible script (e.g. C:\Downloads\hwi.exe or /Users/you/Downloads/hwi.py). Beware: malware can steal your coins!</source>
+        <translation type="unfinished">Caminho completo para um script compatível com Aixcoin Core (por exemplo, C: \ Downloads \ hwi.exe ou /Users/you/Downloads/hwi.py). Cuidado: o malware pode roubar suas moedas!</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the Aixcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation type="unfinished">Abrir a porta do cliente aixcoin automaticamente no seu router. Isto apenas funciona se o seu router suportar UPnP e este se encontrar ligado.</translation>
     </message>
     <message>
@@ -2220,7 +2220,7 @@ A pasta de blocos especificados "%s" não existe.</translation>
         <translation type="unfinished">Mapear porta usando &amp;UPnP</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports NAT-PMP and it is enabled. The external port could be random.</source>
+        <source>Automatically open the Aixcoin client port on the router. This only works when your router supports NAT-PMP and it is enabled. The external port could be random.</source>
         <translation type="unfinished">Abrir a porta do cliente aixcoin automaticamente no seu router. Isto só funciona se o seu router suportar NAT-PMP e este se encontrar ligado. A porta externa poderá ser aleatória.</translation>
     </message>
     <message>
@@ -2236,8 +2236,8 @@ A pasta de blocos especificados "%s" não existe.</translation>
         <translation type="unfinished">Permitir ligações de "a receber"</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
-        <translation type="unfinished">Conectar à rede da Bitcoin através dum proxy SOCLS5.</translation>
+        <source>Connect to the Aixcoin network through a SOCKS5 proxy.</source>
+        <translation type="unfinished">Conectar à rede da Aixcoin através dum proxy SOCLS5.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -2316,8 +2316,8 @@ A pasta de blocos especificados "%s" não existe.</translation>
         <translation type="unfinished">Escolha se deve mostrar as funcionalidades de controlo de moedas ou não.</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a separate SOCKS5 proxy for Tor onion services.</source>
-        <translation type="unfinished">Conecte-se a rede Bitcoin através de um proxy SOCKS5 separado para serviços Tor Onion</translation>
+        <source>Connect to the Aixcoin network through a separate SOCKS5 proxy for Tor onion services.</source>
+        <translation type="unfinished">Conecte-se a rede Aixcoin através de um proxy SOCKS5 separado para serviços Tor Onion</translation>
     </message>
     <message>
         <source>Use separate SOCKS&amp;5 proxy to reach peers via Tor onion services:</source>
@@ -2421,8 +2421,8 @@ A pasta de blocos especificados "%s" não existe.</translation>
         <translation type="unfinished">Formulário</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="unfinished">A informação mostrada poderá estar desatualizada. A sua carteira sincroniza automaticamente com a rede Bitcoin depois de estabelecer ligação, mas este processo ainda não está completo.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Aixcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation type="unfinished">A informação mostrada poderá estar desatualizada. A sua carteira sincroniza automaticamente com a rede Aixcoin depois de estabelecer ligação, mas este processo ainda não está completo.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -2649,8 +2649,8 @@ Devido a falhas de segurança no BIP70, é recomendado que todas as instruçōes
 Se está a receber este erro, deverá pedir ao comerciante para fornecer um URI compatível com BIP21.</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
-        <translation type="unfinished">URI não foi lido corretamente! Isto pode ser causado por um endereço Bitcoin inválido ou por parâmetros URI malformados.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Aixcoin address or malformed URI parameters.</source>
+        <translation type="unfinished">URI não foi lido corretamente! Isto pode ser causado por um endereço Aixcoin inválido ou por parâmetros URI malformados.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -3157,8 +3157,8 @@ Para mais informação acerca da utilização desta consola, escreva %6.
         <translation type="unfinished">&amp;Mensagem:</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
-        <translation type="unfinished">Uma mensagem opcional para anexar ao pedido de pagamento, que será exibida quando o pedido for aberto. Nota: A mensagem não será enviada com o pagamento através da rede Bitcoin.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Aixcoin network.</source>
+        <translation type="unfinished">Uma mensagem opcional para anexar ao pedido de pagamento, que será exibida quando o pedido for aberto. Nota: A mensagem não será enviada com o pagamento através da rede Aixcoin.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -3528,8 +3528,8 @@ Nota: Como a taxa é calculada por byte, uma taxa de "100 satoshis por kvB" para
         <translation type="unfinished">Criar não assinado</translation>
     </message>
     <message>
-        <source>Creates a Partially Signed Bitcoin Transaction (PSBT) for use with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
-        <translation type="unfinished">Cria uma transação de Bitcoin parcialmente assinada (PSBT)(sigla em inglês) para ser usada por exemplo com uma carteira %1 offline ou uma carteira de hardware compatível com PSBT.</translation>
+        <source>Creates a Partially Signed Aixcoin Transaction (PSBT) for use with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
+        <translation type="unfinished">Cria uma transação de Aixcoin parcialmente assinada (PSBT)(sigla em inglês) para ser usada por exemplo com uma carteira %1 offline ou uma carteira de hardware compatível com PSBT.</translation>
     </message>
     <message>
         <source> from wallet '%1'</source>
@@ -3587,9 +3587,9 @@ Nota: Como a taxa é calculada por byte, uma taxa de "100 satoshis por kvB" para
         <translation type="unfinished">Pode aumentar a taxa depois (sinaliza substituir-por-taxa, BIP-125).</translation>
     </message>
     <message>
-        <source>Please, review your transaction proposal. This will produce a Partially Signed Bitcoin Transaction (PSBT) which you can save or copy and then sign with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
+        <source>Please, review your transaction proposal. This will produce a Partially Signed Aixcoin Transaction (PSBT) which you can save or copy and then sign with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
         <extracomment>Text to inform a user attempting to create a transaction of their current options. At this stage, a user can only create a PSBT. This string is displayed when private keys are disabled and an external signer is not available.</extracomment>
-        <translation type="unfinished">Por favor, reveja sua proposta de transação. Isto irá produzir uma Transação de Bitcoin parcialmente assinada (PSBT, sigla em inglês) a qual você pode salvar ou copiar e então assinar com por exemplo uma carteira %1 offiline ou uma PSBT compatível com carteira de hardware.</translation>
+        <translation type="unfinished">Por favor, reveja sua proposta de transação. Isto irá produzir uma Transação de Aixcoin parcialmente assinada (PSBT, sigla em inglês) a qual você pode salvar ou copiar e então assinar com por exemplo uma carteira %1 offiline ou uma PSBT compatível com carteira de hardware.</translation>
     </message>
     <message>
         <source>Do you want to create this transaction?</source>
@@ -3597,9 +3597,9 @@ Nota: Como a taxa é calculada por byte, uma taxa de "100 satoshis por kvB" para
         <translation type="unfinished">Deseja criar esta transação?</translation>
     </message>
     <message>
-        <source>Please, review your transaction. You can create and send this transaction or create a Partially Signed Bitcoin Transaction (PSBT), which you can save or copy and then sign with, e.g., an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
+        <source>Please, review your transaction. You can create and send this transaction or create a Partially Signed Aixcoin Transaction (PSBT), which you can save or copy and then sign with, e.g., an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
         <extracomment>Text to inform a user attempting to create a transaction of their current options. At this stage, a user can send their transaction or create a PSBT. This string is displayed when both private keys and PSBT controls are enabled.</extracomment>
-        <translation type="unfinished">Por favor, revise sua transação. Você pode assinar e enviar a transação ou criar uma Transação de Bitcoin Parcialmente Assinada (PSBT), que você pode copiar e assinar com, por exemplo, uma carteira %1 offline ou uma carteira física compatível com PSBT.</translation>
+        <translation type="unfinished">Por favor, revise sua transação. Você pode assinar e enviar a transação ou criar uma Transação de Aixcoin Parcialmente Assinada (PSBT), que você pode copiar e assinar com, por exemplo, uma carteira %1 offline ou uma carteira física compatível com PSBT.</translation>
     </message>
     <message>
         <source>Please, review your transaction.</source>
@@ -3662,8 +3662,8 @@ Nota: Como a taxa é calculada por byte, uma taxa de "100 satoshis por kvB" para
         </translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
-        <translation type="unfinished">Aviso: endereço Bitcoin inválido</translation>
+        <source>Warning: Invalid Aixcoin address</source>
+        <translation type="unfinished">Aviso: endereço Aixcoin inválido</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -3701,8 +3701,8 @@ Nota: Como a taxa é calculada por byte, uma taxa de "100 satoshis por kvB" para
         <translation type="unfinished">Escolha o endereço utilizado anteriormente</translation>
     </message>
     <message>
-        <source>The Bitcoin address to send the payment to</source>
-        <translation type="unfinished">O endereço Bitcoin para enviar o pagamento</translation>
+        <source>The Aixcoin address to send the payment to</source>
+        <translation type="unfinished">O endereço Aixcoin para enviar o pagamento</translation>
     </message>
     <message>
         <source>Paste address from clipboard</source>
@@ -3737,8 +3737,8 @@ Nota: Como a taxa é calculada por byte, uma taxa de "100 satoshis por kvB" para
         <translation type="unfinished">Introduza uma etiqueta para este endereço para o adicionar à sua lista de endereços usados</translation>
     </message>
     <message>
-        <source>A message that was attached to the aixcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
-        <translation type="unfinished">Uma mensagem que estava anexada ao URI aixcoin: que será armazenada com a transação para sua referência. Nota: Esta mensagem não será enviada através da rede Bitcoin.</translation>
+        <source>A message that was attached to the aixcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Aixcoin network.</source>
+        <translation type="unfinished">Uma mensagem que estava anexada ao URI aixcoin: que será armazenada com a transação para sua referência. Nota: Esta mensagem não será enviada através da rede Aixcoin.</translation>
     </message>
 </context>
 <context>
@@ -3767,8 +3767,8 @@ Nota: Como a taxa é calculada por byte, uma taxa de "100 satoshis por kvB" para
         <translation type="unfinished">Pode assinar mensagens com os seus endereços para provar que são seus. Tenha atenção ao assinar mensagens ambíguas, pois ataques de phishing podem tentar enganá-lo de modo a assinar a sua identidade para os atacantes. Apenas assine declarações detalhadas com as quais concorde.</translation>
     </message>
     <message>
-        <source>The Bitcoin address to sign the message with</source>
-        <translation type="unfinished">O endereço Bitcoin para designar a mensagem</translation>
+        <source>The Aixcoin address to sign the message with</source>
+        <translation type="unfinished">O endereço Aixcoin para designar a mensagem</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3791,8 +3791,8 @@ Nota: Como a taxa é calculada por byte, uma taxa de "100 satoshis por kvB" para
         <translation type="unfinished">Copiar a assinatura atual para a área de transferência</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation type="unfinished">Assine uma mensagem para provar que é dono deste endereço Bitcoin</translation>
+        <source>Sign the message to prove you own this Aixcoin address</source>
+        <translation type="unfinished">Assine uma mensagem para provar que é dono deste endereço Aixcoin</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -3815,8 +3815,8 @@ Nota: Como a taxa é calculada por byte, uma taxa de "100 satoshis por kvB" para
         <translation type="unfinished">Introduza o endereço de assinatura, mensagem (assegure-se que copia quebras de linha, espaços, tabulações, etc. exatamente) e assinatura abaixo para verificar a mensagem. Tenha atenção para não ler mais na assinatura do que o que estiver na mensagem assinada, para evitar ser enganado por um atacante que se encontre entre si e quem assinou a mensagem.</translation>
     </message>
     <message>
-        <source>The Bitcoin address the message was signed with</source>
-        <translation type="unfinished">O endereço Bitcoin com que a mensagem foi designada</translation>
+        <source>The Aixcoin address the message was signed with</source>
+        <translation type="unfinished">O endereço Aixcoin com que a mensagem foi designada</translation>
     </message>
     <message>
         <source>The signed message to verify</source>
@@ -3827,8 +3827,8 @@ Nota: Como a taxa é calculada por byte, uma taxa de "100 satoshis por kvB" para
         <translation type="unfinished">A assinatura dada quando a mensagem foi assinada</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation type="unfinished">Verifique a mensagem para assegurar que foi assinada com o endereço Bitcoin especificado</translation>
+        <source>Verify the message to ensure it was signed with the specified Aixcoin address</source>
+        <translation type="unfinished">Verifique a mensagem para assegurar que foi assinada com o endereço Aixcoin especificado</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>

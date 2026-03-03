@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Copyright (c) 2018-2022 The Bitcoin Core developers
+# Copyright (c) 2018-2022 The Aixcoin Core developers
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 """Test aixcoin-wallet."""
@@ -11,14 +11,14 @@ import textwrap
 
 from collections import OrderedDict
 
-from test_framework.test_framework import BitcoinTestFramework
+from test_framework.test_framework import AixcoinTestFramework
 from test_framework.util import (
     assert_equal,
     sha256sum_file,
 )
 
 
-class ToolWalletTest(BitcoinTestFramework):
+class ToolWalletTest(AixcoinTestFramework):
     def add_options(self, parser):
         self.add_wallet_options(parser)
 
@@ -170,7 +170,7 @@ class ToolWalletTest(BitcoinTestFramework):
         self.assert_tool_output(load_output, *args)
         assert (self.nodes[0].wallets_path / wallet_name).is_dir()
 
-        self.assert_tool_output("The dumpfile may contain private keys. To ensure the safety of your Bitcoin, do not share the dumpfile.\n", '-wallet={}'.format(wallet_name), '-dumpfile={}'.format(rt_dumppath), 'dump')
+        self.assert_tool_output("The dumpfile may contain private keys. To ensure the safety of your Aixcoin, do not share the dumpfile.\n", '-wallet={}'.format(wallet_name), '-dumpfile={}'.format(rt_dumppath), 'dump')
 
         rt_dump_data = self.read_dump(rt_dumppath)
         wallet_dat = self.nodes[0].wallets_path / wallet_name / "wallet.dat"
@@ -325,7 +325,7 @@ class ToolWalletTest(BitcoinTestFramework):
 
         self.log.info('Checking basic dump')
         wallet_dump = os.path.join(self.nodes[0].datadir, "wallet.dump")
-        self.assert_tool_output('The dumpfile may contain private keys. To ensure the safety of your Bitcoin, do not share the dumpfile.\n', '-wallet=todump', '-dumpfile={}'.format(wallet_dump), 'dump')
+        self.assert_tool_output('The dumpfile may contain private keys. To ensure the safety of your Aixcoin, do not share the dumpfile.\n', '-wallet=todump', '-dumpfile={}'.format(wallet_dump), 'dump')
 
         dump_data = self.read_dump(wallet_dump)
         orig_dump = dump_data.copy()

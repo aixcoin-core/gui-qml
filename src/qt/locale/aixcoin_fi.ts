@@ -66,13 +66,13 @@
         <translation type="unfinished">Vastaanotto-osoitteet</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished">Nämä ovat Bitcoin-osoitteesi maksujen lähettämistä varten. Tarkista aina määrä ja vastaanotto-osoite ennen kolikoiden lähettämistä.</translation>
+        <source>These are your Aixcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation type="unfinished">Nämä ovat Aixcoin-osoitteesi maksujen lähettämistä varten. Tarkista aina määrä ja vastaanotto-osoite ennen kolikoiden lähettämistä.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
+        <source>These are your Aixcoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
 Signing is only possible with addresses of the type 'legacy'.</source>
-        <translation type="unfinished">Nämä ovat Bitcoin-osoitteesi maksujen vastaanottoa varten. Käytä painiketta "Luo uusi vastaanotto-osoite" vastaanottovälilehdessä luodaksesi uusia osoitteita.
+        <translation type="unfinished">Nämä ovat Aixcoin-osoitteesi maksujen vastaanottoa varten. Käytä painiketta "Luo uusi vastaanotto-osoite" vastaanottovälilehdessä luodaksesi uusia osoitteita.
 Allekirjoitus on mahdollista vain 'legacy'-tyyppisillä osoitteilla.</translation>
     </message>
     <message>
@@ -244,7 +244,7 @@ Allekirjoitus on mahdollista vain 'legacy'-tyyppisillä osoitteilla.</translatio
     </message>
 </context>
 <context>
-    <name>BitcoinApplication</name>
+    <name>AixcoinApplication</name>
     <message>
         <source>Settings file %1 might be corrupt or invalid.</source>
         <translation type="unfinished">Asetustiedosto %1 saattaa olla vioittunut tai virheellinen.</translation>
@@ -294,8 +294,8 @@ Allekirjoitus on mahdollista vain 'legacy'-tyyppisillä osoitteilla.</translatio
         <translation type="unfinished">Määrä</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
-        <translation type="unfinished">Syötä Bitcoin-osoite (esim. %1)</translation>
+        <source>Enter a Aixcoin address (e.g. %1)</source>
+        <translation type="unfinished">Syötä Aixcoin-osoite (esim. %1)</translation>
     </message>
     <message>
         <source>Unroutable</source>
@@ -896,7 +896,7 @@ Allekirjoitus on mahdollista vain 'legacy'-tyyppisillä osoitteilla.</translatio
     </message>
 </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>AixcoinGUI</name>
     <message>
         <source>&amp;Overview</source>
         <translation type="unfinished">&amp;Yleisnäkymä</translation>
@@ -959,8 +959,8 @@ Allekirjoitus on mahdollista vain 'legacy'-tyyppisillä osoitteilla.</translatio
         <translation type="unfinished">Välipalvelin on &lt;b&gt;käytössä&lt;/b&gt;: %1</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation type="unfinished">Lähetä kolikoita Bitcoin-osoitteeseen</translation>
+        <source>Send coins to a Aixcoin address</source>
+        <translation type="unfinished">Lähetä kolikoita Aixcoin-osoitteeseen</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -1003,16 +1003,16 @@ Allekirjoitus on mahdollista vain 'legacy'-tyyppisillä osoitteilla.</translatio
         <translation type="unfinished">Allekirjoita &amp;viesti...</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation type="unfinished">Allekirjoita viestisi omalla Bitcoin -osoitteellasi todistaaksesi, että omistat ne</translation>
+        <source>Sign messages with your Aixcoin addresses to prove you own them</source>
+        <translation type="unfinished">Allekirjoita viestisi omalla Aixcoin -osoitteellasi todistaaksesi, että omistat ne</translation>
     </message>
     <message>
         <source>&amp;Verify message…</source>
         <translation type="unfinished">&amp;Varmenna viesti...</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation type="unfinished">Varmista, että viestisi on allekirjoitettu määritetyllä Bitcoin -osoitteella</translation>
+        <source>Verify messages to ensure they were signed with specified Aixcoin addresses</source>
+        <translation type="unfinished">Varmista, että viestisi on allekirjoitettu määritetyllä Aixcoin -osoitteella</translation>
     </message>
     <message>
         <source>&amp;Load PSBT from file…</source>
@@ -1130,11 +1130,11 @@ Allekirjoitus on mahdollista vain 'legacy'-tyyppisillä osoitteilla.</translatio
         <translation type="unfinished">Rahansiirtohistoria on ajan tasalla</translation>
     </message>
     <message>
-        <source>Load Partially Signed Bitcoin Transaction</source>
+        <source>Load Partially Signed Aixcoin Transaction</source>
         <translation type="unfinished">Lataa osittain allekirjoitettu aixcoin-siirtotapahtuma</translation>
     </message>
     <message>
-        <source>Load Partially Signed Bitcoin Transaction from clipboard</source>
+        <source>Load Partially Signed Aixcoin Transaction from clipboard</source>
         <translation type="unfinished">Lataa osittain allekirjoitettu aixcoin-siirtotapahtuma leikepöydältä</translation>
     </message>
     <message>
@@ -1174,8 +1174,8 @@ Allekirjoitus on mahdollista vain 'legacy'-tyyppisillä osoitteilla.</translatio
         <translation type="unfinished">Sulje kaikki lompakot</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
-        <translation type="unfinished">Näytä %1 ohjeet saadaksesi listan mahdollisista Bitcoinin komentorivivalinnoista</translation>
+        <source>Show the %1 help message to get a list with possible Aixcoin command-line options</source>
+        <translation type="unfinished">Näytä %1 ohjeet saadaksesi listan mahdollisista Aixcoinin komentorivivalinnoista</translation>
     </message>
     <message>
         <source>&amp;Mask values</source>
@@ -1224,11 +1224,11 @@ Allekirjoitus on mahdollista vain 'legacy'-tyyppisillä osoitteilla.</translatio
         <translation type="unfinished">&amp;Piilota</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network.</source>
+        <source>%n active connection(s) to Aixcoin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
-            <numerusform>%n aktiivinen yhteys Bitcoin-verkkoon.</numerusform>
-            <numerusform>%n aktiivista yhteyttä Bitcoin-verkkoon.</numerusform>
+            <numerusform>%n aktiivinen yhteys Aixcoin-verkkoon.</numerusform>
+            <numerusform>%n aktiivista yhteyttä Aixcoin-verkkoon.</numerusform>
         </translation>
     </message>
     <message>
@@ -1667,8 +1667,8 @@ Allekirjoitus on mahdollista vain 'legacy'-tyyppisillä osoitteilla.</translatio
         <translation type="unfinished">Muokkaa lähettävää osoitetta</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation type="unfinished">Antamasi osoite "%1" ei ole kelvollinen Bitcoin-osoite.</translation>
+        <source>The entered address "%1" is not a valid Aixcoin address.</source>
+        <translation type="unfinished">Antamasi osoite "%1" ei ole kelvollinen Aixcoin-osoite.</translation>
     </message>
     <message>
         <source>Address "%1" already exists as a receiving address with label "%2" and so cannot be added as a sending address.</source>
@@ -1750,8 +1750,8 @@ Allekirjoitus on mahdollista vain 'legacy'-tyyppisillä osoitteilla.</translatio
         </translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Bitcoin block chain.</source>
-        <translation type="unfinished">%1 lataa ja tallentaa kopion Bitcoinin lohkoketjusta.</translation>
+        <source>%1 will download and store a copy of the Aixcoin block chain.</source>
+        <translation type="unfinished">%1 lataa ja tallentaa kopion Aixcoinin lohkoketjusta.</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -2021,20 +2021,20 @@ Allekirjoitus on mahdollista vain 'legacy'-tyyppisillä osoitteilla.</translatio
         <translation type="unfinished">Ulkopuolinen allekirjoittaja (esim. laitelompakko)</translation>
     </message>
     <message>
-        <source>Full path to a Bitcoin Core compatible script (e.g. C:\Downloads\hwi.exe or /Users/you/Downloads/hwi.py). Beware: malware can steal your coins!</source>
-        <translation type="unfinished">Koko polku Bitcoin Core -yhteensopivaan skriptiin (esim. C:\Downloads\hwi.exe tai /Users/you/Downloads/hwi.py). Varo: haittaohjelma voi varastaa kolikkosi!</translation>
+        <source>Full path to a Aixcoin Core compatible script (e.g. C:\Downloads\hwi.exe or /Users/you/Downloads/hwi.py). Beware: malware can steal your coins!</source>
+        <translation type="unfinished">Koko polku Aixcoin Core -yhteensopivaan skriptiin (esim. C:\Downloads\hwi.exe tai /Users/you/Downloads/hwi.py). Varo: haittaohjelma voi varastaa kolikkosi!</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="unfinished">Avaa Bitcoin-asiakasohjelman portti reitittimellä automaattisesti. Tämä toimii vain, jos reitittimesi tukee UPnP:tä ja se on käytössä.</translation>
+        <source>Automatically open the Aixcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation type="unfinished">Avaa Aixcoin-asiakasohjelman portti reitittimellä automaattisesti. Tämä toimii vain, jos reitittimesi tukee UPnP:tä ja se on käytössä.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation type="unfinished">Portin uudelleenohjaus &amp;UPnP:llä</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports NAT-PMP and it is enabled. The external port could be random.</source>
-        <translation type="unfinished">Avaa reitittimen Bitcoin client-portti automaattisesti. Tämä toimii vain, jos reitittimesi tukee NAT-PMP:tä ja se on käytössä. Ulkoinen portti voi olla satunnainen.</translation>
+        <source>Automatically open the Aixcoin client port on the router. This only works when your router supports NAT-PMP and it is enabled. The external port could be random.</source>
+        <translation type="unfinished">Avaa reitittimen Aixcoin client-portti automaattisesti. Tämä toimii vain, jos reitittimesi tukee NAT-PMP:tä ja se on käytössä. Ulkoinen portti voi olla satunnainen.</translation>
     </message>
     <message>
         <source>Map port using NA&amp;T-PMP</source>
@@ -2049,8 +2049,8 @@ Allekirjoitus on mahdollista vain 'legacy'-tyyppisillä osoitteilla.</translatio
         <translation type="unfinished">Hyväksy sisääntulevia yhteyksiä</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
-        <translation type="unfinished">Yhdistä Bitcoin-verkkoon SOCKS5-välityspalvelimen kautta.</translation>
+        <source>Connect to the Aixcoin network through a SOCKS5 proxy.</source>
+        <translation type="unfinished">Yhdistä Aixcoin-verkkoon SOCKS5-välityspalvelimen kautta.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -2121,8 +2121,8 @@ Allekirjoitus on mahdollista vain 'legacy'-tyyppisillä osoitteilla.</translatio
         <translation type="unfinished">Näytetäänkö kolikkokontrollin ominaisuuksia vai ei</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a separate SOCKS5 proxy for Tor onion services.</source>
-        <translation type="unfinished">Yhdistä Bitcoin-verkkoon erillisen SOCKS5-välityspalvelimen kautta Torin onion-palveluja varten.</translation>
+        <source>Connect to the Aixcoin network through a separate SOCKS5 proxy for Tor onion services.</source>
+        <translation type="unfinished">Yhdistä Aixcoin-verkkoon erillisen SOCKS5-välityspalvelimen kautta Torin onion-palveluja varten.</translation>
     </message>
     <message>
         <source>Use separate SOCKS&amp;5 proxy to reach peers via Tor onion services:</source>
@@ -2214,8 +2214,8 @@ Allekirjoitus on mahdollista vain 'legacy'-tyyppisillä osoitteilla.</translatio
         <translation type="unfinished">Lomake</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="unfinished">Näytetyt tiedot eivät välttämättä ole ajantasalla. Lompakkosi synkronoituu Bitcoin-verkon kanssa automaattisesti yhteyden muodostamisen jälkeen, mutta synkronointi on vielä meneillään.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Aixcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation type="unfinished">Näytetyt tiedot eivät välttämättä ole ajantasalla. Lompakkosi synkronoituu Aixcoin-verkon kanssa automaattisesti yhteyden muodostamisen jälkeen, mutta synkronointi on vielä meneillään.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -2255,7 +2255,7 @@ Allekirjoitus on mahdollista vain 'legacy'-tyyppisillä osoitteilla.</translatio
     </message>
     <message>
         <source>Your current total balance</source>
-        <translation type="unfinished">Tililläsi tällä hetkellä olevien Bitcoinien määrä</translation>
+        <translation type="unfinished">Tililläsi tällä hetkellä olevien Aixcoinien määrä</translation>
     </message>
     <message>
         <source>Your current balance in watch-only addresses</source>
@@ -2426,7 +2426,7 @@ Allekirjoitus on mahdollista vain 'legacy'-tyyppisillä osoitteilla.</translatio
     </message>
     <message>
         <source>Cannot start aixcoin: click-to-pay handler</source>
-        <translation type="unfinished">Bitcoinia ei voi käynnistää: klikkaa-maksaaksesi -käsittelijän virhe</translation>
+        <translation type="unfinished">Aixcoinia ei voi käynnistää: klikkaa-maksaaksesi -käsittelijän virhe</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -2445,8 +2445,8 @@ BIP70:n laajalle levinneiden tietoturva-aukkojen vuoksi on erittäin suositeltav
 Jos saat tämän virheen, pyydä kauppiasta antamaan BIP21-yhteensopiva URI.</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
-        <translation type="unfinished">URIa ei voitu jäsentää! Tämä voi johtua virheellisestä Bitcoin-osoitteesta tai väärin muotoilluista URI parametreista.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Aixcoin address or malformed URI parameters.</source>
+        <translation type="unfinished">URIa ei voitu jäsentää! Tämä voi johtua virheellisestä Aixcoin-osoitteesta tai väärin muotoilluista URI parametreista.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -2897,8 +2897,8 @@ Jos saat tämän virheen, pyydä kauppiasta antamaan BIP21-yhteensopiva URI.</tr
         <translation type="unfinished">&amp;Viesti:</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
-        <translation type="unfinished">Valinnainen viesti liitetään maksupyyntöön ja näytetään avattaessa. Viestiä ei lähetetä Bitcoin-verkkoon.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Aixcoin network.</source>
+        <translation type="unfinished">Valinnainen viesti liitetään maksupyyntöön ja näytetään avattaessa. Viestiä ei lähetetä Aixcoin-verkkoon.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -3260,7 +3260,7 @@ Jos saat tämän virheen, pyydä kauppiasta antamaan BIP21-yhteensopiva URI.</tr
         <translation type="unfinished">L&amp;uo allekirjoittamaton</translation>
     </message>
     <message>
-        <source>Creates a Partially Signed Bitcoin Transaction (PSBT) for use with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
+        <source>Creates a Partially Signed Aixcoin Transaction (PSBT) for use with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
         <translation type="unfinished">Luo osittain allekirjoitetun aixcoin-siirtotapahtuman (PSBT) käytettäväksi mm. offline %1 lompakko tai PSBT-yhteensopiva hardware-lompakko.</translation>
     </message>
     <message>
@@ -3306,9 +3306,9 @@ Jos saat tämän virheen, pyydä kauppiasta antamaan BIP21-yhteensopiva URI.</tr
         <translation type="unfinished">Voit korottaa palkkiota myöhemmin (osoittaa Replace-By-Fee:tä, BIP-125).</translation>
     </message>
     <message>
-        <source>Please, review your transaction proposal. This will produce a Partially Signed Bitcoin Transaction (PSBT) which you can save or copy and then sign with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
+        <source>Please, review your transaction proposal. This will produce a Partially Signed Aixcoin Transaction (PSBT) which you can save or copy and then sign with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
         <extracomment>Text to inform a user attempting to create a transaction of their current options. At this stage, a user can only create a PSBT. This string is displayed when private keys are disabled and an external signer is not available.</extracomment>
-        <translation type="unfinished">Ole hyvä ja tarkista siirtoehdotuksesi. Tämä luo osittain allekirjoitetun Bitcoin-siirron (PBST), jonka voit tallentaa tai kopioida ja sitten allekirjoittaa esim. verkosta irrannaisella %1-lompakolla tai PBST-yhteensopivalla laitteistolompakolla.</translation>
+        <translation type="unfinished">Ole hyvä ja tarkista siirtoehdotuksesi. Tämä luo osittain allekirjoitetun Aixcoin-siirron (PBST), jonka voit tallentaa tai kopioida ja sitten allekirjoittaa esim. verkosta irrannaisella %1-lompakolla tai PBST-yhteensopivalla laitteistolompakolla.</translation>
     </message>
     <message>
         <source>Do you want to create this transaction?</source>
@@ -3376,8 +3376,8 @@ Jos saat tämän virheen, pyydä kauppiasta antamaan BIP21-yhteensopiva URI.</tr
         </translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
-        <translation type="unfinished">Varoitus: Virheellinen Bitcoin-osoite</translation>
+        <source>Warning: Invalid Aixcoin address</source>
+        <translation type="unfinished">Varoitus: Virheellinen Aixcoin-osoite</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -3415,8 +3415,8 @@ Jos saat tämän virheen, pyydä kauppiasta antamaan BIP21-yhteensopiva URI.</tr
         <translation type="unfinished">Valitse aikaisemmin käytetty osoite</translation>
     </message>
     <message>
-        <source>The Bitcoin address to send the payment to</source>
-        <translation type="unfinished">Bitcoin-osoite johon maksu lähetetään</translation>
+        <source>The Aixcoin address to send the payment to</source>
+        <translation type="unfinished">Aixcoin-osoite johon maksu lähetetään</translation>
     </message>
     <message>
         <source>Paste address from clipboard</source>
@@ -3451,8 +3451,8 @@ Jos saat tämän virheen, pyydä kauppiasta antamaan BIP21-yhteensopiva URI.</tr
         <translation type="unfinished">Aseta nimi tälle osoitteelle lisätäksesi sen käytettyjen osoitteiden listalle.</translation>
     </message>
     <message>
-        <source>A message that was attached to the aixcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
-        <translation type="unfinished">Viesti joka liitettiin aixcoin: URI:iin tallennetaan rahansiirtoon viitteeksi. Tätä viestiä ei lähetetä Bitcoin-verkkoon.</translation>
+        <source>A message that was attached to the aixcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Aixcoin network.</source>
+        <translation type="unfinished">Viesti joka liitettiin aixcoin: URI:iin tallennetaan rahansiirtoon viitteeksi. Tätä viestiä ei lähetetä Aixcoin-verkkoon.</translation>
     </message>
 </context>
 <context>
@@ -3481,8 +3481,8 @@ Jos saat tämän virheen, pyydä kauppiasta antamaan BIP21-yhteensopiva URI.</tr
         <translation type="unfinished">Voit allekirjoittaa viestit / sopimukset omalla osoitteellasi todistaaksesi että voit vastaanottaa siihen lähetetyt aixcoinit. Varo allekirjoittamasta mitään epämääräistä, sillä phishing-hyökkääjät voivat huijata sinua luovuttamaan henkilöllisyytesi allekirjoituksella. Allekirjoita ainoastaan täysin yksityiskohtainen selvitys siitä, mihin olet sitoutumassa.</translation>
     </message>
     <message>
-        <source>The Bitcoin address to sign the message with</source>
-        <translation type="unfinished">Bitcoin-osoite jolla viesti allekirjoitetaan</translation>
+        <source>The Aixcoin address to sign the message with</source>
+        <translation type="unfinished">Aixcoin-osoite jolla viesti allekirjoitetaan</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3505,8 +3505,8 @@ Jos saat tämän virheen, pyydä kauppiasta antamaan BIP21-yhteensopiva URI.</tr
         <translation type="unfinished">Kopioi tämänhetkinen allekirjoitus leikepöydälle</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation type="unfinished">Allekirjoita viesti todistaaksesi, että omistat tämän Bitcoin-osoitteen</translation>
+        <source>Sign the message to prove you own this Aixcoin address</source>
+        <translation type="unfinished">Allekirjoita viesti todistaaksesi, että omistat tämän Aixcoin-osoitteen</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -3529,8 +3529,8 @@ Jos saat tämän virheen, pyydä kauppiasta antamaan BIP21-yhteensopiva URI.</tr
         <translation type="unfinished">Syötä vastaanottajan osoite, viesti ja allekirjoitus (varmista että kopioit rivinvaihdot, välilyönnit, sarkaimet yms. täsmälleen) alle vahvistaaksesi viestin. Varo lukemasta allekirjoitukseen enempää kuin mitä viestissä itsessään on välttääksesi man-in-the-middle -hyökkäyksiltä. Huomaa, että tämä todentaa ainoastaan allekirjoittavan vastaanottajan osoitteen, tämä ei voi todentaa minkään tapahtuman lähettäjää!</translation>
     </message>
     <message>
-        <source>The Bitcoin address the message was signed with</source>
-        <translation type="unfinished">Bitcoin-osoite jolla viesti on allekirjoitettu</translation>
+        <source>The Aixcoin address the message was signed with</source>
+        <translation type="unfinished">Aixcoin-osoite jolla viesti on allekirjoitettu</translation>
     </message>
     <message>
         <source>The signed message to verify</source>
@@ -3541,8 +3541,8 @@ Jos saat tämän virheen, pyydä kauppiasta antamaan BIP21-yhteensopiva URI.</tr
         <translation type="unfinished">Viestin allekirjoittamisen yhteydessä annettu allekirjoitus</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation type="unfinished">Tarkista viestin allekirjoitus varmistaaksesi, että se allekirjoitettiin tietyllä Bitcoin-osoitteella</translation>
+        <source>Verify the message to ensure it was signed with the specified Aixcoin address</source>
+        <translation type="unfinished">Tarkista viestin allekirjoitus varmistaaksesi, että se allekirjoitettiin tietyllä Aixcoin-osoitteella</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>

@@ -1,4 +1,4 @@
-// Copyright (c) 2021 The Bitcoin Core developers
+// Copyright (c) 2021 The Aixcoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -22,7 +22,7 @@ namespace interfaces {
 class Node;
 }
 
-/** Model for Bitcoin network client. */
+/** Model for Aixcoin network client. */
 class NodeModel : public QObject
 {
     Q_OBJECT

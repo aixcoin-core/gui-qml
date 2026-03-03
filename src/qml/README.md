@@ -1,8 +1,8 @@
-# Bitcoin Core QML GUI
+# Aixcoin Core QML GUI
 
 **WARNING: THIS IS EXPERIMENTAL, DO NOT USE BUILDS FROM THIS REPO FOR REAL TRANSACTIONS!**
 
-This directory contains the source code for an experimental Bitcoin Core graphical user interface (GUI) built using the [Qt Quick](https://doc.qt.io/qt-5/qtquick-index.html) framework.
+This directory contains the source code for an experimental Aixcoin Core graphical user interface (GUI) built using the [Qt Quick](https://doc.qt.io/qt-5/qtquick-index.html) framework.
 
 Unsecure CI artifacts are available for local testing of the master branch, avoiding the need to build. These can be found under the [Actions](https://github.com/aixcoin-core/gui-qml/actions?query=branch%3Amain) tab. It is required to have and be logged into a github account in order to download these.
 
@@ -15,17 +15,17 @@ chmod +x ./Downloads/aixcoin-qt && codesign -s - ./Downloads/aixcoin-qt
 
 ## Goals and Limitations
 
-The current Bitcoin Core GUI has gathered enough technical debt and hacked on features; it is time to begin anew.
+The current Aixcoin Core GUI has gathered enough technical debt and hacked on features; it is time to begin anew.
 This project will start from a clean slate to produce a feature-rich GUI with intuitive user flows and first-class design.
 
 The primary goals of the project can be summed up as follows:
 
-- Implement UX/UI best-practices as documented in the [Bitcoin Design Guide](https://aixcoin.design/guide/)
-- Engage with the Bitcoin Design community to implement well-designed features
-- Work alongside the Bitcoin Design community to develop an aesthetic GUI
+- Implement UX/UI best-practices as documented in the [Aixcoin Design Guide](https://aixcoin.design/guide/)
+- Engage with the Aixcoin Design community to implement well-designed features
+- Work alongside the Aixcoin Design community to develop an aesthetic GUI
 - Develop a mobile-optimized GUI
 
-We must avoid conflicts with the Bitcoin Core repo.
+We must avoid conflicts with the Aixcoin Core repo.
 As such, this project will aim to make very few changes outside of the qml directory.
 Pull requests must be focused on developing the GUI itself, adding build support,
 or improving relevant documentation.
@@ -34,7 +34,7 @@ This project will **not** accept pull requests making any significant changes un
 
 ## Development Process
 
-This repo is synced with the [Bitcoin Core repo](https://github.com/aixcoin/aixcoin) on a weekly basis, or as needed to resolve conflicts.
+This repo is synced with the [Aixcoin Core repo](https://github.com/aixcoin/aixcoin) on a weekly basis, or as needed to resolve conflicts.
 
 Contributions are welcome from all, developers and designers. If you are a new contributor, please read [CONTRIBUTING.md](../../CONTRIBUTING.md).
 
@@ -84,7 +84,7 @@ sudo dnf install qt5-qtdeclarative-devel qt5-qtquickcontrols qt5-qtquickcontrols
 
 ### Build
 
-For instructions on how to build and compile Bitcoin Core, refer to your respective system's build doc.
+For instructions on how to build and compile Aixcoin Core, refer to your respective system's build doc.
 
 As long as the required dependencies are installed, the qml GUI will be built.
 To ensure that you are in fact building the qml GUI, you can configure with the following option:

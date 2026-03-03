@@ -1,4 +1,4 @@
-// Copyright (c) 2023 The Bitcoin Core developers
+// Copyright (c) 2023 The Aixcoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -7,13 +7,13 @@
 #include <jni.h>
 
 extern "C" {
-  JNIEXPORT jboolean JNICALL Java_org_aixcoincore_qt_BitcoinQtService_register(JNIEnv *env, jobject obj);
+  JNIEXPORT jboolean JNICALL Java_org_aixcoincore_qt_AixcoinQtService_register(JNIEnv *env, jobject obj);
 }
 
 static JavaVM * g_vm = nullptr;
 static jobject g_obj;
 
-JNIEXPORT jboolean JNICALL Java_org_aixcoincore_qt_BitcoinQtService_register(JNIEnv * env, jobject obj)
+JNIEXPORT jboolean JNICALL Java_org_aixcoincore_qt_AixcoinQtService_register(JNIEnv * env, jobject obj)
 {
     env->GetJavaVM(&g_vm);
     g_obj = env->NewGlobalRef(obj);

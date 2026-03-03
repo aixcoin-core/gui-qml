@@ -28,7 +28,7 @@ body:
     id: useful-skills
     attributes:
       label: Useful Skills
-      description: For example, “`std::thread`”, “Qt5 GUI and async GUI design” or “basic understanding of Bitcoin mining and the Bitcoin Core RPC interface”.
+      description: For example, “`std::thread`”, “Qt5 GUI and async GUI design” or “basic understanding of Aixcoin mining and the Aixcoin Core RPC interface”.
     validations:
       required: false
   - type: textarea

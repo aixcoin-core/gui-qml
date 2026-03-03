@@ -1,15 +1,15 @@
 #!/usr/bin/env python3
-# Copyright (c) 2018-2022 The Bitcoin Core developers
+# Copyright (c) 2018-2022 The Aixcoin Core developers
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 """Check that it's not possible to start a second aixcoind instance using the same datadir or wallet."""
 import random
 import string
 
-from test_framework.test_framework import BitcoinTestFramework
+from test_framework.test_framework import AixcoinTestFramework
 from test_framework.test_node import ErrorMatch
 
-class FilelockTest(BitcoinTestFramework):
+class FilelockTest(AixcoinTestFramework):
     def add_options(self, parser):
         self.add_wallet_options(parser)
 

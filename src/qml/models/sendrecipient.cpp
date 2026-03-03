@@ -1,4 +1,4 @@
-// Copyright (c) 2025 The Bitcoin Core developers
+// Copyright (c) 2025 The Aixcoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -7,7 +7,7 @@
 #include <qml/aixcoinamount.h>
 
 SendRecipient::SendRecipient(QObject* parent)
-    : QObject(parent), m_amount(new BitcoinAmount(this))
+    : QObject(parent), m_amount(new AixcoinAmount(this))
 {
 }
 
@@ -37,7 +37,7 @@ void SendRecipient::setLabel(const QString& label)
     }
 }
 
-BitcoinAmount* SendRecipient::amount() const
+AixcoinAmount* SendRecipient::amount() const
 {
     return m_amount;
 }

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Copyright (c) 2015-2022 The Bitcoin Core developers
+# Copyright (c) 2015-2022 The Aixcoin Core developers
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 """Test aixcoind with different proxy configuration.
@@ -42,7 +42,7 @@ addnode connect to a CJDNS address
 import socket
 
 from test_framework.socks5 import Socks5Configuration, Socks5Command, Socks5Server, AddressType
-from test_framework.test_framework import BitcoinTestFramework
+from test_framework.test_framework import AixcoinTestFramework
 from test_framework.util import (
     assert_equal,
     p2p_port,
@@ -61,7 +61,7 @@ NET_CJDNS = "cjdns"
 NETWORKS = frozenset({NET_IPV4, NET_IPV6, NET_ONION, NET_I2P, NET_CJDNS})
 
 
-class ProxyTest(BitcoinTestFramework):
+class ProxyTest(AixcoinTestFramework):
     def set_test_params(self):
         self.num_nodes = 5
         self.setup_clean_chain = True

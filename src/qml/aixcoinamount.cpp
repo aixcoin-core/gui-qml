@@ -1,4 +1,4 @@
-// Copyright (c) 2024-2025 The Bitcoin Core developers
+// Copyright (c) 2024-2025 The Aixcoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -7,12 +7,12 @@
 #include <QRegExp>
 #include <QStringList>
 
-BitcoinAmount::BitcoinAmount(QObject* parent)
+AixcoinAmount::AixcoinAmount(QObject* parent)
     : QObject(parent)
 {
 }
 
-QString BitcoinAmount::sanitize(const QString &text)
+QString AixcoinAmount::sanitize(const QString &text)
 {
     QString result = text;
 
@@ -33,12 +33,12 @@ QString BitcoinAmount::sanitize(const QString &text)
     return result;
 }
 
-qint64 BitcoinAmount::satoshi() const
+qint64 AixcoinAmount::satoshi() const
 {
     return m_satoshi;
 }
 
-void BitcoinAmount::setSatoshi(qint64 new_amount)
+void AixcoinAmount::setSatoshi(qint64 new_amount)
 {
     m_isSet = true;
     if (m_satoshi != new_amount) {
@@ -47,7 +47,7 @@ void BitcoinAmount::setSatoshi(qint64 new_amount)
     }
 }
 
-void BitcoinAmount::clear()
+void AixcoinAmount::clear()
 {
     if (!m_isSet && m_satoshi == 0) {
         return;
@@ -57,19 +57,19 @@ void BitcoinAmount::clear()
     Q_EMIT amountChanged();
 }
 
-BitcoinAmount::Unit BitcoinAmount::unit() const
+AixcoinAmount::Unit AixcoinAmount::unit() const
 {
     return m_unit;
 }
 
-void BitcoinAmount::setUnit(const Unit unit)
+void AixcoinAmount::setUnit(const Unit unit)
 {
     m_unit = unit;
     Q_EMIT unitChanged();
     Q_EMIT displayChanged();
 }
 
-QString BitcoinAmount::unitLabel() const
+QString AixcoinAmount::unitLabel() const
 {
     switch (m_unit) {
     case Unit::BTC: return "₿";
@@ -78,7 +78,7 @@ QString BitcoinAmount::unitLabel() const
     assert(false);
 }
 
-void BitcoinAmount::flipUnit()
+void AixcoinAmount::flipUnit()
 {
     if (m_unit == Unit::BTC) {
         m_unit = Unit::SAT;
@@ -89,7 +89,7 @@ void BitcoinAmount::flipUnit()
     Q_EMIT displayChanged();
 }
 
-QString BitcoinAmount::satsToBtcString(qint64 sat)
+QString AixcoinAmount::satsToBtcString(qint64 sat)
 {
     const bool negative = sat < 0;
     qint64 absSat = negative ? -sat : sat;
@@ -105,7 +105,7 @@ QString BitcoinAmount::satsToBtcString(qint64 sat)
     return result;
 }
 
-QString BitcoinAmount::toDisplay() const
+QString AixcoinAmount::toDisplay() const
 {
     if (!m_isSet) {
         return "";
@@ -117,7 +117,7 @@ QString BitcoinAmount::toDisplay() const
     }
 }
 
-qint64 BitcoinAmount::btcToSats(const QString& btcSanitized)
+qint64 AixcoinAmount::btcToSats(const QString& btcSanitized)
 {
     if (btcSanitized.isEmpty() || btcSanitized == ".") return 0;
 
@@ -134,7 +134,7 @@ qint64 BitcoinAmount::btcToSats(const QString& btcSanitized)
     return whole * COIN + frac;
 }
 
-void BitcoinAmount::fromDisplay(const QString& text)
+void AixcoinAmount::fromDisplay(const QString& text)
 {
     if (text.trimmed().isEmpty()) {
         clear();
@@ -153,7 +153,7 @@ void BitcoinAmount::fromDisplay(const QString& text)
     setSatoshi(newSat);
 }
 
-void BitcoinAmount::format()
+void AixcoinAmount::format()
 {
     Q_EMIT displayChanged();
 }

@@ -66,13 +66,13 @@
         <translation type="unfinished">Recibiendo dirección</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished">Estas son sus direcciones de Bitcoin para enviar pagos. Siempre verifique el monto y la dirección de recepción antes de enviar monedas.</translation>
+        <source>These are your Aixcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation type="unfinished">Estas son sus direcciones de Aixcoin para enviar pagos. Siempre verifique el monto y la dirección de recepción antes de enviar monedas.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
+        <source>These are your Aixcoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
 Signing is only possible with addresses of the type 'legacy'.</source>
-        <translation type="unfinished">Estas son sus direcciones de Bitcoin para recibir los pagos.
+        <translation type="unfinished">Estas son sus direcciones de Aixcoin para recibir los pagos.
 Usa el boton "Crear nueva direccion de recibimiento" en la pestaña de recibir para crear una nueva direccion.  Firmar es posible solo con la direccion del tipo "legado"</translation>
     </message>
     <message>
@@ -239,7 +239,7 @@ Usa el boton "Crear nueva direccion de recibimiento" en la pestaña de recibir p
     </message>
 </context>
 <context>
-    <name>BitcoinApplication</name>
+    <name>AixcoinApplication</name>
     <message>
         <source>A fatal error occurred. %1 can no longer continue safely and will quit.</source>
         <translation type="unfinished">Se ha producido un error garrafal. %1Ya no podrá continuar de manera segura y abandonará.</translation>
@@ -268,8 +268,8 @@ Usa el boton "Crear nueva direccion de recibimiento" en la pestaña de recibir p
         <translation type="unfinished">Cantidad</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
-        <translation type="unfinished">Ingrese una dirección de Bitcoin (por ejemplo, %1)</translation>
+        <source>Enter a Aixcoin address (e.g. %1)</source>
+        <translation type="unfinished">Ingrese una dirección de Aixcoin (por ejemplo, %1)</translation>
     </message>
     <message>
         <source>Inbound</source>
@@ -544,7 +544,7 @@ Usa el boton "Crear nueva direccion de recibimiento" en la pestaña de recibir p
     </message>
     </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>AixcoinGUI</name>
     <message>
         <source>&amp;Overview</source>
         <translation type="unfinished">&amp;Visión de conjunto</translation>
@@ -607,8 +607,8 @@ Usa el boton "Crear nueva direccion de recibimiento" en la pestaña de recibir p
         <translation type="unfinished">Proxy &lt;b&gt;habilitado&lt;/b&gt;: %1</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation type="unfinished">Enviando monedas a una dirección de Bitcoin</translation>
+        <source>Send coins to a Aixcoin address</source>
+        <translation type="unfinished">Enviando monedas a una dirección de Aixcoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -631,12 +631,12 @@ Usa el boton "Crear nueva direccion de recibimiento" en la pestaña de recibir p
         <translation type="unfinished">Encripta las claves privadas que pertenecen a tu billetera</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation type="unfinished">Firme mensajes con sus direcciones de Bitcoin para demostrar que los posee</translation>
+        <source>Sign messages with your Aixcoin addresses to prove you own them</source>
+        <translation type="unfinished">Firme mensajes con sus direcciones de Aixcoin para demostrar que los posee</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation type="unfinished">Verifique los mensajes para asegurarse de que fueron firmados con las direcciones de Bitcoin especificadas</translation>
+        <source>Verify messages to ensure they were signed with specified Aixcoin addresses</source>
+        <translation type="unfinished">Verifique los mensajes para asegurarse de que fueron firmados con las direcciones de Aixcoin especificadas</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -702,8 +702,8 @@ Usa el boton "Crear nueva direccion de recibimiento" en la pestaña de recibir p
         <translation type="unfinished">A hoy</translation>
     </message>
     <message>
-        <source>Load Partially Signed Bitcoin Transaction</source>
-        <translation type="unfinished">Cargar transacción de Bitcoin parcialmente firmada</translation>
+        <source>Load Partially Signed Aixcoin Transaction</source>
+        <translation type="unfinished">Cargar transacción de Aixcoin parcialmente firmada</translation>
     </message>
     <message>
         <source>Open Wallet</source>
@@ -718,8 +718,8 @@ Usa el boton "Crear nueva direccion de recibimiento" en la pestaña de recibir p
         <translation type="unfinished">Cerrar billetera</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
-        <translation type="unfinished">Muestre el mensaje de ayuda %1 para obtener una lista con posibles opciones de línea de comandos de Bitcoin</translation>
+        <source>Show the %1 help message to get a list with possible Aixcoin command-line options</source>
+        <translation type="unfinished">Muestre el mensaje de ayuda %1 para obtener una lista con posibles opciones de línea de comandos de Aixcoin</translation>
     </message>
     <message>
         <source>default wallet</source>
@@ -738,7 +738,7 @@ Usa el boton "Crear nueva direccion de recibimiento" en la pestaña de recibir p
         <translation type="unfinished">%1 cliente</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network.</source>
+        <source>%n active connection(s) to Aixcoin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform />
@@ -1025,8 +1025,8 @@ Usa el boton "Crear nueva direccion de recibimiento" en la pestaña de recibir p
         <translation type="unfinished">Editar dirección de envío</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation type="unfinished">La dirección ingresada "%1" no es una dirección válida de Bitcoin.</translation>
+        <source>The entered address "%1" is not a valid Aixcoin address.</source>
+        <translation type="unfinished">La dirección ingresada "%1" no es una dirección válida de Aixcoin.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -1100,8 +1100,8 @@ Usa el boton "Crear nueva direccion de recibimiento" en la pestaña de recibir p
         </translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Bitcoin block chain.</source>
-        <translation type="unfinished">%1 descargará y almacenará una copia de la cadena de bloques de Bitcoin.</translation>
+        <source>%1 will download and store a copy of the Aixcoin block chain.</source>
+        <translation type="unfinished">%1 descargará y almacenará una copia de la cadena de bloques de Aixcoin.</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -1292,8 +1292,8 @@ Usa el boton "Crear nueva direccion de recibimiento" en la pestaña de recibir p
         <translation type="unfinished">&amp; Gastar cambio no confirmado</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="unfinished">Abra automáticamente el puerto cliente de Bitcoin en el enrutador. Esto solo funciona cuando su enrutador admite UPnP y está habilitado.</translation>
+        <source>Automatically open the Aixcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation type="unfinished">Abra automáticamente el puerto cliente de Aixcoin en el enrutador. Esto solo funciona cuando su enrutador admite UPnP y está habilitado.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1308,8 +1308,8 @@ Usa el boton "Crear nueva direccion de recibimiento" en la pestaña de recibir p
         <translation type="unfinished">Permitir conexiones entrantes</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
-        <translation type="unfinished">Conéctese a la red de Bitcoin a través de un proxy SOCKS5.</translation>
+        <source>Connect to the Aixcoin network through a SOCKS5 proxy.</source>
+        <translation type="unfinished">Conéctese a la red de Aixcoin a través de un proxy SOCKS5.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1424,8 +1424,8 @@ Usa el boton "Crear nueva direccion de recibimiento" en la pestaña de recibir p
         <translation type="unfinished">Configurar</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="unfinished">La información mostrada puede estar desactualizada. Su billetera se sincroniza automáticamente con la red de Bitcoin después de establecer una conexión, pero este proceso aún no se ha completado.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Aixcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation type="unfinished">La información mostrada puede estar desactualizada. Su billetera se sincroniza automáticamente con la red de Aixcoin después de establecer una conexión, pero este proceso aún no se ha completado.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1515,15 +1515,15 @@ Usa el boton "Crear nueva direccion de recibimiento" en la pestaña de recibir p
     </message>
     <message>
         <source>Cannot start aixcoin: click-to-pay handler</source>
-        <translation type="unfinished">No se puede iniciar Bitcoin: controlador de clic para pagar</translation>
+        <translation type="unfinished">No se puede iniciar Aixcoin: controlador de clic para pagar</translation>
     </message>
     <message>
         <source>URI handling</source>
         <translation type="unfinished">Manejo de URI</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
-        <translation type="unfinished">¡URI no puede ser analizado! Esto puede deberse a una dirección de Bitcoin no válida o a parámetros de URI mal formados.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Aixcoin address or malformed URI parameters.</source>
+        <translation type="unfinished">¡URI no puede ser analizado! Esto puede deberse a una dirección de Aixcoin no válida o a parámetros de URI mal formados.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1827,8 +1827,8 @@ Usa el boton "Crear nueva direccion de recibimiento" en la pestaña de recibir p
         <translation type="unfinished">Mensaje:</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
-        <translation type="unfinished">Un mensaje opcional para adjuntar a la solicitud de pago, que se mostrará cuando se abra la solicitud. Nota: El mensaje no se enviará con el pago a través de la red de Bitcoin.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Aixcoin network.</source>
+        <translation type="unfinished">Un mensaje opcional para adjuntar a la solicitud de pago, que se mostrará cuando se abra la solicitud. Nota: El mensaje no se enviará con el pago a través de la red de Aixcoin.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -2135,8 +2135,8 @@ Usa el boton "Crear nueva direccion de recibimiento" en la pestaña de recibir p
         </translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
-        <translation type="unfinished">Peligro: Dirección de Bitcoin inválida</translation>
+        <source>Warning: Invalid Aixcoin address</source>
+        <translation type="unfinished">Peligro: Dirección de Aixcoin inválida</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2174,8 +2174,8 @@ Usa el boton "Crear nueva direccion de recibimiento" en la pestaña de recibir p
         <translation type="unfinished">Seleccionar dirección usada anteriormente</translation>
     </message>
     <message>
-        <source>The Bitcoin address to send the payment to</source>
-        <translation type="unfinished">Dirección Bitcoin a enviar el pago</translation>
+        <source>The Aixcoin address to send the payment to</source>
+        <translation type="unfinished">Dirección Aixcoin a enviar el pago</translation>
     </message>
     <message>
         <source>Paste address from clipboard</source>
@@ -2209,8 +2209,8 @@ Usa el boton "Crear nueva direccion de recibimiento" en la pestaña de recibir p
         <translation type="unfinished">&amp;Firmar Mensaje</translation>
     </message>
     <message>
-        <source>The Bitcoin address to sign the message with</source>
-        <translation type="unfinished">Dirección Bitcoin con la que firmar el mensaje</translation>
+        <source>The Aixcoin address to sign the message with</source>
+        <translation type="unfinished">Dirección Aixcoin con la que firmar el mensaje</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2233,7 +2233,7 @@ Usa el boton "Crear nueva direccion de recibimiento" en la pestaña de recibir p
         <translation type="unfinished">Copiar la firma actual al portapapeles del sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
+        <source>Sign the message to prove you own this Aixcoin address</source>
         <translation type="unfinished">Firmar un mensjage para probar que usted es dueño de esta dirección</translation>
     </message>
     <message>
@@ -2253,12 +2253,12 @@ Usa el boton "Crear nueva direccion de recibimiento" en la pestaña de recibir p
         <translation type="unfinished">&amp;Firmar Mensaje</translation>
     </message>
     <message>
-        <source>The Bitcoin address the message was signed with</source>
-        <translation type="unfinished">La dirección Bitcoin con la que se firmó el mensaje</translation>
+        <source>The Aixcoin address the message was signed with</source>
+        <translation type="unfinished">La dirección Aixcoin con la que se firmó el mensaje</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation type="unfinished">Verifica el mensaje para asegurar que fue firmado con la dirección de Bitcoin especificada.</translation>
+        <source>Verify the message to ensure it was signed with the specified Aixcoin address</source>
+        <translation type="unfinished">Verifica el mensaje para asegurar que fue firmado con la dirección de Aixcoin especificada.</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
