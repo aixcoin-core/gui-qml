@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITCOIN_QML_IMAGEPROVIDER_H
-#define BITCOIN_QML_IMAGEPROVIDER_H
+#ifndef AIXCOIN_QML_IMAGEPROVIDER_H
+#define AIXCOIN_QML_IMAGEPROVIDER_H
 
 #include <QPixmap>
 #include <QQuickImageProvider>
@@ -26,4 +26,4 @@ private:
     const NetworkStyle* m_network_style;
 };
 
-#endif // BITCOIN_QML_IMAGEPROVIDER_H
+#endif // AIXCOIN_QML_IMAGEPROVIDER_H

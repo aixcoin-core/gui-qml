@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITCOIN_QML_MODELS_SENDRECIPIENTSLISTMODEL_H
-#define BITCOIN_QML_MODELS_SENDRECIPIENTSLISTMODEL_H
+#ifndef AIXCOIN_QML_MODELS_SENDRECIPIENTSLISTMODEL_H
+#define AIXCOIN_QML_MODELS_SENDRECIPIENTSLISTMODEL_H
 
 #include <qml/models/sendrecipient.h>
 
@@ -63,4 +63,4 @@ private:
     qint64 m_totalAmount{0};
 };
 
-#endif // BITCOIN_QML_MODELS_SENDRECIPIENTSLISTMODEL_H
+#endif // AIXCOIN_QML_MODELS_SENDRECIPIENTSLISTMODEL_H

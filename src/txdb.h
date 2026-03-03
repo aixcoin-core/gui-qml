@@ -3,8 +3,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITCOIN_TXDB_H
-#define BITCOIN_TXDB_H
+#ifndef AIXCOIN_TXDB_H
+#define AIXCOIN_TXDB_H
 
 #include <coins.h>
 #include <dbwrapper.h>
@@ -107,4 +107,4 @@ public:
 
 [[nodiscard]] util::Result<void> CheckLegacyTxindex(CBlockTreeDB& block_tree_db);
 
-#endif // BITCOIN_TXDB_H
+#endif // AIXCOIN_TXDB_H

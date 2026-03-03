@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITCOIN_QML_WALLETQMLCONTROLLER_H
-#define BITCOIN_QML_WALLETQMLCONTROLLER_H
+#ifndef AIXCOIN_QML_WALLETQMLCONTROLLER_H
+#define AIXCOIN_QML_WALLETQMLCONTROLLER_H
 
 #include <qml/models/walletqmlmodel.h>
 
@@ -67,4 +67,4 @@ private:
     std::vector<bilingual_str> m_warning_messages;
 };
 
-#endif // BITCOIN_QML_WALLETQMLCONTROLLER_H
+#endif // AIXCOIN_QML_WALLETQMLCONTROLLER_H

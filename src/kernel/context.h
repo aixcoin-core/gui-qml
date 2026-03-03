@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITCOIN_KERNEL_CONTEXT_H
-#define BITCOIN_KERNEL_CONTEXT_H
+#ifndef AIXCOIN_KERNEL_CONTEXT_H
+#define AIXCOIN_KERNEL_CONTEXT_H
 
 #include <util/signalinterrupt.h>
 
@@ -38,4 +38,4 @@ struct Context {
 extern Context* g_context;
 } // namespace kernel
 
-#endif // BITCOIN_KERNEL_CONTEXT_H
+#endif // AIXCOIN_KERNEL_CONTEXT_H

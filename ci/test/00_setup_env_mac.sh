@@ -20,4 +20,4 @@ export GOAL="deploy"
 
 # False-positive warning is fixed with clang 17, remove this when that version
 # can be used.
-export BITCOIN_CONFIG="--with-gui --enable-reduce-exports LDFLAGS=-Wno-error=unused-command-line-argument"
+export AIXCOIN_CONFIG="--with-gui --enable-reduce-exports LDFLAGS=-Wno-error=unused-command-line-argument"

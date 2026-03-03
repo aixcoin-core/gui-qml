@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITCOIN_QML_MODELS_SENDRECIPIENT_H
-#define BITCOIN_QML_MODELS_SENDRECIPIENT_H
+#ifndef AIXCOIN_QML_MODELS_SENDRECIPIENT_H
+#define AIXCOIN_QML_MODELS_SENDRECIPIENT_H
 
 #include <qml/aixcoinamount.h>
 
@@ -52,4 +52,4 @@ private:
     bool m_subtractFeeFromAmount{false};
 };
 
-#endif // BITCOIN_QML_MODELS_SENDRECIPIENT_H
+#endif // AIXCOIN_QML_MODELS_SENDRECIPIENT_H

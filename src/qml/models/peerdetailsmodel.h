@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITCOIN_QML_MODELS_PEERDETAILSMODEL_H
-#define BITCOIN_QML_MODELS_PEERDETAILSMODEL_H
+#ifndef AIXCOIN_QML_MODELS_PEERDETAILSMODEL_H
+#define AIXCOIN_QML_MODELS_PEERDETAILSMODEL_H
 
 #include <QObject>
 
@@ -92,4 +92,4 @@ private:
     bool m_disconnected;
 };
 
-#endif // BITCOIN_QML_MODELS_PEERDETAILSMODEL_H
+#endif // AIXCOIN_QML_MODELS_PEERDETAILSMODEL_H

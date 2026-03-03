@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITCOIN_QML_MODELS_TRANSACTION_H
-#define BITCOIN_QML_MODELS_TRANSACTION_H
+#ifndef AIXCOIN_QML_MODELS_TRANSACTION_H
+#define AIXCOIN_QML_MODELS_TRANSACTION_H
 
 #include <interfaces/wallet.h>
 
@@ -70,4 +70,4 @@ public:
     static QList<QSharedPointer<Transaction>> fromWalletTx(const interfaces::WalletTx& tx);
 };
 
-#endif // BITCOIN_QML_MODELS_TRANSACTION_H
+#endif // AIXCOIN_QML_MODELS_TRANSACTION_H

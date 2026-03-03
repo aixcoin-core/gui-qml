@@ -229,10 +229,10 @@ class AixcoinTestFramework(metaclass=AixcoinTestMetaClass):
         """Update self.options with the paths of all binaries from environment variables or their default values"""
 
         binaries = {
-            "aixcoind": ("aixcoind", "BITCOIND"),
-            "aixcoin-cli": ("aixcoincli", "BITCOINCLI"),
-            "aixcoin-util": ("aixcoinutil", "BITCOINUTIL"),
-            "aixcoin-wallet": ("aixcoinwallet", "BITCOINWALLET"),
+            "aixcoind": ("aixcoind", "AIXCOIND"),
+            "aixcoin-cli": ("aixcoincli", "AIXCOINCLI"),
+            "aixcoin-util": ("aixcoinutil", "AIXCOINUTIL"),
+            "aixcoin-wallet": ("aixcoinwallet", "AIXCOINWALLET"),
         }
         for binary, [attribute_name, env_variable_name] in binaries.items():
             default_filename = os.path.join(
@@ -962,7 +962,7 @@ class AixcoinTestFramework(metaclass=AixcoinTestMetaClass):
 
     def is_aixcoin_util_compiled(self):
         """Checks whether aixcoin-util was compiled."""
-        return self.config["components"].getboolean("ENABLE_BITCOIN_UTIL")
+        return self.config["components"].getboolean("ENABLE_AIXCOIN_UTIL")
 
     def is_zmq_compiled(self):
         """Checks whether the zmq module was compiled."""

@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITCOIN_QML_MODELS_COINSLISTMODEL_H
-#define BITCOIN_QML_MODELS_COINSLISTMODEL_H
+#ifndef AIXCOIN_QML_MODELS_COINSLISTMODEL_H
+#define AIXCOIN_QML_MODELS_COINSLISTMODEL_H
 
 #include <consensus/amount.h>
 #include <interfaces/handler.h>
@@ -67,4 +67,4 @@ private:
     CAmount m_total_amount;
 };
 
-#endif // BITCOIN_QML_MODELS_COINSLISTMODEL_H
+#endif // AIXCOIN_QML_MODELS_COINSLISTMODEL_H

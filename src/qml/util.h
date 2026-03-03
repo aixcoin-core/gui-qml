@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITCOIN_QML_UTIL_H
-#define BITCOIN_QML_UTIL_H
+#ifndef AIXCOIN_QML_UTIL_H
+#define AIXCOIN_QML_UTIL_H
 
 #include <QString>
 #include <QtGlobal>
@@ -24,4 +24,4 @@ QString GraphicsApi(QQuickWindow* window);
 
 } // namespace QmlUtil
 
-#endif // BITCOIN_QML_UTIL_H
+#endif // AIXCOIN_QML_UTIL_H

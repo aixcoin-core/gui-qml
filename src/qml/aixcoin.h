@@ -2,9 +2,9 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITCOIN_QML_BITCOIN_H
-#define BITCOIN_QML_BITCOIN_H
+#ifndef AIXCOIN_QML_AIXCOIN_H
+#define AIXCOIN_QML_AIXCOIN_H
 
 int QmlGuiMain(int argc, char* argv[]);
 
-#endif // BITCOIN_QML_BITCOIN_H
+#endif // AIXCOIN_QML_AIXCOIN_H

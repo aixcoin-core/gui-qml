@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITCOIN_QML_MODELS_OPTIONS_MODEL_H
-#define BITCOIN_QML_MODELS_OPTIONS_MODEL_H
+#ifndef AIXCOIN_QML_MODELS_OPTIONS_MODEL_H
+#define AIXCOIN_QML_MODELS_OPTIONS_MODEL_H
 
 #include <txdb.h>
 #include <common/settings.h>
@@ -109,4 +109,4 @@ private:
     common::SettingsValue pruneSetting() const;
 };
 
-#endif // BITCOIN_QML_MODELS_OPTIONS_MODEL_H
+#endif // AIXCOIN_QML_MODELS_OPTIONS_MODEL_H

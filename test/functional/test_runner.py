@@ -435,7 +435,7 @@ def main():
 
     logging.debug("Temporary test directory at %s" % tmpdir)
 
-    enable_aixcoind = config["components"].getboolean("ENABLE_BITCOIND")
+    enable_aixcoind = config["components"].getboolean("ENABLE_AIXCOIND")
 
     if not enable_aixcoind:
         print("No functional tests to run.")

@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITCOIN_QML_CONTROLS_LINEGRAPH_H
-#define BITCOIN_QML_CONTROLS_LINEGRAPH_H
+#ifndef AIXCOIN_QML_CONTROLS_LINEGRAPH_H
+#define AIXCOIN_QML_CONTROLS_LINEGRAPH_H
 
 #include <QLinearGradient>
 #include <QPainter>
@@ -64,4 +64,4 @@ class LineGraph : public QQuickPaintedItem
         QQueue<float> m_value_list;
 };
 
-#endif // BITCOIN_QML_CONTROLS_LINEGRAPH_H
+#endif // AIXCOIN_QML_CONTROLS_LINEGRAPH_H

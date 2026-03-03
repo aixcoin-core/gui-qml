@@ -3,8 +3,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITCOIN_SHUTDOWN_H
-#define BITCOIN_SHUTDOWN_H
+#ifndef AIXCOIN_SHUTDOWN_H
+#define AIXCOIN_SHUTDOWN_H
 
 /** Request shutdown of the application. */
 void StartShutdown();
@@ -22,4 +22,4 @@ bool ShutdownRequested();
  */
 void WaitForShutdown();
 
-#endif // BITCOIN_SHUTDOWN_H
+#endif // AIXCOIN_SHUTDOWN_H

@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITCOIN_QML_MODELS_ACTIVITYLISTMODEL_H
-#define BITCOIN_QML_MODELS_ACTIVITYLISTMODEL_H
+#ifndef AIXCOIN_QML_MODELS_ACTIVITYLISTMODEL_H
+#define AIXCOIN_QML_MODELS_ACTIVITYLISTMODEL_H
 
 #include <interfaces/handler.h>
 #include <interfaces/wallet.h>
@@ -54,4 +54,4 @@ private:
     std::unique_ptr<interfaces::Handler> m_handler_show_progress;
 };
 
-#endif // BITCOIN_QML_MODELS_ACTIVITYLISTMODEL_H
+#endif // AIXCOIN_QML_MODELS_ACTIVITYLISTMODEL_H

@@ -147,7 +147,7 @@ bool ConfigurationFileExists(ArgsManager& argsman)
         return true;
     }
 
-    const fs::path rel_config_path = argsman.GetPathArg("-conf", BITCOIN_CONF_FILENAME);
+    const fs::path rel_config_path = argsman.GetPathArg("-conf", AIXCOIN_CONF_FILENAME);
     const fs::path abs_config_path = AbsPathForConfigVal(argsman, rel_config_path, true);
     if (fs::exists(abs_config_path)) {
         return true;

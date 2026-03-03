@@ -14,4 +14,4 @@ export TEST_RUNNER_ENV="LC_ALL=C"
 export TEST_RUNNER_EXTRA="--exclude feature_init,rpc_bind,feature_bind_extra"  # Excluded for now, see https://github.com/aixcoin/aixcoin/issues/17765#issuecomment-602068547
 export RUN_FUNCTIONAL_TESTS=true
 export GOAL="install"
-export BITCOIN_CONFIG="--enable-reduce-exports"
+export AIXCOIN_CONFIG="--enable-reduce-exports"

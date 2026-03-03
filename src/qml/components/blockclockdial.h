@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITCOIN_QML_COMPONENTS_BLOCKCLOCKDIAL_H
-#define BITCOIN_QML_COMPONENTS_BLOCKCLOCKDIAL_H
+#ifndef AIXCOIN_QML_COMPONENTS_BLOCKCLOCKDIAL_H
+#define AIXCOIN_QML_COMPONENTS_BLOCKCLOCKDIAL_H
 
 #include <QQuickPaintedItem>
 #include <QConicalGradient>
@@ -86,4 +86,4 @@ private:
     qreal m_animating_max_angle = 0;
 };
 
-#endif // BITCOIN_QML_COMPONENTS_BLOCKCLOCKDIAL_H
+#endif // AIXCOIN_QML_COMPONENTS_BLOCKCLOCKDIAL_H

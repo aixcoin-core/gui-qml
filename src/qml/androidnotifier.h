@@ -1,5 +1,5 @@
-#ifndef BITCOIN_QML_ANDROIDNOTIFIER_H
-#define BITCOIN_QML_ANDROIDNOTIFIER_H
+#ifndef AIXCOIN_QML_ANDROIDNOTIFIER_H
+#define AIXCOIN_QML_ANDROIDNOTIFIER_H
 
 #include <qml/models/nodemodel.h>
 
@@ -23,4 +23,4 @@ private:
     const NodeModel & m_node_model;
 };
 
-#endif // BITCOIN_QML_ANDROIDNOTIFIER_H
+#endif // AIXCOIN_QML_ANDROIDNOTIFIER_H

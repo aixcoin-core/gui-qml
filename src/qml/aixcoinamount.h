@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITCOIN_QML_BITCOINAMOUNT_H
-#define BITCOIN_QML_BITCOINAMOUNT_H
+#ifndef AIXCOIN_QML_AIXCOINAMOUNT_H
+#define AIXCOIN_QML_AIXCOINAMOUNT_H
 
 #include <consensus/amount.h>
 
@@ -60,4 +60,4 @@ private:
     Unit m_unit{Unit::BTC};
 };
 
-#endif // BITCOIN_QML_BITCOINAMOUNT_H
+#endif // AIXCOIN_QML_AIXCOINAMOUNT_H

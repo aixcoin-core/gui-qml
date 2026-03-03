@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITCOIN_QML_MODELS_WALLETQMLMODELTRANSACTION_H
-#define BITCOIN_QML_MODELS_WALLETQMLMODELTRANSACTION_H
+#ifndef AIXCOIN_QML_MODELS_WALLETQMLMODELTRANSACTION_H
+#define AIXCOIN_QML_MODELS_WALLETQMLMODELTRANSACTION_H
 
 #include <qml/models/sendrecipientslistmodel.h>
 
@@ -55,4 +55,4 @@ private:
     CTransactionRef m_wtx;
 };
 
-#endif // BITCOIN_QML_MODELS_WALLETQMLMODELTRANSACTION_H
+#endif // AIXCOIN_QML_MODELS_WALLETQMLMODELTRANSACTION_H

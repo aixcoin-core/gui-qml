@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITCOIN_QML_MODELS_WALLETLISTMODEL_H
-#define BITCOIN_QML_MODELS_WALLETLISTMODEL_H
+#ifndef AIXCOIN_QML_MODELS_WALLETLISTMODEL_H
+#define AIXCOIN_QML_MODELS_WALLETLISTMODEL_H
 
 #include <interfaces/wallet.h>
 #include <QAbstractListModel>
@@ -43,4 +43,4 @@ private:
     interfaces::Node& m_node;
 };
 
-#endif // BITCOIN_QML_MODELS_WALLETLISTMODEL_H
+#endif // AIXCOIN_QML_MODELS_WALLETLISTMODEL_H
