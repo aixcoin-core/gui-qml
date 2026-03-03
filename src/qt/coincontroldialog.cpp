@@ -488,7 +488,7 @@ void CoinControlDialog::updateLabels(CCoinControl& m_coin_control, WalletModel *
     }
 
     // actually update labels
-    AixcoinUnit nDisplayUnit = AixcoinUnit::BTC;
+    AixcoinUnit nDisplayUnit = AixcoinUnit::AIX;
     if (model && model->getOptionsModel())
         nDisplayUnit = model->getOptionsModel()->getDisplayUnit();
 

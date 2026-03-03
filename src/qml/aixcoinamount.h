@@ -20,7 +20,7 @@ class AixcoinAmount : public QObject
 
 public:
     enum class Unit {
-        BTC,
+        AIX,
         SAT
     };
     Q_ENUM(Unit)
@@ -40,7 +40,7 @@ public:
 
     Q_INVOKABLE void format();
 
-    static QString satsToBtcString(qint64 sat);
+    static QString satsToAixString(qint64 sat);
 
 public Q_SLOTS:
     void flipUnit();
@@ -53,11 +53,11 @@ Q_SIGNALS:
 
 private:
     QString sanitize(const QString& text);
-    static qint64 btcToSats(const QString& btc);
+    static qint64 aixToSats(const QString& aix);
 
     qint64 m_satoshi{0};
     bool m_isSet{false};
-    Unit m_unit{Unit::BTC};
+    Unit m_unit{Unit::AIX};
 };
 
 #endif // AIXCOIN_QML_AIXCOINAMOUNT_H

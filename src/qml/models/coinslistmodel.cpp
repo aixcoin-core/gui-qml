@@ -35,7 +35,7 @@ QVariant CoinsListModel::data(const QModelIndex& index, int role) const
     case AddressRole:
         return QString::fromStdString(EncodeDestination(destination));
     case AmountRole:
-        return AixcoinUnits::format(AixcoinUnits::Unit::BTC, coin.txout.nValue);
+        return AixcoinUnits::format(AixcoinUnits::Unit::AIX, coin.txout.nValue);
     case LabelRole:
         return QString::fromStdString("");
     case LockedRole:
@@ -117,14 +117,14 @@ unsigned int CoinsListModel::selectedCoinsCount() const
 
 QString CoinsListModel::totalSelected() const
 {
-    return AixcoinUnits::format(AixcoinUnits::Unit::BTC, m_total_amount);
+    return AixcoinUnits::format(AixcoinUnits::Unit::AIX, m_total_amount);
 }
 
 QString CoinsListModel::changeAmount() const
 {
     CAmount change = m_total_amount - m_wallet_model->sendRecipientList()->totalAmountSatoshi();
     change = std::abs(change);
-    return AixcoinUnits::format(AixcoinUnits::Unit::BTC, change);
+    return AixcoinUnits::format(AixcoinUnits::Unit::AIX, change);
 }
 
 bool CoinsListModel::overRequiredAmount() const

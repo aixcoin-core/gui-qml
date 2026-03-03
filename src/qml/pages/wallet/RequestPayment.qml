@@ -91,12 +91,12 @@ Page {
                         MouseArea {
                             anchors.fill: parent
                             onClicked: {
-                                if (aixcoinAmount.unit == AixcoinAmount.BTC) {
-                                    amountInput.text = aixcoinAmount.convert(amountInput.text, AixcoinAmount.BTC)
+                                if (aixcoinAmount.unit == AixcoinAmount.AIX) {
+                                    amountInput.text = aixcoinAmount.convert(amountInput.text, AixcoinAmount.AIX)
                                     aixcoinAmount.unit = AixcoinAmount.SAT
                                 } else {
                                     amountInput.text = aixcoinAmount.convert(amountInput.text, AixcoinAmount.SAT)
-                                    aixcoinAmount.unit = AixcoinAmount.BTC
+                                    aixcoinAmount.unit = AixcoinAmount.AIX
                                 }
                             }
                         }

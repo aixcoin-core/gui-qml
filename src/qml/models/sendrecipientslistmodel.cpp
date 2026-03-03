@@ -124,7 +124,7 @@ void SendRecipientsListModel::updateTotalAmount()
 
 QString SendRecipientsListModel::totalAmount() const
 {
-    return AixcoinAmount::satsToBtcString(m_totalAmount);
+    return AixcoinAmount::satsToAixString(m_totalAmount);
 }
 
 void SendRecipientsListModel::clear()

@@ -72,7 +72,7 @@ void AixcoinAmount::setUnit(const Unit unit)
 QString AixcoinAmount::unitLabel() const
 {
     switch (m_unit) {
-    case Unit::BTC: return "₿";
+    case Unit::AIX: return "₿";
     case Unit::SAT: return "sat";
     }
     assert(false);
@@ -80,16 +80,16 @@ QString AixcoinAmount::unitLabel() const
 
 void AixcoinAmount::flipUnit()
 {
-    if (m_unit == Unit::BTC) {
+    if (m_unit == Unit::AIX) {
         m_unit = Unit::SAT;
     } else {
-        m_unit = Unit::BTC;
+        m_unit = Unit::AIX;
     }
     Q_EMIT unitChanged();
     Q_EMIT displayChanged();
 }
 
-QString AixcoinAmount::satsToBtcString(qint64 sat)
+QString AixcoinAmount::satsToAixString(qint64 sat)
 {
     const bool negative = sat < 0;
     qint64 absSat = negative ? -sat : sat;
@@ -113,15 +113,15 @@ QString AixcoinAmount::toDisplay() const
     if (m_unit == Unit::SAT) {
         return QString::number(m_satoshi);
     } else {
-        return satsToBtcString(m_satoshi);
+        return satsToAixString(m_satoshi);
     }
 }
 
-qint64 AixcoinAmount::btcToSats(const QString& btcSanitized)
+qint64 AixcoinAmount::aixToSats(const QString& aixSanitized)
 {
-    if (btcSanitized.isEmpty() || btcSanitized == ".") return 0;
+    if (aixSanitized.isEmpty() || aixSanitized == ".") return 0;
 
-    QString cleaned = btcSanitized;
+    QString cleaned = aixSanitized;
     if (cleaned.startsWith('.')) cleaned.prepend('0');
 
     QStringList parts = cleaned.split('.');
@@ -142,9 +142,9 @@ void AixcoinAmount::fromDisplay(const QString& text)
     }
 
     qint64 newSat = 0;
-    if (m_unit == Unit::BTC) {
+    if (m_unit == Unit::AIX) {
         QString sanitized = sanitize(text);
-        newSat = btcToSats(sanitized);
+        newSat = aixToSats(sanitized);
     } else {
         QString digitsOnly = text;
         digitsOnly.remove(QRegExp("[^0-9]"));

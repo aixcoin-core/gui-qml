@@ -52,7 +52,7 @@ QString WalletQmlModel::balance() const
     if (!m_wallet) {
         return "0";
     }
-    return AixcoinUnits::format(AixcoinUnits::Unit::BTC, m_wallet->getBalance());
+    return AixcoinUnits::format(AixcoinUnits::Unit::AIX, m_wallet->getBalance());
 }
 
 QString WalletQmlModel::name() const
