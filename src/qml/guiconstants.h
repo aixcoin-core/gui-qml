@@ -6,7 +6,7 @@
 #define AIXCOIN_QML_GUICONSTANTS_H
 
 #define QAPP_ORG_NAME "AixcoinCore"
-#define QAPP_ORG_DOMAIN "aixcoincore.org"
+#define QAPP_ORG_DOMAIN "aixcoin-core.github.io"
 #define QAPP_APP_NAME_DEFAULT "AixcoinCore-App"
 #define QAPP_APP_NAME_TESTNET "AixcoinCore-App-testnet"
 #define QAPP_APP_NAME_SIGNET "AixcoinCore-App-signet"

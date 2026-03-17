@@ -82,7 +82,7 @@ jobs:
       - name: Fetch SDK
         if: endsWith(matrix.host.triplet, '-apple-darwin') && steps.depends_cache.outputs.cache-hit != 'true'
         run: |
-          curl --location --fail https://aixcoin-core.github.io/aixcoincore.org/depends-sources/sdks/Xcode-${{ env.XCODE_VERSION }}-${{ env.XCODE_BUILD_ID }}-extracted-SDK-with-libcxx-headers.tar.gz -o sdk.tar.gz
+          curl --location --fail https://aixcoin-core.github.io/depends-sources/sdks/Xcode-${{ env.XCODE_VERSION }}-${{ env.XCODE_BUILD_ID }}-extracted-SDK-with-libcxx-headers.tar.gz -o sdk.tar.gz
           mkdir depends/SDKs
           tar -C depends/SDKs -xf sdk.tar.gz
 

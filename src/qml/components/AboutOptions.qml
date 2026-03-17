@@ -17,8 +17,8 @@ ColumnLayout {
         header: qsTr("Website")
         actionItem: ExternalLink {
             parentState: websiteLink.state
-            description: "aixcoincore.org"
-            link: "https://aixcoincore.org"
+            description: "aixcoin-core.github.io"
+            link: "https://aixcoin-core.github.io"
         }
         onClicked: openPopup(loadedItem.link)
     }
