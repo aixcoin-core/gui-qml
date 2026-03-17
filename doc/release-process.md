@@ -260,7 +260,7 @@ cat "$VERSION"/*/all.SHA256SUMS.asc > SHA256SUMS.asc
   - aixcoincore.org blog post
 
   - aixcoincore.org maintained versions update:
-    [table](https://github.com/aixcoin-core/aixcoincore.org/commits/master/_includes/posts/maintenance-table.md)
+    [table](https://github.com/aixcoin-core/aixcoin-core.github.io/aixcoincore.org/commits/master/_includes/posts/maintenance-table.md)
 
   - Delete post-EOL [release branches](https://github.com/aixcoin/aixcoin/branches/all) and create a tag `v${branch_name}-final`.
 
@@ -268,7 +268,7 @@ cat "$VERSION"/*/all.SHA256SUMS.asc > SHA256SUMS.asc
 
   - aixcoincore.org RPC documentation update
 
-      - See https://github.com/aixcoin-core/aixcoincore.org/blob/master/contrib/doc-gen/
+      - See https://github.com/aixcoin-core/aixcoin-core.github.io/aixcoincore.org/blob/master/contrib/doc-gen/
 
   - Update packaging repo
 
@@ -286,7 +286,7 @@ cat "$VERSION"/*/all.SHA256SUMS.asc > SHA256SUMS.asc
 
   - aixcoin-dev and aixcoin-core-dev mailing list
 
-  - Aixcoin Core announcements list https://aixcoincore.org/en/list/announcements/join/
+  - Aixcoin Core announcements list https://aixcoin-core.github.io/aixcoincore.org/en/list/announcements/join/
 
   - Aixcoin Core Twitter https://twitter.com/aixcoincoreorg
 
