@@ -115,7 +115,7 @@ bool InitErrorMessageBox(
 
     AppMode app_mode = SetupAppMode();
 
-    qmlRegisterSingletonInstance<AppMode>("org.aixcoincore.qt", 1, 0, "AppMode", &app_mode);
+    qmlRegisterSingletonInstance<AppMode>("io.aixcoin-core.github.qt", 1, 0, "AppMode", &app_mode);
     engine.rootContext()->setContextProperty("message", QString::fromStdString(message.translated));
     engine.load(QUrl(QStringLiteral("qrc:///qml/pages/initerrormessage.qml")));
     if (engine.rootObjects().isEmpty()) {
@@ -334,19 +334,19 @@ int QmlGuiMain(int argc, char* argv[])
     AppMode app_mode = SetupAppMode();
     Clipboard clipboard;
 
-    qmlRegisterSingletonInstance<AppMode>("org.aixcoincore.qt", 1, 0, "AppMode", &app_mode);
-    qmlRegisterSingletonInstance<Clipboard>("org.aixcoincore.qt", 1, 0, "Clipboard", &clipboard);
-    qmlRegisterType<BlockClockDial>("org.aixcoincore.qt", 1, 0, "BlockClockDial");
-    qmlRegisterType<LineGraph>("org.aixcoincore.qt", 1, 0, "LineGraph");
-    qmlRegisterUncreatableType<PeerDetailsModel>("org.aixcoincore.qt", 1, 0, "PeerDetailsModel", "");
-    qmlRegisterType<AixcoinAmount>("org.aixcoincore.qt", 1, 0, "AixcoinAmount");
-    qmlRegisterUncreatableType<Transaction>("org.aixcoincore.qt", 1, 0, "Transaction", "");
-    qmlRegisterUncreatableType<SendRecipient>("org.aixcoincore.qt", 1, 0, "SendRecipient", "");
+    qmlRegisterSingletonInstance<AppMode>("io.aixcoin-core.github.qt", 1, 0, "AppMode", &app_mode);
+    qmlRegisterSingletonInstance<Clipboard>("io.aixcoin-core.github.qt", 1, 0, "Clipboard", &clipboard);
+    qmlRegisterType<BlockClockDial>("io.aixcoin-core.github.qt", 1, 0, "BlockClockDial");
+    qmlRegisterType<LineGraph>("io.aixcoin-core.github.qt", 1, 0, "LineGraph");
+    qmlRegisterUncreatableType<PeerDetailsModel>("io.aixcoin-core.github.qt", 1, 0, "PeerDetailsModel", "");
+    qmlRegisterType<AixcoinAmount>("io.aixcoin-core.github.qt", 1, 0, "AixcoinAmount");
+    qmlRegisterUncreatableType<Transaction>("io.aixcoin-core.github.qt", 1, 0, "Transaction", "");
+    qmlRegisterUncreatableType<SendRecipient>("io.aixcoin-core.github.qt", 1, 0, "SendRecipient", "");
 
 #ifdef ENABLE_WALLET
-    qmlRegisterUncreatableType<WalletQmlModel>("org.aixcoincore.qt", 1, 0, "WalletQmlModel",
+    qmlRegisterUncreatableType<WalletQmlModel>("io.aixcoin-core.github.qt", 1, 0, "WalletQmlModel",
                                                "WalletQmlModel cannot be instantiated from QML");
-    qmlRegisterUncreatableType<WalletQmlModelTransaction>("org.aixcoincore.qt", 1, 0, "WalletQmlModelTransaction",
+    qmlRegisterUncreatableType<WalletQmlModelTransaction>("io.aixcoin-core.github.qt", 1, 0, "WalletQmlModelTransaction",
                                                           "WalletQmlModelTransaction cannot be instantiated from QML");
 #endif
 

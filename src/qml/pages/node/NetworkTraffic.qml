@@ -9,7 +9,7 @@ import Qt.labs.settings 1.0
 import "../../controls"
 import "../../components"
 
-import org.aixcoincore.qt 1.0
+import io.aixcoin-core.github.qt 1.0
 
 InformationPage {
     id: root

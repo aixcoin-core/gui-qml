@@ -7,7 +7,7 @@ import QtQuick.Controls 2.15
 import QtQuick.Layouts 1.15
 import "../controls"
 
-import org.aixcoincore.qt 1.0
+import io.aixcoin-core.github.qt 1.0
 
 ColumnLayout {
     property string ipAndPortHeader: qsTr("IP and Port")

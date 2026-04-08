@@ -1,4 +1,4 @@
-package org.aixcoincore.qt;
+package io.aixcoin-core.github.qt;
 
 import android.content.Context;
 import android.content.Intent;

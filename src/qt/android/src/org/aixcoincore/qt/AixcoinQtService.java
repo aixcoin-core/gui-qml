@@ -2,7 +2,7 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-package org.aixcoincore.qt;
+package io.aixcoin-core.github.qt;
 
 import android.app.Notification;
 import android.app.NotificationChannel;

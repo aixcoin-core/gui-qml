@@ -5,7 +5,7 @@
 import QtQuick 2.15
 import QtQuick.Controls 2.15
 
-import org.aixcoincore.qt 1.0
+import io.aixcoin-core.github.qt 1.0
 
 Button {
     id: root
